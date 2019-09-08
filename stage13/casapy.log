@@ -1,0 +1,1383 @@
+2018-03-11 03:06:29	INFO	hifa_spwphaseup::pipeline.infrastructure.basetask::	Starting execution for stage 13
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc27dd7_X2fc3.ms is auto
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc27dd7_X2fc3.ms
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.17 Jy
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.17 Jy
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.17 Jy
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [8] Tsys spws [16, 18, 20] 138 / 1104
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 87.9 K
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 84.3 K
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 79.7 K
+2018-03-11 03:06:30	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:06:31	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [8, 12, 14, 17, 19, 23, 25, 28, 30, 34]
+2018-03-11 03:06:31	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:06:32	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [8, 12, 14, 17, 19, 23, 25, 28, 30, 34]
+2018-03-11 03:06:32	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [8, 12, 14, 17, 19, 23, 25, 28, 30, 34]
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.772  SNR     94.778
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.700  SNR     99.188
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.607  SNR    108.775
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc27dd7_X2fc3.ms
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc27dd7_X2fc3.ms
+2018-03-11 03:06:34	INFO	hifa_spwphaseup::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc27dd7_X2fc3.ms is auto
+2018-03-11 03:06:36	INFO	hifa_spwphaseup::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc27dd7_X2fc3.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DA49,DA41,DA59,DV18,PM04,DA48,DA53,DA52,DA55,DA47,DV22,DV08,DV11,DA54,DV17,DA56,DV25,DV04,DV01,DV24,DA45,DV06,DV20,DV19,DV14,DA63,DA65,DV05,DA57,DV09,DV16,DA44,DA62,DA58,DV03,DV02,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DA46,DV13,DV23', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl', 'uid___A002_Xc27dd7_X2fc3.ms.hifa_antpos.s8_1.ants.tbl', 'uid___A002_Xc27dd7_X2fc3.ms.hifa_wvrgcalflag.s9_4.sm6_048s.wvrcal.tbl', 'uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0423-0120', antenna='0~45', solnorm=False)
+2018-03-11 03:06:36	INFO	gaincal::::	
+2018-03-11 03:06:36	INFO	gaincal::::+	##########################################
+2018-03-11 03:06:36	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:06:36	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl",field="J0423-0120",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:06:36	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~45",scan="",
+2018-03-11 03:06:36	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:06:36	INFO	gaincal::::+	        refant="DA49,DA41,DA59,DV18,PM04,DA48,DA53,DA52,DA55,DA47,DV22,DV08,DV11,DA54,DV17,DA56,DV25,DV04,DV01,DV24,DA45,DV06,DV20,DV19,DV14,DA63,DA65,DV05,DA57,DV09,DV16,DA44,DA62,DA58,DV03,DV02,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DA46,DV13,DV23",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:06:36	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:06:36	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_antpos.s8_1.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_wvrgcalflag.s9_4.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:06:36	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:06:36	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:06:36	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms for calibration.
+2018-03-11 03:06:36	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:06:36	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:06:36	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:06:36	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:06:36	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:06:36	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:06:36	INFO	Calibrater::selectvis+	 Selecting on field: 'J0423-0120'
+2018-03-11 03:06:36	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:06:36	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~45'
+2018-03-11 03:06:36	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:06:40	INFO	Calibrater::selectvis	By selection 53995513 rows are reduced to 155250
+2018-03-11 03:06:40	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:06:40	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:06:40	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:06:40	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:06:40	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:06:40	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:06:40	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:06:41	INFO		Calibration field mapping for uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl (via gainfield='nearest'): [0, 1, 2, 4, 4]
+2018-03-11 03:06:41	INFO	+	 Separations (deg): [0, 0, 0, 4.34359, 0]
+2018-03-11 03:06:41	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:06:41	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:06:41	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:06:41	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:06:42	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:06:42	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_antpos.s8_1.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:06:42	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:06:42	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:06:45	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_wvrgcalflag.s9_4.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:06:45	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:06:45	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:06:46	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:06:46	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:06:46	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:06:46	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:06:46	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DA49,DA41,DA59,DV18,PM04,DA48,DA53,DA52,DA55,DA47,DV22,DV08,DV11,DA54,DV17,DA56,DV25,DV04,DV01,DV24,DA45,DV06,DV20,DV19,DV14,DA63,DA65,DV05,DA57,DV09,DV16,DA44,DA62,DA58,DV03,DV02,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DA46,DV13,DV23' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:06:46	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:06:46	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:06:46	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_antpos.s8_1.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:06:46	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:06:46	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:06:46	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_wvrgcalflag.s9_4.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:06:46	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:06:46	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DA49,DA41,DA59,DV18,PM04,DA48,DA53,DA52,DA55,DA47,DV22,DV08,DV11,DA54,DV17,DA56,DV25,DV04,DV01,DV24,DA45,DV06,DV20,DV19,DV14,DA63,DA65,DV05,DA57,DV09,DV16,DA44,DA62,DA58,DV03,DV02,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DA46,DV13,DV23' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:06:46	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:06:46	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:10:08	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:10:08	INFO		Applying refant: DA49 (DA41,DA59,DV18,PM04,DA48,DA53,DA52,DA55,DA47,DV22,DV08,DV11,DA54,DV17,DA56,DV25,DV04,DV01,DV24,DA45,DV06,DV20,DV19,DV14,DA63,DA65,DV05,DA57,DV09,DV16,DA44,DA62,DA58,DV03,DV02,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DA46,DV13,DV23) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:10:08	INFO		Enforcing apmode on solutions.
+2018-03-11 03:10:08	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:10:09	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:10:09	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 72: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	  Spw 73: 0/0/0
+2018-03-11 03:10:09	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:10:09	INFO	gaincal::::+	##########################################
+2018-03-11 03:10:12	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc27dd7_X6983.ms is auto
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc27dd7_X6983.ms
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.17 Jy
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.17 Jy
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.17 Jy
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [6] Tsys spws [16, 18, 20] 132 / 924
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 71.2 K
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 67.4 K
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 65.3 K
+2018-03-11 03:10:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:10:14	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [6, 10, 12, 15, 17, 21, 23, 26, 28, 32]
+2018-03-11 03:10:14	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:10:15	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [6, 10, 12, 15, 17, 21, 23, 26, 28, 32]
+2018-03-11 03:10:15	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [6, 10, 12, 15, 17, 21, 23, 26, 28, 32]
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.468  SNR    114.406
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.390  SNR    121.334
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.346  SNR    129.895
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc27dd7_X6983.ms
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc27dd7_X6983.ms
+2018-03-11 03:10:16	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc27dd7_X6983.ms is auto
+2018-03-11 03:10:19	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc27dd7_X6983.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DA47', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl', 'uid___A002_Xc27dd7_X6983.ms.hifa_antpos.s8_3.ants.tbl', 'uid___A002_Xc27dd7_X6983.ms.hifa_wvrgcalflag.s9_6.sm6_048s.wvrcal.tbl', 'uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0006-0623', antenna='0~43', solnorm=False)
+2018-03-11 03:10:19	INFO	gaincal::::	
+2018-03-11 03:10:19	INFO	gaincal::::+	##########################################
+2018-03-11 03:10:19	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:10:19	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl",field="J0006-0623",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:10:19	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~43",scan="",
+2018-03-11 03:10:19	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:10:19	INFO	gaincal::::+	        refant="DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DA47",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:10:19	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:10:19	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_antpos.s8_3.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_wvrgcalflag.s9_6.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:10:19	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:10:19	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:10:19	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms for calibration.
+2018-03-11 03:10:21	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:10:21	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:10:21	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:10:21	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:10:21	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:10:21	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:10:21	INFO	Calibrater::selectvis+	 Selecting on field: 'J0006-0623'
+2018-03-11 03:10:21	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:10:21	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~43'
+2018-03-11 03:10:21	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:10:25	INFO	Calibrater::selectvis	By selection 48956776 rows are reduced to 141900
+2018-03-11 03:10:25	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:10:25	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:10:25	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:10:25	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:10:25	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:10:25	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:10:27	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:10:28	INFO		Calibration field mapping for uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl (via gainfield='nearest'): [0, 1, 3, 3]
+2018-03-11 03:10:28	INFO	+	 Separations (deg): [0, 0, 4.34359, 0]
+2018-03-11 03:10:28	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:10:28	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:10:29	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:10:29	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:10:29	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:10:29	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_antpos.s8_3.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:10:29	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:10:29	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:10:32	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_wvrgcalflag.s9_6.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:10:32	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:10:32	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:10:33	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:10:33	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:10:33	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:10:33	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:10:33	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DA47' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:10:33	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:10:33	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:10:33	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_antpos.s8_3.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:10:33	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:10:33	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:10:33	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_wvrgcalflag.s9_6.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:10:33	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:10:33	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DA47' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:10:33	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:10:33	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:13:34	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:13:34	INFO		Applying refant: DV18 (DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DA47) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:13:34	INFO		Enforcing apmode on solutions.
+2018-03-11 03:13:34	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:13:34	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:13:34	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:13:34	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:13:35	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:13:35	INFO	gaincal::::+	##########################################
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc27dd7_X6c8e.ms is auto
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc27dd7_X6c8e.ms
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.17 Jy
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.17 Jy
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.17 Jy
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:13:38	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [8] Tsys spws [16, 18, 20] 132 / 924
+2018-03-11 03:13:39	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 70.3 K
+2018-03-11 03:13:39	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 66.3 K
+2018-03-11 03:13:39	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 63.6 K
+2018-03-11 03:13:39	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:13:40	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [8, 12, 14, 17, 19, 23, 25, 28, 30]
+2018-03-11 03:13:40	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 4.536 minutes  interval 0.101 minutes
+2018-03-11 03:13:41	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [8, 12, 14, 17, 19, 23, 25, 28, 30]
+2018-03-11 03:13:41	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 4.536 minutes  interval 0.101 minutes
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [8, 12, 14, 17, 19, 23, 25, 28, 30]
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 4.536 minutes  interval 0.101 minutes
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.449  SNR    115.875
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.368  SNR    123.230
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.312  SNR    133.239
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc27dd7_X6c8e.ms
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc27dd7_X6c8e.ms
+2018-03-11 03:13:42	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc27dd7_X6c8e.ms is auto
+2018-03-11 03:13:44	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc27dd7_X6c8e.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DA47,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DV20', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl', 'uid___A002_Xc27dd7_X6c8e.ms.hifa_antpos.s8_5.ants.tbl', 'uid___A002_Xc27dd7_X6c8e.ms.hifa_wvrgcalflag.s9_8.sm6_048s.wvrcal.tbl', 'uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0237+2848', antenna='0~43', solnorm=False)
+2018-03-11 03:13:44	INFO	gaincal::::	
+2018-03-11 03:13:44	INFO	gaincal::::+	##########################################
+2018-03-11 03:13:44	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:13:44	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl",field="J0237+2848",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:13:44	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~43",scan="",
+2018-03-11 03:13:44	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:13:44	INFO	gaincal::::+	        refant="DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DA47,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DV20",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:13:44	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:13:44	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_antpos.s8_5.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_wvrgcalflag.s9_8.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:13:44	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:13:44	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:13:44	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms for calibration.
+2018-03-11 03:13:45	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:13:45	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:13:45	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:13:45	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:13:45	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:13:45	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:13:45	INFO	Calibrater::selectvis+	 Selecting on field: 'J0237+2848'
+2018-03-11 03:13:45	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:13:45	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~43'
+2018-03-11 03:13:45	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:13:48	INFO	Calibrater::selectvis	By selection 46120096 rows are reduced to 141900
+2018-03-11 03:13:48	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:13:48	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:13:48	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:13:48	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:13:48	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:13:48	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:13:48	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:13:49	INFO		Calibration field mapping for uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl (via gainfield='nearest'): [0, 1, 2, 4, 4]
+2018-03-11 03:13:49	INFO	+	 Separations (deg): [0, 0, 0, 4.34359, 0]
+2018-03-11 03:13:49	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:13:49	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:13:49	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:13:49	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:13:50	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:13:50	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_antpos.s8_5.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:13:50	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:13:50	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:13:53	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_wvrgcalflag.s9_8.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:13:53	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:13:53	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:13:53	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:13:54	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:13:54	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:13:54	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:13:54	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DA47,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DV20' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:13:54	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:13:54	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:13:54	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_antpos.s8_5.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:13:54	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:13:54	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:13:54	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_wvrgcalflag.s9_8.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:13:54	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:13:54	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV18,DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DA47,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DV20' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:13:54	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:13:54	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:16:54	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:16:54	INFO		Applying refant: DV18 (DA41,DA59,PM04,DA53,DA48,DA52,DV11,DA55,DA47,DV22,DV08,DV17,DA56,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA63,DA65,DV09,DV16,DA62,DA44,DA58,DV03,DA50,DV02,PM02,DV12,DV10,DA42,DA51,DV13,DA46,DV23,DV20) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:16:54	INFO		Enforcing apmode on solutions.
+2018-03-11 03:16:55	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:16:55	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:16:55	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:16:55	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:16:55	INFO	gaincal::::+	##########################################
+2018-03-11 03:16:58	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc2b007_X877.ms is auto
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc2b007_X877.ms
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.17 Jy
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.17 Jy
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.17 Jy
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [6] Tsys spws [16, 18, 20] 132 / 924
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 78.2 K
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 74.4 K
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 70.6 K
+2018-03-11 03:16:59	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:17:00	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [6, 10, 12, 15, 17, 21, 23, 26, 28, 32]
+2018-03-11 03:17:00	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:17:01	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [6, 10, 12, 15, 17, 21, 23, 26, 28, 32]
+2018-03-11 03:17:01	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [6, 10, 12, 15, 17, 21, 23, 26, 28, 32]
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.heuristics.snr::	    44 12m antennas   0 7m antennas  exposure 5.040 minutes  interval 0.101 minutes
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.613  SNR    104.104
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.534  SNR    109.900
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.457  SNR    120.009
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc2b007_X877.ms
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc2b007_X877.ms
+2018-03-11 03:17:02	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc2b007_X877.ms is auto
+2018-03-11 03:17:03	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc2b007_X877.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DV18,DA61,DA49,DA59,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DA56,DV17,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA65,DA63,DA60,DV09,DV16,DA62,DA58,DV03,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DV13,DA46,PM03,DV23', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl', 'uid___A002_Xc2b007_X877.ms.hifa_antpos.s8_7.ants.tbl', 'uid___A002_Xc2b007_X877.ms.hifa_wvrgcalflag.s9_10.sm6_048s.wvrcal.tbl', 'uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0006-0623', antenna='0~43', solnorm=False)
+2018-03-11 03:17:03	INFO	gaincal::::	
+2018-03-11 03:17:03	INFO	gaincal::::+	##########################################
+2018-03-11 03:17:03	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:17:03	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl",field="J0006-0623",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:17:03	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~43",scan="",
+2018-03-11 03:17:03	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:17:03	INFO	gaincal::::+	        refant="DV18,DA61,DA49,DA59,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DA56,DV17,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA65,DA63,DA60,DV09,DV16,DA62,DA58,DV03,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DV13,DA46,PM03,DV23",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:17:03	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:17:03	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_antpos.s8_7.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_wvrgcalflag.s9_10.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:17:03	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:17:03	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:17:03	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms for calibration.
+2018-03-11 03:17:04	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:17:04	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:17:04	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:17:04	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:17:04	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:17:04	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:17:04	INFO	Calibrater::selectvis+	 Selecting on field: 'J0006-0623'
+2018-03-11 03:17:04	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:17:04	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~43'
+2018-03-11 03:17:04	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:17:07	INFO	Calibrater::selectvis	By selection 48956864 rows are reduced to 141900
+2018-03-11 03:17:07	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:17:07	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:17:07	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:17:07	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:17:07	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:17:07	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:17:09	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:17:12	INFO		Calibration field mapping for uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl (via gainfield='nearest'): [0, 1, 3, 3]
+2018-03-11 03:17:12	INFO	+	 Separations (deg): [0, 0, 4.21135, 0]
+2018-03-11 03:17:12	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:17:12	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:17:12	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:17:12	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:17:13	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:17:13	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_antpos.s8_7.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:17:13	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:17:13	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:17:16	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_wvrgcalflag.s9_10.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:17:16	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:17:16	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:17:19	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:17:19	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:17:19	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:17:19	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:17:19	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV18,DA61,DA49,DA59,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DA56,DV17,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA65,DA63,DA60,DV09,DV16,DA62,DA58,DV03,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DV13,DA46,PM03,DV23' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:17:19	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:17:19	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:17:19	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_antpos.s8_7.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:17:19	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:17:19	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:17:19	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_wvrgcalflag.s9_10.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:17:19	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:17:19	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV18,DA61,DA49,DA59,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DA56,DV17,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA65,DA63,DA60,DV09,DV16,DA62,DA58,DV03,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DV13,DA46,PM03,DV23' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:17:19	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:17:19	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:20:26	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:20:26	INFO		Applying refant: DV18 (DA61,DA49,DA59,DA53,DA48,DA52,DV11,DA55,DV22,DV08,DA56,DV17,DA54,DV25,DV24,DV01,DV04,DA45,DV06,DV14,DV19,DV05,DA57,DA65,DA63,DA60,DV09,DV16,DA62,DA58,DV03,DA50,PM02,DA43,DV12,DV10,DA42,DA51,DV13,DA46,PM03,DV23) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:20:26	INFO		Enforcing apmode on solutions.
+2018-03-11 03:20:26	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:20:26	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:20:26	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:20:26	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:20:27	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:20:27	INFO	gaincal::::+	##########################################
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc8592e_Xaea3.ms is auto
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc8592e_Xaea3.ms
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.20 Jy
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.20 Jy
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.20 Jy
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [8] Tsys spws [16, 18, 20] 138 / 828
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 117.0 K
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 112.0 K
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 104.6 K
+2018-03-11 03:20:31	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:20:33	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:20:33	INFO	gaincal::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:20:34	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:20:34	INFO	gaincal::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.358  SNR     82.923
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.257  SNR     86.917
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.108  SNR     96.598
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc8592e_Xaea3.ms
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc8592e_Xaea3.ms
+2018-03-11 03:20:35	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc8592e_Xaea3.ms is auto
+2018-03-11 03:20:35	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc8592e_Xaea3.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DV08,DA60,DA49,DV15,DA53,DV01,DV23,DA64,DV05,DA65,DV17,DV16,DV22,DA54,DV20,DV09,DA59,DA52,DV24,DA48,DA63,DV25,DV04,DA61,DA56,DA58,DV19,DV14,DA57,DV03,PM01,DA45,DA62,DA51,DV10,DV02,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl', 'uid___A002_Xc8592e_Xaea3.ms.hifa_antpos.s8_9.ants.tbl', 'uid___A002_Xc8592e_Xaea3.ms.hifa_wvrgcalflag.s9_12.sm6_048s.wvrcal.tbl', 'uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0238+1636', antenna='0~45', solnorm=False)
+2018-03-11 03:20:35	INFO	gaincal::::	
+2018-03-11 03:20:35	INFO	gaincal::::+	##########################################
+2018-03-11 03:20:35	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:20:35	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl",field="J0238+1636",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:20:35	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~45",scan="",
+2018-03-11 03:20:35	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:20:35	INFO	gaincal::::+	        refant="DV08,DA60,DA49,DV15,DA53,DV01,DV23,DA64,DV05,DA65,DV17,DV16,DV22,DA54,DV20,DV09,DA59,DA52,DV24,DA48,DA63,DV25,DV04,DA61,DA56,DA58,DV19,DV14,DA57,DV03,PM01,DA45,DA62,DA51,DV10,DV02,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:20:35	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:20:35	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_antpos.s8_9.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_wvrgcalflag.s9_12.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:20:35	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:20:35	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:20:35	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms for calibration.
+2018-03-11 03:20:35	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:20:35	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:20:35	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:20:35	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:20:35	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:20:35	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:20:35	INFO	Calibrater::selectvis+	 Selecting on field: 'J0238+1636'
+2018-03-11 03:20:35	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:20:35	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~45'
+2018-03-11 03:20:35	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:20:39	INFO	Calibrater::selectvis	By selection 49073076 rows are reduced to 155250
+2018-03-11 03:20:39	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:20:39	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:20:39	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:20:39	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:20:39	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:20:39	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:20:39	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:20:39	INFO		Calibration field mapping for uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl (via gainfield='nearest'): [0, 3, 3, 3]
+2018-03-11 03:20:39	INFO	+	 Separations (deg): [0, 2.66656, 4.21135, 0]
+2018-03-11 03:20:39	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:20:39	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:20:39	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:20:39	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:20:40	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:20:40	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_antpos.s8_9.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:20:40	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:20:40	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:20:43	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_wvrgcalflag.s9_12.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:20:43	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:20:43	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:20:43	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:20:43	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:20:43	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:20:43	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:20:43	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV08,DA60,DA49,DV15,DA53,DV01,DV23,DA64,DV05,DA65,DV17,DV16,DV22,DA54,DV20,DV09,DA59,DA52,DV24,DA48,DA63,DV25,DV04,DA61,DA56,DA58,DV19,DV14,DA57,DV03,PM01,DA45,DA62,DA51,DV10,DV02,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:20:43	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:20:43	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:20:43	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_antpos.s8_9.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:20:43	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:20:43	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:20:43	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_wvrgcalflag.s9_12.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:20:43	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:20:43	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV08,DA60,DA49,DV15,DA53,DV01,DV23,DA64,DV05,DA65,DV17,DV16,DV22,DA54,DV20,DV09,DA59,DA52,DV24,DA48,DA63,DV25,DV04,DA61,DA56,DA58,DV19,DV14,DA57,DV03,PM01,DA45,DA62,DA51,DV10,DV02,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:20:43	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:20:43	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:24:01	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:24:01	INFO		Applying refant: DV08 (DA60,DA49,DV15,DA53,DV01,DV23,DA64,DV05,DA65,DV17,DV16,DV22,DA54,DV20,DV09,DA59,DA52,DV24,DA48,DA63,DV25,DV04,DA61,DA56,DA58,DV19,DV14,DA57,DV03,PM01,DA45,DA62,DA51,DV10,DV02,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:24:01	INFO		Enforcing apmode on solutions.
+2018-03-11 03:24:01	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:24:01	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:24:01	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 72: 0/0/0
+2018-03-11 03:24:01	INFO	gaincal::::	  Spw 73: 0/0/0
+2018-03-11 03:24:02	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:24:02	INFO	gaincal::::+	##########################################
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc89480_X8c7d.ms is auto
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc89480_X8c7d.ms
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.20 Jy
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.20 Jy
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.20 Jy
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [8] Tsys spws [16, 18, 20] 138 / 828
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 107.5 K
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 102.7 K
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 96.5 K
+2018-03-11 03:24:07	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:24:08	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:24:08	INFO	gaincal::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:24:09	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:24:09	INFO	gaincal::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	    46 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.166  SNR     90.247
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.070  SNR     94.783
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   1.946  SNR    104.634
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc89480_X8c7d.ms
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc89480_X8c7d.ms
+2018-03-11 03:24:11	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc89480_X8c7d.ms is auto
+2018-03-11 03:24:11	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc89480_X8c7d.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DA47,DA49,DA53,DV01,DV06,DA60,DV08,DV15,DA64,DV23,DA65,DA54,DV16,DV17,DA59,DV22,DV09,DV20,DA52,DV24,DA48,DV25,DA63,DV04,DA58,DA61,DA56,DV19,DV14,PM01,DV03,DA45,DA51,DA62,DV10,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl', 'uid___A002_Xc89480_X8c7d.ms.hifa_antpos.s8_11.ants.tbl', 'uid___A002_Xc89480_X8c7d.ms.hifa_wvrgcalflag.s9_14.sm6_048s.wvrcal.tbl', 'uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0238+1636', antenna='0~45', solnorm=False)
+2018-03-11 03:24:11	INFO	gaincal::::	
+2018-03-11 03:24:11	INFO	gaincal::::+	##########################################
+2018-03-11 03:24:11	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:24:11	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl",field="J0238+1636",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:24:11	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~45",scan="",
+2018-03-11 03:24:11	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:24:11	INFO	gaincal::::+	        refant="DA47,DA49,DA53,DV01,DV06,DA60,DV08,DV15,DA64,DV23,DA65,DA54,DV16,DV17,DA59,DV22,DV09,DV20,DA52,DV24,DA48,DV25,DA63,DV04,DA58,DA61,DA56,DV19,DV14,PM01,DV03,DA45,DA51,DA62,DV10,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:24:11	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:24:11	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_antpos.s8_11.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_wvrgcalflag.s9_14.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:24:11	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:24:11	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:24:11	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms for calibration.
+2018-03-11 03:24:11	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:24:11	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:24:11	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:24:11	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:24:11	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:24:11	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:24:11	INFO	Calibrater::selectvis+	 Selecting on field: 'J0238+1636'
+2018-03-11 03:24:11	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:24:11	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~45'
+2018-03-11 03:24:11	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:24:15	INFO	Calibrater::selectvis	By selection 49072662 rows are reduced to 155250
+2018-03-11 03:24:15	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:24:15	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:24:15	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:24:15	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:24:15	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:24:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:24:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:24:15	INFO		Calibration field mapping for uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl (via gainfield='nearest'): [0, 3, 3, 3]
+2018-03-11 03:24:15	INFO	+	 Separations (deg): [0, 2.66656, 4.21135, 0]
+2018-03-11 03:24:15	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:24:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:24:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:24:15	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:24:16	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:24:16	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_antpos.s8_11.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:24:16	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:24:16	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:24:19	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_wvrgcalflag.s9_14.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:24:19	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:24:19	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:24:19	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:24:19	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:24:19	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:24:19	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:24:19	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DA47,DA49,DA53,DV01,DV06,DA60,DV08,DV15,DA64,DV23,DA65,DA54,DV16,DV17,DA59,DV22,DV09,DV20,DA52,DV24,DA48,DV25,DA63,DV04,DA58,DA61,DA56,DV19,DV14,PM01,DV03,DA45,DA51,DA62,DV10,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:24:19	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:24:19	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:24:19	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_antpos.s8_11.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:24:19	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:24:19	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:24:19	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_wvrgcalflag.s9_14.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:24:19	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:24:19	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DA47,DA49,DA53,DV01,DV06,DA60,DV08,DV15,DA64,DV23,DA65,DA54,DV16,DV17,DA59,DV22,DV09,DV20,DA52,DV24,DA48,DV25,DA63,DV04,DA58,DA61,DA56,DV19,DV14,PM01,DV03,DA45,DA51,DA62,DV10,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:24:19	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:24:19	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:28:05	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:28:05	INFO		Applying refant: DA47 (DA49,DA53,DV01,DV06,DA60,DV08,DV15,DA64,DV23,DA65,DA54,DV16,DV17,DA59,DV22,DV09,DV20,DA52,DV24,DA48,DV25,DA63,DV04,DA58,DA61,DA56,DV19,DV14,PM01,DV03,DA45,DA51,DA62,DV10,DA50,DA41,DA46,DA43,DV07,DA55,DA44,DA42,DV11,DV13) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:28:05	INFO		Enforcing apmode on solutions.
+2018-03-11 03:28:05	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:28:06	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:28:06	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 72: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	  Spw 73: 0/0/0
+2018-03-11 03:28:06	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:28:06	INFO	gaincal::::+	##########################################
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc96463_X1646.ms is auto
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc96463_X1646.ms
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.20 Jy
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.20 Jy
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.20 Jy
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [8] Tsys spws [16, 18, 20] 135 / 810
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 127.6 K
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 122.6 K
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 113.5 K
+2018-03-11 03:28:10	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:28:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:28:11	INFO	gaincal::pipeline.hifa.heuristics.snr::	    45 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:28:12	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:28:12	INFO	gaincal::pipeline.hifa.heuristics.snr::	    45 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	    45 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.602  SNR     75.144
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.498  SNR     78.530
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.315  SNR     87.965
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc96463_X1646.ms
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc96463_X1646.ms
+2018-03-11 03:28:13	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc96463_X1646.ms is auto
+2018-03-11 03:28:14	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc96463_X1646.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DV07,DA47,DA49,DA41,DA64,DV08,DA60,DV23,DA44,DV15,DA53,DV06,DA42,DV01,DV11,PM03,DA43,DV17,DV16,DV22,DV20,DA54,DA52,DV09,DA59,DA48,DV24,DV04,DA63,DV25,DA56,DA58,DA61,DV10,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl', 'uid___A002_Xc96463_X1646.ms.hifa_antpos.s8_13.ants.tbl', 'uid___A002_Xc96463_X1646.ms.hifa_wvrgcalflag.s9_16.sm6_048s.wvrcal.tbl', 'uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0238+1636', antenna='0~44', solnorm=False)
+2018-03-11 03:28:14	INFO	gaincal::::	
+2018-03-11 03:28:14	INFO	gaincal::::+	##########################################
+2018-03-11 03:28:14	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:28:14	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl",field="J0238+1636",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:28:14	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~44",scan="",
+2018-03-11 03:28:14	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:28:14	INFO	gaincal::::+	        refant="DV07,DA47,DA49,DA41,DA64,DV08,DA60,DV23,DA44,DV15,DA53,DV06,DA42,DV01,DV11,PM03,DA43,DV17,DV16,DV22,DV20,DA54,DA52,DV09,DA59,DA48,DV24,DV04,DA63,DV25,DA56,DA58,DA61,DV10,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:28:14	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:28:14	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_antpos.s8_13.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_wvrgcalflag.s9_16.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:28:14	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:28:14	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:28:14	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms for calibration.
+2018-03-11 03:28:14	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:28:14	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:28:14	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:28:14	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:28:14	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:28:14	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:28:14	INFO	Calibrater::selectvis+	 Selecting on field: 'J0238+1636'
+2018-03-11 03:28:14	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:28:14	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~44'
+2018-03-11 03:28:14	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:28:18	INFO	Calibrater::selectvis	By selection 47687445 rows are reduced to 148500
+2018-03-11 03:28:18	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:28:18	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:28:18	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:28:18	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:28:18	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:28:18	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:28:18	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:28:19	INFO		Calibration field mapping for uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl (via gainfield='nearest'): [0, 3, 3, 3]
+2018-03-11 03:28:19	INFO	+	 Separations (deg): [0, 2.66656, 4.21135, 0]
+2018-03-11 03:28:19	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:28:19	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:28:19	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:28:19	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:28:20	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:28:21	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_antpos.s8_13.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:28:21	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:28:21	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:28:23	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_wvrgcalflag.s9_16.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:28:23	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:28:23	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:28:24	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:28:24	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:28:24	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:28:24	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:28:24	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV07,DA47,DA49,DA41,DA64,DV08,DA60,DV23,DA44,DV15,DA53,DV06,DA42,DV01,DV11,PM03,DA43,DV17,DV16,DV22,DV20,DA54,DA52,DV09,DA59,DA48,DV24,DV04,DA63,DV25,DA56,DA58,DA61,DV10,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:28:24	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:28:24	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:28:24	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_antpos.s8_13.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:28:24	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:28:24	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:28:24	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_wvrgcalflag.s9_16.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:28:24	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:28:24	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV07,DA47,DA49,DA41,DA64,DV08,DA60,DV23,DA44,DV15,DA53,DV06,DA42,DV01,DV11,PM03,DA43,DV17,DV16,DV22,DV20,DA54,DA52,DV09,DA59,DA48,DV24,DV04,DA63,DV25,DA56,DA58,DA61,DV10,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:28:24	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:28:24	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:31:43	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:31:43	INFO		Applying refant: DV07 (DA47,DA49,DA41,DA64,DV08,DA60,DV23,DA44,DV15,DA53,DV06,DA42,DV01,DV11,PM03,DA43,DV17,DV16,DV22,DV20,DA54,DA52,DV09,DA59,DA48,DV24,DV04,DA63,DV25,DA56,DA58,DA61,DV10,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:31:43	INFO		Enforcing apmode on solutions.
+2018-03-11 03:31:43	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:31:44	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:31:44	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 71: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	  Spw 72: 0/0/0
+2018-03-11 03:31:44	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:31:44	INFO	gaincal::::+	##########################################
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	The spw mapping mode for uid___A002_Xc96f17_X113a.ms is auto
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	Estimating gaincal solution SNR for MS uid___A002_Xc96f17_X113a.ms
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting gaincal intent to PHASE 
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal fields ['J0239-0234'] 
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Selecting gaincal spws [22, 24, 26] 
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.tasks.gaincalsnr.gaincalsnr::	    Setting requested gaincal snr to 25.0 
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	Finding sources fluxes
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 22 to 0.20 Jy
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 24 to 0.20 Jy
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Setting flux for field J0239-0234 spw 26 to 0.20 Jy
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	Matching spws
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 22 to a Tsys spw 16
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 24 to a Tsys spw 18
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Matched spw 26 to a Tsys spw 20
+2018-03-11 03:31:48	INFO	gaincal::pipeline.hifa.heuristics.snr::	Estimating Tsys temperatures
+2018-03-11 03:31:49	INFO	gaincal::pipeline.hifa.heuristics.snr::	    SYSCAL table row matches for scans [8] Tsys spws [16, 18, 20] 129 / 774
+2018-03-11 03:31:49	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 16 = 123.1 K
+2018-03-11 03:31:49	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 18 = 118.9 K
+2018-03-11 03:31:49	INFO	gaincal::pipeline.hifa.heuristics.snr::	    Median Tsys tsys value for Tsys spw 20 = 110.5 K
+2018-03-11 03:31:49	INFO	gaincal::pipeline.hifa.heuristics.snr::	Observation summary
+2018-03-11 03:31:50	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 22 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:31:50	INFO	gaincal::pipeline.hifa.heuristics.snr::	    43 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:31:51	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 24 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:31:51	INFO	gaincal::pipeline.hifa.heuristics.snr::	    43 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.heuristics.snr::	For field J0239-0234 spw 26 scans [4, 8, 12, 15, 19, 23, 26, 30]
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.heuristics.snr::	    43 12m antennas   0 7m antennas  exposure 4.032 minutes  interval 0.101 minutes
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.heuristics.snr::	Signal to noise summary
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  22  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.569  SNR     76.092
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  24  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.480  SNR     79.113
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.heuristics.snr::	Spw  26  scan (minutes)  0.504  integration (minutes)  0.101  sensitivity (mJy)   2.306  SNR     88.288
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    High SNR - Default spw mapping used for all spws uid___A002_Xc96f17_X113a.ms
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	    Using spw map [] for uid___A002_Xc96f17_X113a.ms
+2018-03-11 03:31:52	INFO	gaincal::pipeline.hifa.tasks.spwphaseup.spwphaseup::	Computing spw phaseup table for uid___A002_Xc96f17_X113a.ms is auto
+2018-03-11 03:31:52	INFO	gaincal::pipeline.infrastructure.jobrequest::	Executing gaincal(solint='inf', interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'], spw='22,24,26', vis='uid___A002_Xc96f17_X113a.ms', calmode='p', intent='CALIBRATE_BANDPASS#ON_SOURCE', spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []], refant='DV07,DA49,DA41,DV23,DA64,DA60,DV06,DA44,DA53,DV01,DV11,DV15,DA42,DV10,DA43,DV16,DV17,DA54,DV22,DV20,DA52,DV09,DA59,DV24,DA48,DA63,DV04,DV25,DA56,DA58,DA61,DA47,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46', minblperant=4, gainfield=['nearest', '', '', ''], gaintype='G', caltable='uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl', minsnr=3, gaintable=['uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl', 'uid___A002_Xc96f17_X113a.ms.hifa_antpos.s8_15.ants.tbl', 'uid___A002_Xc96f17_X113a.ms.hifa_wvrgcalflag.s9_18.sm6_048s.wvrcal.tbl', 'uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl'], field='J0238+1636', antenna='0~42', solnorm=False)
+2018-03-11 03:31:52	INFO	gaincal::::	
+2018-03-11 03:31:52	INFO	gaincal::::+	##########################################
+2018-03-11 03:31:52	INFO	gaincal::::+	##### Begin Task: gaincal            #####
+2018-03-11 03:31:52	INFO	gaincal::::	gaincal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl",field="J0238+1636",spw="22,24,26",intent="CALIBRATE_BANDPASS#ON_SOURCE",
+2018-03-11 03:31:52	INFO	gaincal::::+	        selectdata=True,timerange="",uvrange="",antenna="0~42",scan="",
+2018-03-11 03:31:52	INFO	gaincal::::+	        observation="",msselect="",solint="inf",combine="",preavg=-1.0,
+2018-03-11 03:31:52	INFO	gaincal::::+	        refant="DV07,DA49,DA41,DV23,DA64,DA60,DV06,DA44,DA53,DV01,DV11,DV15,DA42,DV10,DA43,DV16,DV17,DA54,DV22,DV20,DA52,DV09,DA59,DV24,DA48,DA63,DV04,DV25,DA56,DA58,DA61,DA47,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46",refantmode="flex",minblperant=4,minsnr=3,solnorm=False,
+2018-03-11 03:31:52	INFO	gaincal::::+	        gaintype="G",smodel=[],calmode="p",append=False,splinetime=3600.0,
+2018-03-11 03:31:52	INFO	gaincal::::+	        npointaver=3,phasewrap=180.0,docallib=False,callib="",gaintable=['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_antpos.s8_15.ants.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_wvrgcalflag.s9_18.sm6_048s.wvrcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl'],
+2018-03-11 03:31:52	INFO	gaincal::::+	        gainfield=['nearest', '', '', ''],interp=['linear,linear', '', 'nearest', 'linearperobs,linearflag'],spwmap=[[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20], [], [], []],parang=False)
+2018-03-11 03:31:52	INFO	gaincal::calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-11 03:31:52	INFO	gaincal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms for calibration.
+2018-03-11 03:31:54	INFO	gaincal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-11 03:31:54	INFO	gaincal::::	NB: gaincal automatically excludes auto-correlations.
+2018-03-11 03:31:54	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-11 03:31:54	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-11 03:31:54	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-11 03:31:54	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-11 03:31:54	INFO	Calibrater::selectvis+	 Selecting on field: 'J0238+1636'
+2018-03-11 03:31:54	INFO	Calibrater::selectvis+	 Selecting on intent: 'CALIBRATE_BANDPASS#ON_SOURCE'
+2018-03-11 03:31:54	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '0~42'
+2018-03-11 03:31:54	INFO	Calibrater::selectvis+	 Selecting with TaQL: 'ANTENNA1!=ANTENNA2'
+2018-03-11 03:31:57	INFO	Calibrater::selectvis	By selection 44958822 rows are reduced to 135450
+2018-03-11 03:31:57	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-11 03:31:57	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-11 03:31:57	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-11 03:31:57	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-11 03:31:57	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect='ANTENNA1!=ANTENNA2'
+2018-03-11 03:31:57	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:31:57	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:31:58	INFO		Calibration field mapping for uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl (via gainfield='nearest'): [0, 3, 3, 3]
+2018-03-11 03:31:58	INFO	+	 Separations (deg): [0, 2.66656, 4.21135, 0]
+2018-03-11 03:31:59	INFO	Calibrater::setapply(type, applypar)	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:31:59	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:31:59	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:31:59	INFO		 (KAntPos Jones: Overriding with spwmap=[0] since KAntPos Jones is not spw-dependent)
+2018-03-11 03:32:00	INFO		 (KAntPos Jones: Enforcing calWt()=false for phase/delay-like terms)
+2018-03-11 03:32:00	INFO	Calibrater::setapply(type, applypar)	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_antpos.s8_15.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:32:00	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:32:00	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:32:03	INFO	Calibrater::setapply(type, applypar)	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_wvrgcalflag.s9_18.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:32:03	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-11 03:32:03	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-11 03:32:03	WARN		Only one ObsId found in /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl.tempMemCalTable; ignoring 'perobs' interpolation.
+2018-03-11 03:32:03	INFO	Calibrater::setapply(type, applypar)	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:32:03	INFO	calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-11 03:32:03	INFO	Calibrater::setsolve	Arranging to SOLVE:
+2018-03-11 03:32:03	INFO	Calibrater::setsolve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV07,DA49,DA41,DV23,DA64,DA60,DV06,DA44,DA53,DV01,DV11,DV15,DA42,DV10,DA43,DV16,DV17,DA54,DV22,DV20,DA52,DV09,DA59,DV24,DA48,DA63,DV04,DV25,DA56,DA58,DA61,DA47,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:32:03	INFO	calibrater::solve	Beginning solve-----------------------------
+2018-03-11 03:32:03	INFO	Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-11 03:32:03	INFO	Calibrater::solve	.   KAntPos Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_antpos.s8_15.ants.tbl select= interp=linear spwmap=[0] calWt=false
+2018-03-11 03:32:03	INFO	Calibrater::solve	.   B TSYS: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl select= interp=linear,linear spwmap=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20] calWt=true
+2018-03-11 03:32:03	INFO	Calibrater::solve	.   B Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl select= interp=linearperobs,linearflag spwmap=[] calWt=true
+2018-03-11 03:32:03	INFO	Calibrater::solve	.   T Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_wvrgcalflag.s9_18.sm6_048s.wvrcal.tbl select= interp=nearest spwmap=[] calWt=true
+2018-03-11 03:32:03	INFO	Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-11 03:32:03	INFO	Calibrater::solve	.   G Jones: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl append=false solint=inf refantmode='flex' refant='DV07,DA49,DA41,DV23,DA64,DA60,DV06,DA44,DA53,DV01,DV11,DV15,DA42,DV10,DA43,DV16,DV17,DA54,DV22,DV20,DA52,DV09,DA59,DV24,DA48,DA63,DV04,DV25,DA56,DA58,DA61,DA47,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46' minsnr=3 apmode=P solnorm=false
+2018-03-11 03:32:03	INFO	ChannelAverageTVI::parseConfiguration	Channel bin is [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2018-03-11 03:32:03	INFO	Calibrater::solve	For solint = inf, found 3 solution intervals.
+2018-03-11 03:34:48	INFO	Calibrater::solve	  Found good G Jones solutions in 3 solution intervals.
+2018-03-11 03:34:48	INFO		Applying refant: DV07 (DA49,DA41,DV23,DA64,DA60,DV06,DA44,DA53,DV01,DV11,DV15,DA42,DV10,DA43,DV16,DV17,DA54,DV22,DV20,DA52,DV09,DA59,DV24,DA48,DA63,DV04,DV25,DA56,DA58,DA61,DA47,DV14,DV05,DA55,DA45,DA62,DV03,DA51,DV02,DA50,DA46) refantmode = flex (hold alternate refants' phase constant) when refant flagged
+2018-03-11 03:34:48	INFO		Enforcing apmode on solutions.
+2018-03-11 03:34:48	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl
+2018-03-11 03:34:49	INFO	calibrater::solve	Finished solving.
+2018-03-11 03:34:49	INFO	gaincal::::	Calibration solve statistics per spw:  (expected/attempted/succeeded):
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 0: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 1: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 2: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 3: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 4: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 5: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 6: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 7: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 8: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 9: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 10: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 11: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 12: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 13: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 14: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 15: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 16: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 17: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 18: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 19: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 20: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 21: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 22: 1/1/1
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 23: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 24: 1/1/1
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 25: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 26: 1/1/1
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 27: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 28: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 29: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 30: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 31: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 32: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 33: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 34: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 35: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 36: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 37: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 38: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 39: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 40: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 41: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 42: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 43: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 44: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 45: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 46: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 47: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 48: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 49: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 50: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 51: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 52: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 53: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 54: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 55: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 56: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 57: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 58: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 59: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 60: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 61: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 62: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 63: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 64: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 65: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 66: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 67: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 68: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 69: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	  Spw 70: 0/0/0
+2018-03-11 03:34:49	INFO	gaincal::::	##### End Task: gaincal              #####
+2018-03-11 03:34:49	INFO	gaincal::::+	##########################################

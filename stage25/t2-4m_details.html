@@ -1,0 +1,218 @@
+
+
+
+
+<div class="page-header">
+    <h1>25. Make image list<br><small>Set-up image parameters for target per-spw continuum imaging</small><button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+<h2>List of Clean Targets</h2>
+
+    
+
+    <table class="table table-bordered table-striped">
+		<caption>Clean Targets Summary</caption>
+		<thead>
+	        <tr>
+	            <th>field</th>
+	            <th>intent</th>
+	            <th>spw</th>
+	            <th>phasecenter</th>
+	            <th>cell</th>
+	            <th>imsize</th>
+	            <th>imagename</th>
+	            <th>specmode</th>
+	            <th>start</th>
+	            <th>width</th>
+	            <th>nbin</th>
+	            <th>nchan</th>
+	            <th>robust</th>
+	            <th>nterms</th>
+	            <th>uvrange</th>
+	        </tr>
+		</thead>
+		<tbody>
+	        <tr>
+	            <td>NGC1068</td>
+	            <td>TARGET</td>
+	            <td>22</td>
+	            <td>ICRS 02:42:40.7090 -000.00.47.945</td>
+	            <td>['0.021arcsec']</td>
+	            <td>[1890, 1890]</td>
+	            <td>uid___A001_X87d_X497.sSTAGENUMBER.NGC1068_sci.spw22.mfs</td>
+	                <td>mfs</td>
+	                <td></td>
+	                <td></td>
+	                <td>2</td>
+	                <td>-1</td>
+	                <td>None</td>
+	                <td></td>
+			</tr>
+	        <tr>
+	            <td>NGC1068</td>
+	            <td>TARGET</td>
+	            <td>24</td>
+	            <td>ICRS 02:42:40.7090 -000.00.47.945</td>
+	            <td>['0.021arcsec']</td>
+	            <td>[1890, 1890]</td>
+	            <td>uid___A001_X87d_X497.sSTAGENUMBER.NGC1068_sci.spw24.mfs</td>
+	                <td>mfs</td>
+	                <td></td>
+	                <td></td>
+	                <td>2</td>
+	                <td>-1</td>
+	                <td>None</td>
+	                <td></td>
+			</tr>
+	        <tr>
+	            <td>NGC1068</td>
+	            <td>TARGET</td>
+	            <td>26</td>
+	            <td>ICRS 02:42:40.7090 -000.00.47.945</td>
+	            <td>['0.021arcsec']</td>
+	            <td>[1890, 1890]</td>
+	            <td>uid___A001_X87d_X497.sSTAGENUMBER.NGC1068_sci.spw26.mfs</td>
+	                <td>mfs</td>
+	                <td></td>
+	                <td></td>
+	                <td>2</td>
+	                <td>-1</td>
+	                <td>None</td>
+	                <td></td>
+			</tr>
+		</tbody>
+	</table>
+
+
+<div class="clearfix"></div>
+<div class="panel-group" id="details-accordion" role="tablist" aria-multiselectable="true">
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Pipeline QA
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <table class="table table-bordered" summary="Pipeline QA summary">
+                    <caption>Pipeline QA summary for this task.</caption>
+                    <thead>
+                        <tr>
+                            <th>Score</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All clean targets defined</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Input Parameters
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>nbins</dt>
+                    <dd>24:2,26:2,22:2</dd>
+                    <dt>nchan</dt>
+                    <dd>-1</dd>
+                    <dt>calmaxpix</dt>
+                    <dd>300</dd>
+                    <dt>phasecenter</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>start</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>width</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>hm_cell</dt>
+                    <dd>[]</dd>
+                    <dt>linesfile</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/lines.dat</dd>
+                    <dt>spw</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>hm_imsize</dt>
+                    <dd>[]</dd>
+                    <dt>vis</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms']</dd>
+                    <dt>outframe</dt>
+                    <dd>LSRK</dd>
+                    <dt>intent</dt>
+                    <dd>TARGET</dd>
+                    <dt>output_dir</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working</dd>
+                    <dt>uvrange</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>imagename</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>field</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>contfile</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/cont.dat</dd>
+                    <dt>specmode</dt>
+                    <dd>mfs</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Tasks Execution Statistics
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Start time</dt>
+                    <dd>2018-03-13 03:08:53.232</dd>
+                    <dt>End</dt>
+                    <dd>2018-03-13 03:49:17.572</dd>
+                    <dt>Duration</dt>
+                    <dd>0:40:24.340</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">CASA logs for stage 25</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+    
+        <li><a href="stage25/casapy.log" class="replace-pre" data-title="CASA log for stage 25">View</a> or <a href="stage25/casapy.log" download="stage25/casapy.log">download</a> stage25/casapy.log (92.3 KB)</li>
+</ul>
+    </div>
+</div>

@@ -1,0 +1,2089 @@
+
+
+
+
+<link href="resources/css/select2.css" rel="stylesheet"/>
+<link href="resources/css/select2-bootstrap.css" rel="stylesheet"/>
+<script src="resources/js/select2.min.js"></script>
+
+<!-- include required files and styles for histograms -->
+<script src="resources/js/d3.min.js"></script>
+<script src="resources/js/pipeline.js"></script>
+
+<script>
+$(document).ready(function () {
+    var scores_dict = $('#scores').data('scores');
+
+    // activate the input fields for spw, antenna, etc.
+    $('.select2').select2();
+
+    $('select.select2').on("change", function() { pipeline.history.replaceState(); });
+
+    // create a new filter pipeline, and tell it to filter based on the scores
+    // in the scores_dict JSON dictionary that is set in the template.
+    var filterPipeline = new FILTERS.FilterPipeline();
+    filterPipeline.setScores(scores_dict);
+
+    // create filters that listen for events on the .select2 input fields we just
+    // created, and add them to the filter pipeline, filtering on the appropriate
+    // dictionary key
+    filterPipeline.addFilter(FILTERS.createMatchFilter('vis', '#select-vis'));
+    filterPipeline.addFilter(FILTERS.createMatchFilter('spw', '#select-spw'));
+    filterPipeline.addFilter(FILTERS.createMatchFilter('scan', '#select-scan'));
+
+
+    pipeline.pages.detail_plots.ready();
+});
+</script>
+
+<div data-scores="{&quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;19&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;26&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;15&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;30&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;26&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;26&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;17&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;8&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;34&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;30&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;30&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;8&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;8&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;19&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;28&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;14&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;26&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;14&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;17&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;8&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;21&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;30&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;15&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;25&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;15&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;17&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;32&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;15&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;10&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;25&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;4&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;19&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;4&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;4&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;19&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;19&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;12&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;6&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;28&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;32&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;8&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;21&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;15&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;4&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;scan&quot;: &quot;26&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;28&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;scan&quot;: &quot;26&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;15&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;scan&quot;: &quot;19&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;28&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;8&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;30&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png&quot;, &quot;spw&quot;: &quot;26&quot;}, &quot;stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;scan&quot;: &quot;23&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;6&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;30&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;scan&quot;: &quot;17&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;scan&quot;: &quot;10&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png&quot;, &quot;spw&quot;: &quot;24&quot;}, &quot;stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png&quot;: {&quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;scan&quot;: &quot;3&quot;, &quot;thumbnail&quot;: &quot;stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png&quot;, &quot;spw&quot;: &quot;26&quot;}}" id="scores"></div>
+
+
+
+
+
+<div class="page-header">
+    <h1>Phase offset vs average baseline for all data<button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="select-vis" class="control-label">Measurement Set</label>
+                    <select id="select-vis" class="form-control select2" multiple data-placeholder="Show all measurement sets">
+                            <option>uid___A002_Xc2b007_X877.ms</option>
+                            <option>uid___A002_Xc27dd7_X2fc3.ms</option>
+                            <option>uid___A002_Xc27dd7_X6c8e.ms</option>
+                            <option>uid___A002_Xc27dd7_X6983.ms</option>
+                            <option>uid___A002_Xc96f17_X113a.ms</option>
+                            <option>uid___A002_Xc8592e_Xaea3.ms</option>
+                            <option>uid___A002_Xc89480_X8c7d.ms</option>
+                            <option>uid___A002_Xc96463_X1646.ms</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="select-spw" class="control-label">Spectral window filter</label>
+                    <select id="select-spw" class="form-control select2" multiple data-placeholder="Show all spectral windows">
+                            <option>24</option>
+                            <option>26</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="select-scan" class="control-label">Scan filter</label>
+                    <select id="select-scan" class="form-control select2" multiple data-placeholder="Show all scans">
+                            <option>3</option>
+                            <option>4</option>
+                            <option>6</option>
+                            <option>8</option>
+                            <option>10</option>
+                            <option>12</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>17</option>
+                            <option>19</option>
+                            <option>21</option>
+                            <option>23</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>28</option>
+                            <option>30</option>
+                            <option>32</option>
+                            <option>34</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+<br>
+
+
+
+
+
+
+
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png"
+                             title="Click to magnify plot for spw 24 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 8
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png"
+                             title="Click to magnify plot for spw 24 scan 8"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan08.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 8
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png"
+                             title="Click to magnify plot for spw 24 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 14
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png"
+                             title="Click to magnify plot for spw 24 scan 14"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan14.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 14
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 17
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png"
+                             title="Click to magnify plot for spw 24 scan 17"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan17.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 17
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 19
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png"
+                             title="Click to magnify plot for spw 24 scan 19"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan19.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 19
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png"
+                             title="Click to magnify plot for spw 24 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 25
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png"
+                             title="Click to magnify plot for spw 24 scan 25"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan25.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 25
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 28
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png"
+                             title="Click to magnify plot for spw 24 scan 28"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan28.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 28
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 30
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png"
+                             title="Click to magnify plot for spw 24 scan 30"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan30.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 30
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral window: 24<br>
+		Scan: 34
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png"
+                             title="Click to magnify plot for spw 24 scan 34"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X2fc3.ms.phase_vs_baseline.spw24.scan34.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Scan 34
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png"
+                             title="Click to magnify plot for spw 24 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 8
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png"
+                             title="Click to magnify plot for spw 24 scan 8"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan08.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 8
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png"
+                             title="Click to magnify plot for spw 24 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 14
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png"
+                             title="Click to magnify plot for spw 24 scan 14"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan14.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 14
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 17
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png"
+                             title="Click to magnify plot for spw 24 scan 17"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan17.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 17
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 19
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png"
+                             title="Click to magnify plot for spw 24 scan 19"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan19.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 19
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png"
+                             title="Click to magnify plot for spw 24 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 25
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png"
+                             title="Click to magnify plot for spw 24 scan 25"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan25.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 25
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 28
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png"
+                             title="Click to magnify plot for spw 24 scan 28"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan28.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 28
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral window: 24<br>
+		Scan: 30
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png"
+                             title="Click to magnify plot for spw 24 scan 30"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6c8e.ms.phase_vs_baseline.spw24.scan30.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Scan 30
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png"
+                             title="Click to magnify plot for spw 24 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 6
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png"
+                             title="Click to magnify plot for spw 24 scan 6"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan06.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 6
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 10
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png"
+                             title="Click to magnify plot for spw 24 scan 10"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan10.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 10
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png"
+                             title="Click to magnify plot for spw 24 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 15
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png"
+                             title="Click to magnify plot for spw 24 scan 15"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan15.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 15
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 17
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png"
+                             title="Click to magnify plot for spw 24 scan 17"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan17.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 17
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 21
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png"
+                             title="Click to magnify plot for spw 24 scan 21"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan21.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 21
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png"
+                             title="Click to magnify plot for spw 24 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 26
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png"
+                             title="Click to magnify plot for spw 24 scan 26"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan26.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 26
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 28
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png"
+                             title="Click to magnify plot for spw 24 scan 28"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan28.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 28
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral window: 24<br>
+		Scan: 32
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png">
+                        <img src="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png"
+                             title="Click to magnify plot for spw 24 scan 32"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc27dd7_X6983.ms.phase_vs_baseline.spw24.scan32.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Scan 32
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png"
+                             title="Click to magnify plot for spw 24 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 6
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png"
+                             title="Click to magnify plot for spw 24 scan 6"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan06.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 6
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 10
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png"
+                             title="Click to magnify plot for spw 24 scan 10"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan10.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 10
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png"
+                             title="Click to magnify plot for spw 24 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 15
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png"
+                             title="Click to magnify plot for spw 24 scan 15"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan15.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 15
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 17
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png"
+                             title="Click to magnify plot for spw 24 scan 17"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan17.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 17
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 21
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png"
+                             title="Click to magnify plot for spw 24 scan 21"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan21.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 21
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png"
+                             title="Click to magnify plot for spw 24 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 26
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png"
+                             title="Click to magnify plot for spw 24 scan 26"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan26.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 26
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 28
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png"
+                             title="Click to magnify plot for spw 24 scan 28"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan28.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 28
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral window: 24<br>
+		Scan: 32
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png">
+                        <img src="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png"
+                             title="Click to magnify plot for spw 24 scan 32"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc2b007_X877.ms.phase_vs_baseline.spw24.scan32.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Scan 32
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png"
+                             title="Click to magnify plot for spw 26 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 4
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png"
+                             title="Click to magnify plot for spw 26 scan 4"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan04.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 4
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 8
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png"
+                             title="Click to magnify plot for spw 26 scan 8"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan08.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 8
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png"
+                             title="Click to magnify plot for spw 26 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 15
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png"
+                             title="Click to magnify plot for spw 26 scan 15"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan15.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 15
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 19
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png"
+                             title="Click to magnify plot for spw 26 scan 19"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan19.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 19
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png"
+                             title="Click to magnify plot for spw 26 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 26
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png"
+                             title="Click to magnify plot for spw 26 scan 26"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan26.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 26
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral window: 26<br>
+		Scan: 30
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png"
+                             title="Click to magnify plot for spw 26 scan 30"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96f17_X113a.ms.phase_vs_baseline.spw26.scan30.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Scan 30
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png"
+                             title="Click to magnify plot for spw 26 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 4
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png"
+                             title="Click to magnify plot for spw 26 scan 4"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan04.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 4
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 8
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png"
+                             title="Click to magnify plot for spw 26 scan 8"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan08.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 8
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png"
+                             title="Click to magnify plot for spw 26 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 15
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png"
+                             title="Click to magnify plot for spw 26 scan 15"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan15.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 15
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 19
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png"
+                             title="Click to magnify plot for spw 26 scan 19"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan19.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 19
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png"
+                             title="Click to magnify plot for spw 26 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 26
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png"
+                             title="Click to magnify plot for spw 26 scan 26"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan26.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 26
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral window: 26<br>
+		Scan: 30
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png">
+                        <img src="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png"
+                             title="Click to magnify plot for spw 26 scan 30"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc89480_X8c7d.ms.phase_vs_baseline.spw26.scan30.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Scan 30
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png"
+                             title="Click to magnify plot for spw 26 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 4
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png"
+                             title="Click to magnify plot for spw 26 scan 4"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan04.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 4
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 8
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png"
+                             title="Click to magnify plot for spw 26 scan 8"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan08.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 8
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png"
+                             title="Click to magnify plot for spw 26 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 15
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png"
+                             title="Click to magnify plot for spw 26 scan 15"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan15.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 15
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 19
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png"
+                             title="Click to magnify plot for spw 26 scan 19"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan19.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 19
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png"
+                             title="Click to magnify plot for spw 26 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 26
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png"
+                             title="Click to magnify plot for spw 26 scan 26"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan26.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 26
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral window: 26<br>
+		Scan: 30
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png">
+                        <img src="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png"
+                             title="Click to magnify plot for spw 26 scan 30"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc96463_X1646.ms.phase_vs_baseline.spw26.scan30.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Scan 30
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 3
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png"
+                             title="Click to magnify plot for spw 26 scan 3"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan03.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 3
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 4
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png"
+                             title="Click to magnify plot for spw 26 scan 4"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan04.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 4
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 8
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png"
+                             title="Click to magnify plot for spw 26 scan 8"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan08.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 8
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 12
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png"
+                             title="Click to magnify plot for spw 26 scan 12"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan12.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 12
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 15
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png"
+                             title="Click to magnify plot for spw 26 scan 15"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan15.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 15
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 19
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png"
+                             title="Click to magnify plot for spw 26 scan 19"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan19.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 19
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 23
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png"
+                             title="Click to magnify plot for spw 26 scan 23"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan23.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 23
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 26
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png"
+                             title="Click to magnify plot for spw 26 scan 26"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan26.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 26
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral window: 26<br>
+		Scan: 30
+	</div><div class="pull-right"><a href="stage9/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png">Full Size</a><br></div>'
+                       data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png">
+                        <img src="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png"
+                             title="Click to magnify plot for spw 26 scan 30"
+                             data-thumbnail="stage9/thumbs/uid___A002_Xc8592e_Xaea3.ms.phase_vs_baseline.spw26.scan30.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Scan 30
+	
+                    </div>
+                </div>
+            </div>
+

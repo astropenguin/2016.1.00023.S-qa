@@ -1,0 +1,11 @@
+# Flag commands for uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl
+#
+spw='16:0~1;124~127' reason='edges'
+spw='16:0~1;123~127' reason='edges'
+spw='16:0~1;123~127' reason='edges'
+spw='18:0~3' reason='edges'
+spw='18:0~3' reason='edges'
+spw='18:0~3' reason='edges'
+spw='20:0~6' reason='edges'
+spw='20:0~5' reason='edges'
+spw='20:0~6' reason='edges'

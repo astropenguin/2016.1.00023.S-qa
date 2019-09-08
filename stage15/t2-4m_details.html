@@ -1,0 +1,3796 @@
+
+
+
+
+<div class="page-header">
+    <h1>15. Phased-up fluxscale<button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+
+
+<script src="resources/js/pipeline.js"></script>
+
+<script>
+$(document).ready(function() {
+    $(".fancybox").fancybox({
+        type: 'image',
+        prevEffect: 'none',
+        nextEffect: 'none',
+        loop: false,
+        helpers: {
+            title: {
+                type: 'outside'
+            },
+            thumbs: {
+                width: 50,
+                height: 50
+            }
+        }
+    });
+});
+</script>
+
+
+
+<h2>Results</h2>
+
+
+
+
+<h4>Antennas Used for Flux Scaling</h4>
+
+<p>The following antennas were used for flux scaling, entries for unresolved flux calibrators are blank</p>
+
+<table class="table table-bordered table-striped" summary="Flux Scaling Antennas">
+	<caption>Antennas for Flux Calibration</caption>
+	<thead>
+	    <tr>
+	        <th scope="col">Measurement Set</th>
+	        <th scope="col">UV Range</th>
+	        <th scope="col">Antennas</th>
+	    </tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>uid___A002_Xc27dd7_X2fc3.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc27dd7_X6983.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc27dd7_X6c8e.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc2b007_X877.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc8592e_Xaea3.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc89480_X8c7d.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc96463_X1646.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+		<tr>
+			<td>uid___A002_Xc96f17_X113a.ms</td>
+                	<td></td>
+                	<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<h4>Computed Flux Densities</h4>
+
+<p>The following flux densities were set in the measurement set model column and recorded in the pipeline context:</p>
+
+<table class="table table-bordered table-striped" summary="Flux density results">
+	<caption>Phased-up Fluxscale Results</caption>
+    <thead>
+	    <tr>
+	        <th scope="col" rowspan="3">Measurement Set</th>
+	        <th scope="col" rowspan="3">Field</th>
+	        <th scope="col" rowspan="3">Spw</th>
+	        <th scope="col" rowspan="3">Frequency Bandwidth (TOPO)</th>
+	        <th scope="col" colspan="4">Derived Flux Density</th>
+	        <th scope="col" rowspan="3">Flux Ratio (Derived / Catalog)</th>
+	        <th scope="col" rowspan="3">Spix</th>
+		</tr>
+		<tr>
+	        <th scope="col" colspan="4">Catalog Flux Density</th>
+	        </tr>
+		<tr>
+	        <th scope="col">I</th>
+	        <th scope="col">Q</th>
+	        <th scope="col">U</th>
+	        <th scope="col">V</th>
+	        </tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="18">uid___A002_Xc27dd7_X2fc3.ms</td>
+			<td rowspan="6">J0423-0120 (#0) BANDPASS</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.533 GHz 1.875 GHz</td>
+			<td>758.477 mJy &#177; 2.076 mJy (0.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.021</td>
+			<td rowspan="6">-0.437206527349</td>
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 743.000 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>758.346 mJy &#177; 2.020 mJy (0.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.018</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 744.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>780.705 mJy &#177; 1.874 mJy (0.2%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.023</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 763.300 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0239+0416 (#3) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.533 GHz 1.875 GHz</td>
+			<td>170.711 mJy &#177; 959.061 &#181;Jy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.332</td>
+			<td rowspan="24">0.0</td>
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 128.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>170.997 mJy &#177; 937.010 &#181;Jy (0.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.328</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 128.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>178.161 mJy &#177; 852.307 &#181;Jy (0.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.322</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 134.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0239-0234 (#2) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.533 GHz 1.875 GHz</td>
+			<td>169.843 mJy &#177; 1.044 mJy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="4">1.012</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 167.900 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>170.562 mJy &#177; 1.071 mJy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 168.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>177.126 mJy &#177; 1.077 mJy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.013</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 174.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="12">uid___A002_Xc27dd7_X6983.ms</td>
+			<td rowspan="6">J0239-0234 (#1) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>158.714 mJy &#177; 1.163 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.945</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 167.900 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>160.796 mJy &#177; 1.160 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.954</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 168.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>167.227 mJy &#177; 1.233 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.957</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 174.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0239+0416 (#2) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>165.733 mJy &#177; 1.158 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.293</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 128.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>167.663 mJy &#177; 1.164 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.302</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 128.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>173.828 mJy &#177; 1.237 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.290</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 134.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="18">uid___A002_Xc27dd7_X6c8e.ms</td>
+			<td rowspan="6">J0237+2848 (#0) BANDPASS</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>1.165 Jy &#177; 1.465 mJy (0.1%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.058</td>
+			<td rowspan="6">-0.556916122042</td>
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 1.101 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>1.165 Jy &#177; 1.504 mJy (0.1%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.055</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 1.105 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>1.201 Jy &#177; 1.638 mJy (0.1%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.053</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 1.140 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0239+0416 (#3) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>176.290 mJy &#177; 618.885 &#181;Jy (0.4%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.375</td>
+			<td rowspan="72">0.0</td>
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 128.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>176.686 mJy &#177; 584.399 &#181;Jy (0.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.372</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 128.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>183.325 mJy &#177; 602.082 &#181;Jy (0.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.360</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 134.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0239-0234 (#2) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>167.752 mJy &#177; 680.801 &#181;Jy (0.4%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.999</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 167.900 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>168.020 mJy &#177; 595.669 &#181;Jy (0.4%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.997</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 168.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>175.147 mJy &#177; 539.219 &#181;Jy (0.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.002</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 174.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="12">uid___A002_Xc2b007_X877.ms</td>
+			<td rowspan="6">J0239-0234 (#1) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>156.224 mJy &#177; 954.502 &#181;Jy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.930</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 167.900 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>158.001 mJy &#177; 912.340 &#181;Jy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.937</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 168.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>164.301 mJy &#177; 861.094 &#181;Jy (0.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.940</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 174.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0259-0019 (#2) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.534 GHz 1.875 GHz</td>
+			<td>37.487 mJy &#177; 693.550 &#181;Jy (1.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.806</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.500 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">258.033 GHz 1.875 GHz</td>
+			<td>37.668 mJy &#177; 772.557 &#181;Jy (2.1%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="4">0.805</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">244.015 GHz 1.875 GHz</td>
+			<td>39.943 mJy &#177; 532.850 &#181;Jy (1.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 49.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="12">uid___A002_Xc8592e_Xaea3.ms</td>
+			<td rowspan="6">J0239-0234 (#1) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.488 GHz 1.875 GHz</td>
+			<td>204.541 mJy &#177; 876.693 &#181;Jy (0.4%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.046</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 195.500 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.988 GHz 1.875 GHz</td>
+			<td>205.601 mJy &#177; 873.340 &#181;Jy (0.4%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.048</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 196.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.970 GHz 1.875 GHz</td>
+			<td>213.904 mJy &#177; 992.005 &#181;Jy (0.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.051</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 203.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0259-0019 (#2) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.488 GHz 1.875 GHz</td>
+			<td>92.856 mJy &#177; 826.964 &#181;Jy (0.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.993</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.988 GHz 1.875 GHz</td>
+			<td>93.030 mJy &#177; 795.417 &#181;Jy (0.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.988</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.970 GHz 1.875 GHz</td>
+			<td>98.490 mJy &#177; 833.175 &#181;Jy (0.8%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.986</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 49.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="12">uid___A002_Xc89480_X8c7d.ms</td>
+			<td rowspan="6">J0239-0234 (#1) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.487 GHz 1.875 GHz</td>
+			<td>165.394 mJy &#177; 931.158 &#181;Jy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.846</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 195.500 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.986 GHz 1.875 GHz</td>
+			<td>166.600 mJy &#177; 1.032 mJy (0.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.849</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 196.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.969 GHz 1.875 GHz</td>
+			<td>173.441 mJy &#177; 944.607 &#181;Jy (0.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.852</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 203.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0259-0019 (#2) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.487 GHz 1.875 GHz</td>
+			<td>73.594 mJy &#177; 738.308 &#181;Jy (1.0%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.579</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.986 GHz 1.875 GHz</td>
+			<td>74.329 mJy &#177; 818.694 &#181;Jy (1.1%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.588</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.969 GHz 1.875 GHz</td>
+			<td>78.485 mJy &#177; 712.341 &#181;Jy (0.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.582</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 49.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="12">uid___A002_Xc96463_X1646.ms</td>
+			<td rowspan="6">J0239-0234 (#1) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.484 GHz 1.875 GHz</td>
+			<td>167.992 mJy &#177; 1.436 mJy (0.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.859</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 195.500 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.984 GHz 1.875 GHz</td>
+			<td>168.929 mJy &#177; 1.311 mJy (0.8%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.861</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 196.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.967 GHz 1.875 GHz</td>
+			<td>176.753 mJy &#177; 1.242 mJy (0.7%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.868</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 203.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0259-0019 (#2) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.484 GHz 1.875 GHz</td>
+			<td>72.700 mJy &#177; 1.186 mJy (1.6%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.560</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.984 GHz 1.875 GHz</td>
+			<td>73.375 mJy &#177; 1.573 mJy (2.1%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.568</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.967 GHz 1.875 GHz</td>
+			<td>77.994 mJy &#177; 939.286 &#181;Jy (1.2%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.572</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 49.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			<td rowspan="12">uid___A002_Xc96f17_X113a.ms</td>
+			<td rowspan="6">J0239-0234 (#1) PHASE</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.484 GHz 1.875 GHz</td>
+			<td>171.273 mJy &#177; 1.587 mJy (0.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.876</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 195.500 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.984 GHz 1.875 GHz</td>
+			<td>172.189 mJy &#177; 1.534 mJy (0.9%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.878</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 196.200 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.967 GHz 1.875 GHz</td>
+			<td>179.586 mJy &#177; 1.455 mJy (0.8%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">0.882</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 203.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td rowspan="6">J0259-0019 (#2) CHECK</td>
+			<td rowspan="2">22</td>
+			<td rowspan="2">259.484 GHz 1.875 GHz</td>
+			<td>76.405 mJy &#177; 1.133 mJy (1.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.640</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">24</td>
+			<td rowspan="2">257.984 GHz 1.875 GHz</td>
+			<td>77.278 mJy &#177; 1.030 mJy (1.3%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.651</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 46.800 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+		<tr>
+			
+			
+			<td rowspan="2">26</td>
+			<td rowspan="2">243.967 GHz 1.875 GHz</td>
+			<td>81.552 mJy &#177; 1.261 mJy (1.5%)</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td>0.000 Jy</td>
+			<td rowspan="2">1.644</td>
+			
+		</tr>
+		<tr>
+			
+			
+			
+			
+			<td> 49.600 mJy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			<td> 0.000 Jy</td>
+			
+			
+		</tr>
+	</tbody>
+</table>
+
+
+    <h3>Flux Calibrator Model Comparison</h3>
+    Antenna selection used for flux transfer to the secondary calibrators.
+
+	    <h4>uid___A002_Xc27dd7_X2fc3.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3533.974452933077, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X2fc3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3533.974452933077, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X2fc3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3533.974452933077, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X2fc3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3533.974452933077, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X2fc3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3533.974452933077, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X2fc3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3533.974452933077, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X2fc3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X2fc3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc27dd7_X6983.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3525.704274144872, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6983.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0006-0623.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3525.704274144872, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6983.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3525.704274144872, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6983.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0006-0623.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3525.704274144872, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6983.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3525.704274144872, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6983.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0006-0623.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3525.704274144872, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6983.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6983.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc27dd7_X6c8e.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3435.041541845003, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6c8e.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3435.041541845003, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6c8e.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3435.041541845003, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6c8e.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3435.041541845003, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6c8e.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3435.041541845003, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6c8e.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3435.041541845003, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc27dd7_X6c8e.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc27dd7_X6c8e.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc2b007_X877.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3696.89730583522, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc2b007_X877.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0006-0623.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3696.89730583522, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc2b007_X877.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3696.89730583522, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc2b007_X877.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0006-0623.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3696.89730583522, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc2b007_X877.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3696.89730583522, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc2b007_X877.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0006-0623.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0006-0623.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 3696.89730583522, 0, 0], avgscan=False, field=&#39;J0006-0623&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc2b007_X877.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc2b007_X877.ms-J0006-0623-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc8592e_Xaea3.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2360.0441581592972, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc8592e_Xaea3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2360.0441581592972, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc8592e_Xaea3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2360.0441581592972, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc8592e_Xaea3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2360.0441581592972, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc8592e_Xaea3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2360.0441581592972, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc8592e_Xaea3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2360.0441581592972, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc8592e_Xaea3.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc8592e_Xaea3.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc89480_X8c7d.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2364.161526342861, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc89480_X8c7d.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2364.161526342861, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc89480_X8c7d.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2364.161526342861, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc89480_X8c7d.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2364.161526342861, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc89480_X8c7d.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2364.161526342861, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc89480_X8c7d.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 2364.161526342861, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc89480_X8c7d.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc89480_X8c7d.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc96463_X1646.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1375.8662894703264, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96463_X1646.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1375.8662894703264, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96463_X1646.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1375.8662894703264, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96463_X1646.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1375.8662894703264, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96463_X1646.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1375.8662894703264, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96463_X1646.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1375.8662894703264, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96463_X1646.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96463_X1646.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+	    <h4>uid___A002_Xc96f17_X113a.ms</h4>
+			<div class="row">
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1392.5785208110394, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96f17_X113a.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 1 (spw 22).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;22&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1392.5785208110394, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96f17_X113a.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 1"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb1-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 1</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 22</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1392.5785208110394, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96f17_X113a.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 2 (spw 24).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;24&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1392.5785208110394, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96f17_X113a.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 2"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb2-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 2</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 24</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+		        	<!--  Select on antenna -->
+		            
+		            <div class="col-md-3">
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1392.5785208110394, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96f17_X113a.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Amp vs. uvdist for 
+								    
+								    all antennas.
+								    Color coded by spw.<br> Flux calibrator fields: J0238+1636.
+								    </p>
+								</div>
+							</div>
+
+			                <div class="thumbnail">
+			                    <a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                       class="fancybox"
+								   title='<div class="pull-left">Baseband 3 (spw 26).<br> 
+			                              Receiver bands: ALMA Band 6.<br>
+			                              All antennas.<br>
+			                              Flux calibrator fields: J0238+1636.</div>
+			                              <div class="pull-right"><a href="stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">Full Size</a><br>
+			                              <a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotms(avgchannel=&#39;9000&#39;, spw=&#39;26&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, clearplots=True, overwrite=True, plotrange=[0.0, 1392.5785208110394, 0, 0], avgscan=False, field=&#39;J0238+1636&#39;, xaxis=&#39;uvdist&#39;, ydatacolumn=&#39;model&#39;, coloraxis=&#39;spw&#39;, plotfile=&#39;stage15/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png&#39;, showgui=False, intent=&#39;CALIBRATE_FLUX#ON_SOURCE&#39;, yaxis=&#39;amp&#39;, correlation=&#39;XX,YY&#39;, avgbaseline=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+			                       rel="amp_vs_uv-uid___A002_Xc96f17_X113a.ms">
+			                        <img src="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png"
+			                             title="Click to show amplitude vs UV plot for Baseband 3"
+			                             data-thumbnail="stage15/thumbs/uid___A002_Xc96f17_X113a.ms-J0238+1636-bb3-AMPLITUDE-amp_vs_uvdist-XX_YY.png">
+			                    </a>
+			                    <div class="caption">
+									<h4>Baseband 3</h4>
+									<h6 style="margin-top: -11px;">ALMA Band 6</h6>
+									<h6 style="margin-top: -11px;">Spw 26</h6>									
+
+								    <p>Selection for 
+								    
+								     all antennas.
+								    </p>
+								</div>
+			                </div>
+		            </div>
+			</div>
+
+
+<div class="clearfix"></div>
+<div class="panel-group" id="details-accordion" role="tablist" aria-multiselectable="true">
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Pipeline QA
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <table class="table table-bordered" summary="Pipeline QA summary">
+                    <caption>Pipeline QA summary for this task.</caption>
+                    <thead>
+                        <tr>
+                            <th>Score</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc27dd7_X2fc3.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc27dd7_X2fc3.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc27dd7_X6983.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc27dd7_X6983.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc27dd7_X6c8e.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc27dd7_X6c8e.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc2b007_X877.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc2b007_X877.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc8592e_Xaea3.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc8592e_Xaea3.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc89480_X8c7d.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc89480_X8c7d.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc96463_X1646.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc96463_X1646.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>All expected derived fluxes present for uid___A002_Xc96f17_X113a.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>No low SNR derived fluxes for uid___A002_Xc96f17_X113a.ms </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Input Parameters
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>refspwmap</dt>
+                    <dd>[]</dd>
+                    <dt>reference</dt>
+                    <dd>['J0238+1636', 'J0006-0623', 'J0238+1636', 'J0006-0623', 'J0238+1636', 'J0238+1636', 'J0238+1636', 'J0238+1636']</dd>
+                    <dt>antenna</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>solint</dt>
+                    <dd>inf</dd>
+                    <dt>hm_resolvedcals</dt>
+                    <dd>automatic</dd>
+                    <dt>transfer</dt>
+                    <dd>['J0239+0416,J0239-0234,J0423-0120', 'J0239+0416,J0239-0234', 'J0239+0416,J0239-0234,J0237+2848', 'J0239-0234,J0259-0019', 'J0239-0234,J0259-0019', 'J0239-0234,J0259-0019', 'J0239-0234,J0259-0019', 'J0239-0234,J0259-0019']</dd>
+                    <dt>peak_fraction</dt>
+                    <dd>0.2</dd>
+                    <dt>minsnr</dt>
+                    <dd>2.0</dd>
+                    <dt>reffile</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/flux.csv</dd>
+                    <dt>refintent</dt>
+                    <dd>AMPLITUDE</dd>
+                    <dt>vis</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms']</dd>
+                    <dt>fluxtable</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.s15_0.fcal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.s15_0.fcal.tbl']</dd>
+                    <dt>output_dir</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working</dd>
+                    <dt>uvrange</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>transintent</dt>
+                    <dd>PHASE,BANDPASS,CHECK</dd>
+                    <dt>refant</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>phaseupsolint</dt>
+                    <dd>int</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Tasks Execution Statistics
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Start time</dt>
+                    <dd>2018-03-11 08:07:22.964</dd>
+                    <dt>End</dt>
+                    <dd>2018-03-11 11:34:25.160</dd>
+                    <dt>Duration</dt>
+                    <dd>3:27:02.196</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">CASA logs for stage 15</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+    
+        <li><a href="stage15/casapy.log" class="replace-pre" data-title="CASA log for stage 15">View</a> or <a href="stage15/casapy.log" download="stage15/casapy.log">download</a> stage15/casapy.log (842.0 KB)</li>
+</ul>
+    </div>
+</div>

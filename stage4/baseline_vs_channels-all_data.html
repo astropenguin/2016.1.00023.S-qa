@@ -1,0 +1,1299 @@
+
+
+
+
+<link href="resources/css/select2.css" rel="stylesheet"/>
+<link href="resources/css/select2-bootstrap.css" rel="stylesheet"/>
+<script src="resources/js/select2.min.js"></script>
+
+<!-- include required files and styles for histograms -->
+<script src="resources/js/d3.min.js"></script>
+<script src="resources/js/pipeline.js"></script>
+
+<script>
+$(document).ready(function () {
+    var scores_dict = $('#scores').data('scores');
+
+    // activate the input fields for spw, antenna, etc.
+    $('.select2').select2();
+
+    $('select.select2').on("change", function() { pipeline.history.replaceState(); });
+
+    // create a new filter pipeline, and tell it to filter based on the scores
+    // in the scores_dict JSON dictionary that is set in the template.
+    var filterPipeline = new FILTERS.FilterPipeline();
+    filterPipeline.setScores(scores_dict);
+
+    // create filters that listen for events on the .select2 input fields we just
+    // created, and add them to the filter pipeline, filtering on the appropriate
+    // dictionary key
+    filterPipeline.addFilter(FILTERS.createMatchFilter('vis', '#select-vis'));
+    filterPipeline.addFilter(FILTERS.createMatchFilter('spw', '#select-spw'));
+    filterPipeline.addFilter(FILTERS.createMatchFilter('pol', '#select-pol'));
+
+
+    pipeline.pages.detail_plots.ready();
+});
+</script>
+
+<div data-scores="{&quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc89480_X8c7d.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc2b007_X877.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X2fc3.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;26&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6c8e.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96f17_X113a.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;24&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;pol&quot;: &quot;XX&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc8592e_Xaea3.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc27dd7_X6983.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}, &quot;stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;: {&quot;field&quot;: &quot;None&quot;, &quot;spw&quot;: &quot;22&quot;, &quot;ant&quot;: &quot;None&quot;, &quot;vis&quot;: &quot;uid___A002_Xc96463_X1646.ms&quot;, &quot;pol&quot;: &quot;YY&quot;, &quot;thumbnail&quot;: &quot;stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png&quot;}}" id="scores"></div>
+
+
+
+
+
+<div class="page-header">
+    <h1>Baseline vs channels for all data<button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+    
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="select-vis" class="control-label">Measurement Set</label>
+                    <select id="select-vis" class="form-control select2" multiple data-placeholder="Show all measurement sets">
+                            <option>uid___A002_Xc2b007_X877.ms</option>
+                            <option>uid___A002_Xc27dd7_X2fc3.ms</option>
+                            <option>uid___A002_Xc27dd7_X6c8e.ms</option>
+                            <option>uid___A002_Xc27dd7_X6983.ms</option>
+                            <option>uid___A002_Xc96f17_X113a.ms</option>
+                            <option>uid___A002_Xc8592e_Xaea3.ms</option>
+                            <option>uid___A002_Xc89480_X8c7d.ms</option>
+                            <option>uid___A002_Xc96463_X1646.ms</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="select-spw" class="control-label">Spectral window filter</label>
+                    <select id="select-spw" class="form-control select2" multiple data-placeholder="Show all spectral windows">
+                            <option>22</option>
+                            <option>24</option>
+                            <option>26</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="select-pol" class="control-label">Polarisation filter</label>
+                    <select id="select-pol" class="form-control select2" multiple data-placeholder="Show all polarisations">
+                            <option>XX</option>
+                            <option>YY</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+<br>
+
+
+
+
+
+
+
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc96f17_X113a.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc96f17_X113a.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X2fc3.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X2fc3.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc89480_X8c7d.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc89480_X8c7d.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6c8e.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6c8e.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6983.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6983.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc96463_X1646.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc96463_X1646.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc2b007_X877.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc2b007_X877.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc8592e_Xaea3.ms spw 22 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 22<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral Window: 22<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc8592e_Xaea3.ms spw 22 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_22_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 22<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc96f17_X113a.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc96f17_X113a.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X2fc3.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X2fc3.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc89480_X8c7d.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc89480_X8c7d.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6c8e.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6c8e.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6983.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6983.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc96463_X1646.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc96463_X1646.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc2b007_X877.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc2b007_X877.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc8592e_Xaea3.ms spw 24 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 24<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral Window: 24<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc8592e_Xaea3.ms spw 24 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_24_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 24<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc96f17_X113a.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96f17_X113a.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc96f17_X113a.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96f17_X113a.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96f17_X113a.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X2fc3.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X2fc3.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X2fc3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X2fc3.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc89480_X8c7d.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc89480_X8c7d.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc89480_X8c7d.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc89480_X8c7d.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc89480_X8c7d.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6c8e.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6c8e.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6c8e.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6c8e.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6983.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc27dd7_X6983.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc27dd7_X6983.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc27dd7_X6983.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc27dd7_X6983.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc96463_X1646.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc96463_X1646.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc96463_X1646.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc96463_X1646.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc96463_X1646.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc2b007_X877.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc2b007_X877.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc2b007_X877.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc2b007_X877.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc2b007_X877.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: XX
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png"
+                             title="Click to magnify plot for uid___A002_Xc8592e_Xaea3.ms spw 26 XX polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_XX.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Pol XX
+	
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-3">
+                
+                <div class="thumbnail">
+                    <a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                       class="fancybox"
+                       title='<div class="pull-left">
+        uid___A002_Xc8592e_Xaea3.ms<br>
+		Spectral Window: 26<br>
+		Polarisation: YY
+	</div><div class="pull-right"><a href="stage4/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">Full Size</a><br></div>'
+                       data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                        <img src="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png"
+                             title="Click to magnify plot for uid___A002_Xc8592e_Xaea3.ms spw 26 YY polarisation"
+                             data-thumbnail="stage4/thumbs/_Mean_amplitude_Baseline_v_channels_File_uid___A002_Xc8592e_Xaea3.ms_Intent_BANDPASS_Field_None_SpW_26_Pol_YY.png">
+                    </a>
+
+                    <div class="caption">
+                        
+		uid___A002_Xc8592e_Xaea3.ms<br>
+		Spw 26<br>
+		Pol YY
+	
+                    </div>
+                </div>
+            </div>
+

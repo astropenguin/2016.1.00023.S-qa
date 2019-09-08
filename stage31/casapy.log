@@ -1,0 +1,983 @@
+2018-03-15 02:52:27	INFO	hif_makeimages::pipeline.infrastructure.basetask::	Starting execution for stage 31
+2018-03-15 02:52:45	INFO	hif_makeimages::pipeline.hif.tasks.tclean.tclean::	
+2018-03-15 02:52:45	INFO	hif_makeimages::pipeline.hif.tasks.tclean.tclean::+	Cleaning for intent "TARGET", field NGC1068, spw 22,24,26
+2018-03-15 02:52:45	INFO	hif_makeimages::pipeline.hif.tasks.tclean.tclean::	deleting /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont*.iter*
+2018-03-15 02:52:45	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:52:45	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:45	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:45	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:45	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:46	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-15 02:52:47	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:48	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:49	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:50	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-15 02:52:51	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:52	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:53	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:54	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-15 02:52:55	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:56	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:57	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-15 02:52:58	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:59	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 02:52:59	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-15 02:52:59	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-15 02:52:59	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-15 02:52:59	INFO	pipeline.hif.tasks.tclean.tclean::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-15 02:52:59	INFO	pipeline.hif.tasks.tclean.tclean::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::data selection	Selecting on fields : 4
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::data selection	Selecting on spectral windows expression : 22:9~94
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::data selection	Selected: [86 chans in spw 22]
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:53:00	INFO	pipeline.hif.tasks.tclean.tclean::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:53:02	INFO	pipeline.hif.tasks.tclean.tclean::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:53:02	INFO	pipeline.hif.tasks.tclean.tclean::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:53:02	INFO	pipeline.hif.tasks.tclean.tclean::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:53:03	INFO	pipeline.hif.tasks.tclean.tclean::imager::apparentSensitivity() 	RMS Point source sensitivity  : 0.000112765
+2018-03-15 02:53:03	INFO	pipeline.hif.tasks.tclean.tclean::imager::apparentSensitivity() 	Relative to natural weighting : 1.11248
+2018-03-15 02:53:03	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X2fc3_target.ms Field 4 SPW 22 ChanRange 9~94: 0.000112764667156 Jy/beam
+2018-03-15 02:53:03	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62279749816 from 0.000112764667156 Jy/beam to 0.000182994219742 Jy/beam
+2018-03-15 02:53:03	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:783~3814
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3032 chans in spw 22]
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:53:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:53:49	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:53:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:53:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:54:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.93564e-05
+2018-03-15 02:54:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.13386
+2018-03-15 02:54:25	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X2fc3_target.ms Field 4 SPW 22 ChanRange 783~3814: 1.93563736212e-05 Jy/beam
+2018-03-15 02:54:25	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303175707 from 1.93563736212e-05 Jy/beam to 3.16095728252e-05 Jy/beam
+2018-03-15 02:54:25	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:54:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:54:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 02:54:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:373~2766
+2018-03-15 02:54:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 02:54:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2394 chans in spw 24]
+2018-03-15 02:54:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:54:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:54:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:54:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:55:01	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:55:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:55:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:55:29	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.0217e-05
+2018-03-15 02:55:29	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.13105
+2018-03-15 02:55:29	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X2fc3_target.ms Field 4 SPW 24 ChanRange 373~2766: 2.0217046556e-05 Jy/beam
+2018-03-15 02:55:29	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295138888 from 2.0217046556e-05 Jy/beam to 3.30134542527e-05 Jy/beam
+2018-03-15 02:55:29	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:17~1153
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1137 chans in spw 26]
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:55:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:55:47	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:55:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:55:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.7684e-05
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12273
+2018-03-15 02:56:01	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X2fc3_target.ms Field 4 SPW 26 ChanRange 17~1153: 2.76840068027e-05 Jy/beam
+2018-03-15 02:56:01	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63252933583 from 2.76840068027e-05 Jy/beam to 4.51949532386e-05 Jy/beam
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:9~94
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [86 chans in spw 22]
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:56:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:56:03	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:56:03	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:56:03	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:56:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 8.84255e-05
+2018-03-15 02:56:04	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11023
+2018-03-15 02:56:04	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6983_target.ms Field 3 SPW 22 ChanRange 9~94: 8.84255449684e-05 Jy/beam
+2018-03-15 02:56:04	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62279749816 from 8.84255449684e-05 Jy/beam to 0.000143496753148 Jy/beam
+2018-03-15 02:56:04	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:56:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:56:46	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:56:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:56:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:57:17	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.51537e-05
+2018-03-15 02:57:17	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12953
+2018-03-15 02:57:17	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6983_target.ms Field 3 SPW 22 ChanRange 784~3814: 1.51537056132e-05 Jy/beam
+2018-03-15 02:57:17	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 1.51537056132e-05 Jy/beam to 2.47464809959e-05 Jy/beam
+2018-03-15 02:57:17	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:373~2766
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2394 chans in spw 24]
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:57:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:57:51	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:57:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:57:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:58:17	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.54765e-05
+2018-03-15 02:58:17	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12735
+2018-03-15 02:58:17	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6983_target.ms Field 3 SPW 24 ChanRange 373~2766: 1.54765471173e-05 Jy/beam
+2018-03-15 02:58:17	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295138888 from 1.54765471173e-05 Jy/beam to 2.52724491103e-05 Jy/beam
+2018-03-15 02:58:17	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:17~1153
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1137 chans in spw 26]
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:58:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:58:34	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:58:34	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:58:34	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:58:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.17601e-05
+2018-03-15 02:58:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.1207
+2018-03-15 02:58:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6983_target.ms Field 3 SPW 26 ChanRange 17~1153: 2.17601311072e-05 Jy/beam
+2018-03-15 02:58:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63252933583 from 2.17601311072e-05 Jy/beam to 3.55240523839e-05 Jy/beam
+2018-03-15 02:58:46	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:9~94
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 425700 out of 1277100 rows.
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [86 chans in spw 22]
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:58:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:58:49	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:58:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:58:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 02:58:50	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 9.50148e-05
+2018-03-15 02:58:50	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11793
+2018-03-15 02:58:50	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6c8e_target.ms Field 4 SPW 22 ChanRange 9~94: 9.50148432861e-05 Jy/beam
+2018-03-15 02:58:50	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62279749816 from 9.50148432861e-05 Jy/beam to 0.000154189849973 Jy/beam
+2018-03-15 02:58:50	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 425700 out of 1277100 rows.
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 02:58:51	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 02:59:30	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 02:59:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 02:59:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:00:00	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.63696e-05
+2018-03-15 03:00:00	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.14342
+2018-03-15 03:00:00	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6c8e_target.ms Field 4 SPW 22 ChanRange 784~3814: 1.6369580135e-05 Jy/beam
+2018-03-15 03:00:00	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 1.6369580135e-05 Jy/beam to 2.67320425815e-05 Jy/beam
+2018-03-15 03:00:00	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 03:00:00	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 03:00:00	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 03:00:00	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:373~2766
+2018-03-15 03:00:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 425700 out of 1277100 rows.
+2018-03-15 03:00:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2394 chans in spw 24]
+2018-03-15 03:00:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:00:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:00:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:00:01	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:00:30	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:00:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:00:30	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:00:53	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.72382e-05
+2018-03-15 03:00:53	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.14013
+2018-03-15 03:00:53	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6c8e_target.ms Field 4 SPW 24 ChanRange 373~2766: 1.72382418663e-05 Jy/beam
+2018-03-15 03:00:53	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295138888 from 1.72382418663e-05 Jy/beam to 2.81492109975e-05 Jy/beam
+2018-03-15 03:00:53	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 4
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:17~1153
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 425700 out of 1277100 rows.
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1137 chans in spw 26]
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:00:54	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:01:09	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:01:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:01:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:01:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.36564e-05
+2018-03-15 03:01:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12998
+2018-03-15 03:01:20	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc27dd7_X6c8e_target.ms Field 4 SPW 26 ChanRange 17~1153: 2.36564219441e-05 Jy/beam
+2018-03-15 03:01:20	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63252933583 from 2.36564219441e-05 Jy/beam to 3.86198028044e-05 Jy/beam
+2018-03-15 03:01:20	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:9~94
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [86 chans in spw 22]
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:01:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:01:23	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:01:23	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:01:23	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:01:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 9.07848e-05
+2018-03-15 03:01:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.10748
+2018-03-15 03:01:24	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc2b007_X877_target.ms Field 3 SPW 22 ChanRange 9~94: 9.0784781724e-05 Jy/beam
+2018-03-15 03:01:24	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62279749816 from 9.0784781724e-05 Jy/beam to 0.000147325316653 Jy/beam
+2018-03-15 03:01:24	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:01:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:02:07	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:02:07	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:02:07	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:02:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.55503e-05
+2018-03-15 03:02:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12617
+2018-03-15 03:02:40	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc2b007_X877_target.ms Field 3 SPW 22 ChanRange 784~3814: 1.55503095021e-05 Jy/beam
+2018-03-15 03:02:40	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 1.55503095021e-05 Jy/beam to 2.53941477019e-05 Jy/beam
+2018-03-15 03:02:40	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:02:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:373~2766
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2394 chans in spw 24]
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:02:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:03:14	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:03:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:03:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:03:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 1.62228e-05
+2018-03-15 03:03:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12197
+2018-03-15 03:03:40	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc2b007_X877_target.ms Field 3 SPW 24 ChanRange 373~2766: 1.62228355697e-05 Jy/beam
+2018-03-15 03:03:40	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295138888 from 1.62228355697e-05 Jy/beam to 2.64911018752e-05 Jy/beam
+2018-03-15 03:03:40	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:17~1153
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 485100 out of 1455300 rows.
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1137 chans in spw 26]
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:03:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:03:57	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:03:57	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:03:57	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:04:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.26554e-05
+2018-03-15 03:04:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11629
+2018-03-15 03:04:09	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc2b007_X877_target.ms Field 3 SPW 26 ChanRange 17~1153: 2.26554321092e-05 Jy/beam
+2018-03-15 03:04:09	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63252933583 from 2.26554321092e-05 Jy/beam to 3.69856575341e-05 Jy/beam
+2018-03-15 03:04:09	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:10~94
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [85 chans in spw 22]
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:04:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:04:12	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:04:12	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:04:12	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:04:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 0.000167644
+2018-03-15 03:04:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11633
+2018-03-15 03:04:14	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc8592e_Xaea3_target.ms Field 3 SPW 22 ChanRange 10~94: 0.000167643775449 Jy/beam
+2018-03-15 03:04:14	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62267475668 from 0.000167643775449 Jy/beam to 0.000272031322536 Jy/beam
+2018-03-15 03:04:14	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:04:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:04:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:04:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 03:04:15	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:04:15	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 03:04:15	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:04:15	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:04:15	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:04:15	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:05:02	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:05:02	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:05:02	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:05:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.84918e-05
+2018-03-15 03:05:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.13294
+2018-03-15 03:05:40	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc8592e_Xaea3_target.ms Field 3 SPW 22 ChanRange 784~3814: 2.84917719533e-05 Jy/beam
+2018-03-15 03:05:40	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 2.84917719533e-05 Jy/beam to 4.652796558e-05 Jy/beam
+2018-03-15 03:05:40	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:05:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:05:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:05:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:374~2766
+2018-03-15 03:05:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:05:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2393 chans in spw 24]
+2018-03-15 03:05:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:05:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:05:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:05:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:06:17	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:06:17	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:06:17	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:06:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 3.05517e-05
+2018-03-15 03:06:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12753
+2018-03-15 03:06:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc8592e_Xaea3_target.ms Field 3 SPW 24 ChanRange 374~2766: 3.0551708649e-05 Jy/beam
+2018-03-15 03:06:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295122929 from 3.0551708649e-05 Jy/beam to 4.98894501952e-05 Jy/beam
+2018-03-15 03:06:46	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:13~1150
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1138 chans in spw 26]
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:06:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:07:05	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:07:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:07:05	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:07:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 4.04405e-05
+2018-03-15 03:07:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12408
+2018-03-15 03:07:19	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc8592e_Xaea3_target.ms Field 3 SPW 26 ChanRange 13~1150: 4.04404606513e-05 Jy/beam
+2018-03-15 03:07:19	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63253004189 from 4.04404606513e-05 Jy/beam to 6.60202669213e-05 Jy/beam
+2018-03-15 03:07:19	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:07:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:07:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:07:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:10~94
+2018-03-15 03:07:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:07:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [85 chans in spw 22]
+2018-03-15 03:07:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:07:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:07:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:07:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:07:22	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:07:22	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:07:22	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:07:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 0.000120457
+2018-03-15 03:07:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11937
+2018-03-15 03:07:24	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc89480_X8c7d_target.ms Field 3 SPW 22 ChanRange 10~94: 0.00012045700312 Jy/beam
+2018-03-15 03:07:24	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62267475668 from 0.00012045700312 Jy/beam to 0.000195462538228 Jy/beam
+2018-03-15 03:07:24	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:07:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:07:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:07:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 03:07:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:07:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 03:07:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:07:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:07:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:07:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:08:10	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:08:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:08:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:08:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.04394e-05
+2018-03-15 03:08:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.13421
+2018-03-15 03:08:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc89480_X8c7d_target.ms Field 3 SPW 22 ChanRange 784~3814: 2.04394064417e-05 Jy/beam
+2018-03-15 03:08:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 2.04394064417e-05 Jy/beam to 3.33781977813e-05 Jy/beam
+2018-03-15 03:08:46	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:08:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:08:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:08:46	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:374~2766
+2018-03-15 03:08:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:08:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2393 chans in spw 24]
+2018-03-15 03:08:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:08:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:08:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:08:47	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:09:21	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:09:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:09:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:09:48	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.17973e-05
+2018-03-15 03:09:48	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12937
+2018-03-15 03:09:48	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc89480_X8c7d_target.ms Field 3 SPW 24 ChanRange 374~2766: 2.17972816389e-05 Jy/beam
+2018-03-15 03:09:48	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295122929 from 2.17972816389e-05 Jy/beam to 3.55938978475e-05 Jy/beam
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:13~1150
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 529690 out of 1589070 rows.
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1138 chans in spw 26]
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:09:49	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:10:07	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:10:07	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:10:07	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:10:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 2.91773e-05
+2018-03-15 03:10:20	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12571
+2018-03-15 03:10:20	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc89480_X8c7d_target.ms Field 3 SPW 26 ChanRange 13~1150: 2.9177253416e-05 Jy/beam
+2018-03-15 03:10:20	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63253004189 from 2.9177253416e-05 Jy/beam to 4.76327427416e-05 Jy/beam
+2018-03-15 03:10:20	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:10~94
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 507150 out of 1521450 rows.
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [85 chans in spw 22]
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:10:21	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:10:24	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:10:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:10:24	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:10:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 0.000184977
+2018-03-15 03:10:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11051
+2018-03-15 03:10:25	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96463_X1646_target.ms Field 3 SPW 22 ChanRange 10~94: 0.000184977344669 Jy/beam
+2018-03-15 03:10:25	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62267475668 from 0.000184977344669 Jy/beam to 0.000300158067752 Jy/beam
+2018-03-15 03:10:25	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 507150 out of 1521450 rows.
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:10:26	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:11:08	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:11:08	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:11:08	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:11:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 3.13164e-05
+2018-03-15 03:11:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12269
+2018-03-15 03:11:41	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96463_X1646_target.ms Field 3 SPW 22 ChanRange 784~3814: 3.13164372267e-05 Jy/beam
+2018-03-15 03:11:41	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 3.13164372267e-05 Jy/beam to 5.11407333936e-05 Jy/beam
+2018-03-15 03:11:41	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:11:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:11:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:11:41	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:374~2766
+2018-03-15 03:11:42	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 507150 out of 1521450 rows.
+2018-03-15 03:11:42	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2393 chans in spw 24]
+2018-03-15 03:11:42	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:11:42	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:11:42	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:11:42	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:12:14	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:12:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:12:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:12:39	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 3.39464e-05
+2018-03-15 03:12:39	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12127
+2018-03-15 03:12:39	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96463_X1646_target.ms Field 3 SPW 24 ChanRange 374~2766: 3.39464220353e-05 Jy/beam
+2018-03-15 03:12:39	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295122929 from 3.39464220353e-05 Jy/beam to 5.54328515925e-05 Jy/beam
+2018-03-15 03:12:39	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:13~1149
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 507150 out of 1521450 rows.
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1137 chans in spw 26]
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:12:40	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:12:56	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:12:56	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:12:56	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:13:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 4.41475e-05
+2018-03-15 03:13:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11771
+2018-03-15 03:13:09	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96463_X1646_target.ms Field 3 SPW 26 ChanRange 13~1149: 4.41475474187e-05 Jy/beam
+2018-03-15 03:13:09	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63252933583 from 4.41475474187e-05 Jy/beam to 7.20721662658e-05 Jy/beam
+2018-03-15 03:13:09	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:13:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:13:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:13:09	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:10~94
+2018-03-15 03:13:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 463540 out of 1390620 rows.
+2018-03-15 03:13:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [85 chans in spw 22]
+2018-03-15 03:13:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:13:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:13:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:13:10	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:13:12	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:13:12	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:13:12	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:13:13	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 0.000184899
+2018-03-15 03:13:13	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.11582
+2018-03-15 03:13:13	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96f17_X113a_target.ms Field 3 SPW 22 ChanRange 10~94: 0.000184898515607 Jy/beam
+2018-03-15 03:13:13	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.62267475668 from 0.000184898515607 Jy/beam to 0.000300030153823 Jy/beam
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 22:784~3814
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 463540 out of 1390620 rows.
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [3031 chans in spw 22]
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[22] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:13:14	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:13:50	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:13:50	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:13:50	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:14:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 3.12083e-05
+2018-03-15 03:14:18	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12464
+2018-03-15 03:14:18	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96f17_X113a_target.ms Field 3 SPW 22 ChanRange 784~3814: 3.12082581889e-05 Jy/beam
+2018-03-15 03:14:18	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63303165757 from 3.12082581889e-05 Jy/beam to 5.09640736001e-05 Jy/beam
+2018-03-15 03:14:18	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 24:374~2766
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 463540 out of 1390620 rows.
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [2393 chans in spw 24]
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[24] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:14:19	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:14:48	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:14:48	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:14:48	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 3.2787e-05
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.12338
+2018-03-15 03:15:11	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96f17_X113a_target.ms Field 3 SPW 24 ChanRange 374~2766: 3.27869765042e-05 Jy/beam
+2018-03-15 03:15:11	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63295122929 from 3.27869765042e-05 Jy/beam to 5.35395335872e-05 Jy/beam
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::Imager::open() 	Opening MeasurementSet /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on fields : 3
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selecting on spectral windows expression : 26:13~1149
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected 463540 out of 1390620 rows.
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::data selection	Selected: [1137 chans in spw 26]
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	Defining image properties:nx=1890 ny=1890 cellx='0.021arcsec' celly='0.021arcsec' stokes=I' mode=MFS nchan=-1 start=0 step=0 spwids=[26] fieldid=0 facets=1 frame=1 distance='0'
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::defineimage()	 phaseCenter='field-0 ' mStart='Radialvelocity: 0' qStep='0 '' mFreqStart='Frequency: 0
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Weighting MS: Imaging weights will be changed
+2018-03-15 03:15:11	INFO	pipeline.hif.heuristics.imageparams_base::imager::weight()	Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:15:25	INFO	pipeline.hif.heuristics.imageparams_base::VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:15:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Calculating apparent sensitivity from MS weights, as modified by gridding weight function
+2018-03-15 03:15:25	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	(assuming that MS weights have correct scale and units)
+2018-03-15 03:15:36	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	RMS Point source sensitivity  : 4.37917e-05
+2018-03-15 03:15:36	INFO	pipeline.hif.heuristics.imageparams_base::imager::apparentSensitivity() 	Relative to natural weighting : 1.1205
+2018-03-15 03:15:36	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	apparentsens result for MS uid___A002_Xc96f17_X113a_target.ms Field 3 SPW 26 ChanRange 13~1149: 4.37916779173e-05 Jy/beam
+2018-03-15 03:15:36	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_base::	Effective BW heuristic: Correcting apparentsens result by 1.63252933583 from 4.37916779173e-05 Jy/beam to 7.1491198865e-05 Jy/beam
+2018-03-15 03:15:36	INFO	hif_makeimages::pipeline.hif.tasks.tclean.tclean::	Sensitivity estimate: 7.30947613337e-06 Jy
+2018-03-15 03:15:36	INFO	hif_makeimages::pipeline.hif.tasks.tclean.tclean::	Compute the dirty image
+2018-03-15 03:15:46	INFO	hif_makeimages::pipeline.hif.heuristics.imageparams_alma::	autobox heuristic: Representative baseline length is 1085.2 meter
+2018-03-15 03:15:46	INFO	hif_makeimages::pipeline.infrastructure.jobrequest::	Executing tclean(phasecenter='ICRS 02:42:40.7090 -000.00.47.945', scan=['33,11,13,16,18,22,24,27,29', '9,11,14,16,20,22,25,27,31', '11,13,16,18,22,24,27,29', '9,11,14,16,20,22,25,27,31', '7,9,11,13,14,18,20,22,24,25,29', '7,9,11,13,14,18,20,22,24,25,29', '7,9,11,13,14,18,20,22,24,25,29', '7,9,11,13,14,18,20,22,24,25,29'], stokes='I', spw=['22:258.6003833~258.642375488GHz;258.978312988~260.458781738GHz,24:257.277576924~258.446522237GHz,26:244.389123337~244.944299118GHz', '22:258.60056629~258.642558477GHz;258.978984259~260.458964727GHz,24:257.277758856~258.446704168GHz,26:244.389302326~244.944478107GHz', '22:258.600450229~258.642442416GHz;258.978868197~260.458848666GHz,24:257.277643466~258.446588778GHz,26:244.389188802~244.944364583GHz', '22:258.60070279~258.642694977GHz;258.979120759~260.459101227GHz,24:257.277894567~258.446839879GHz,26:244.389435841~244.944611622GHz', '22:258.555160394~258.5966643GHz;258.933090082~260.41307055GHz,24:257.232618306~258.401075337GHz,26:244.34587647~244.901540532GHz', '22:258.554039027~258.595542933GHz;258.931968714~260.411949183GHz,24:257.231503422~258.399960453GHz,26:244.344779621~244.900443683GHz', '22:258.551459798~258.592963704GHz;258.929389485~260.409369954GHz,24:257.228939105~258.397396136GHz,26:244.342745068~244.89792085GHz', '22:258.551324859~258.592828765GHz;258.929254547~260.409235015GHz,24:257.228804947~258.397261978GHz,26:244.34261308~244.897788861GHz'], vis=['uid___A002_Xc27dd7_X2fc3_target.ms', 'uid___A002_Xc27dd7_X6983_target.ms', 'uid___A002_Xc27dd7_X6c8e_target.ms', 'uid___A002_Xc2b007_X877_target.ms', 'uid___A002_Xc8592e_Xaea3_target.ms', 'uid___A002_Xc89480_X8c7d_target.ms', 'uid___A002_Xc96463_X1646_target.ms', 'uid___A002_Xc96f17_X113a_target.ms'], imagename='uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0', lownoisethreshold=1.5, noisethreshold=5.0, threshold='0.0mJy', sidelobethreshold=3.0, imsize=[1890, 1890], pbcor=False, npixels=0, negativethreshold=0.0, cell=['0.021arcsec'], field='NGC1068', outframe='LSRK', gridder='standard', growiterations=75, datacolumn='data', savemodel='none', restoration=False, intent='OBSERVE_TARGET#ON_SOURCE', robust=0.5, usemask='auto-multithresh', parallel=False, niter=0, minbeamfrac=0.3, nchan=-1, deconvolver='hogbom', weighting='briggs', pblimit=0.2, restoringbeam='common', specmode='mfs', chanchunks=-1, interactive=0)
+2018-03-15 03:15:46	INFO	tclean::::	
+2018-03-15 03:15:46	INFO	tclean::::	##########################################
+2018-03-15 03:15:46	INFO	tclean::::	##### Begin Task: tclean           #####
+2018-03-15 03:15:46	INFO	tclean::::	
+2018-03-15 03:15:46	INFO	tclean::::	Verifying Input Parameters
+2018-03-15 03:15:46	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.6003833~258.642375488GHz;258.978312988~260.458781738GHz,24:257.277576924~258.446522237GHz,26:244.389123337~244.944299118GHz | Selecting on scan : 33,11,13,16,18,22,24,27,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:15:46	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1589070
+2018-03-15 03:15:47	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.60056629~258.642558477GHz;258.978984259~260.458964727GHz,24:257.277758856~258.446704168GHz,26:244.389302326~244.944478107GHz | Selecting on scan : 9,11,14,16,20,22,25,27,31 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:15:47	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1455300
+2018-03-15 03:15:49	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.600450229~258.642442416GHz;258.978868197~260.458848666GHz,24:257.277643466~258.446588778GHz,26:244.389188802~244.944364583GHz | Selecting on scan : 11,13,16,18,22,24,27,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:15:49	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1277100
+2018-03-15 03:15:51	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.60070279~258.642694977GHz;258.979120759~260.459101227GHz,24:257.277894567~258.446839879GHz,26:244.389435841~244.944611622GHz | Selecting on scan : 9,11,14,16,20,22,25,27,31 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:15:51	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1455300
+2018-03-15 03:15:53	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.555160394~258.5966643GHz;258.933090082~260.41307055GHz,24:257.232618306~258.401075337GHz,26:244.34587647~244.901540532GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:15:53	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1589070
+2018-03-15 03:15:56	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.554039027~258.595542933GHz;258.931968714~260.411949183GHz,24:257.231503422~258.399960453GHz,26:244.344779621~244.900443683GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:15:56	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1589070
+2018-03-15 03:16:00	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.551459798~258.592963704GHz;258.929389485~260.409369954GHz,24:257.228939105~258.397396136GHz,26:244.342745068~244.89792085GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:16:00	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1521450
+2018-03-15 03:16:04	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.551324859~258.592828765GHz;258.929254547~260.409235015GHz,24:257.228804947~258.397261978GHz,26:244.34261308~244.897788861GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 03:16:04	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1390620
+2018-03-15 03:16:08	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0] : 
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::defineImage 	Impars : start 
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::defineImage 	Shape : [1890, 1890, 1, 1]Spectral : [2.5241e+11] at [0] with increment [1.60693e+10]
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0] with ftmachine : gridft
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::appendToMapperList(ftm)	Automatically calculate chanchunks using imshape : [1890, 1890, 1, 1]
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::appendToMapperList(ftm)	Required memory 0.177979
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::appendToMapperList(ftm)+	Available memory 96 (rc: memory fraction 80% rc memory -0.000976562)
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::appendToMapperList(ftm)+	1 other processes on node
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::appendToMapperList(ftm)+	Setting chanchunks to 1
+2018-03-15 03:16:09	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 03:33:51	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 03:33:51	INFO	task_tclean::SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2018-03-15 04:20:51	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 04:20:51	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 04:20:52	INFO	task_tclean::SIImageStore::calcSensitivity 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0] Theoretical sensitivity (Jy/bm):2.49699e-06 
+2018-03-15 04:20:52	INFO	task_tclean::SIImageStore::printBeamSet 	Beam : 0.149535 arcsec, 0.102544 arcsec, -87.7368 deg
+2018-03-15 04:20:52	INFO	task_tclean::SynthesisImagerVi2::makePrimaryBeam 	vi2 : Evaluating Primary Beam model onto image grid(s)
+2018-03-15 04:20:57	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 04:20:57	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 04:20:57	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 1 -------------------------------------
+2018-03-15 05:24:19	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 05:24:19	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 05:24:20	INFO	tclean::::	
+2018-03-15 05:24:20	INFO	tclean::::	##### End Task: tclean           #####
+2018-03-15 05:24:20	INFO	tclean::::	##########################################
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.heuristics.cleanbox::	Residual rms in the annulus: 3.13036430541e-05
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.heuristics.cleanbox::	Residual max: 0.0112157585099 min: -0.000431050139014
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.basecleansequence::	Residual peak: 0.0112157585099
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.basecleansequence::	Residual scaled MAD: 2.86947948771e-05
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.basecleansequence::	Residual peak / scaled MAD: 390.863867749
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Dirty image stats
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual rms: 3.13036430541e-05
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual max: 0.0112157585099
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual min: -0.000431050139014
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual scaled MAD: 2.86947948771e-05
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.heuristics.imageparams_alma::	DR heuristic: Applying maxSciEDR(Main array)=150.0
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.heuristics.imageparams_alma::	DR heuristic: Modified threshold from 1.46189522667e-05 Jy to 0.000149543446799 Jy based on dirty dynamic range calculated from dirty peak / final theoretical sensitivity: 1534.4
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.heuristics.imageparams_alma::	niter heuristic: Modified niter from 5000 to 100000000 based on mask vs. beam size heuristic
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Copying uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0.pb to uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.pb
+2018-03-15 05:24:24	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Copying uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0.psf to uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.psf
+2018-03-15 05:24:25	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Copying uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0.residual to uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.residual
+2018-03-15 05:24:25	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Copying uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter0.sumwt to uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.sumwt
+2018-03-15 05:24:25	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Iteration 1: Clean control parameters
+2018-03-15 05:24:25	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Mask /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.mask
+2018-03-15 05:24:25	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Threshold 0.000149543446799Jy
+2018-03-15 05:24:25	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Niter 100000000
+2018-03-15 05:24:33	INFO	tclean::pipeline.hif.heuristics.imageparams_alma::	autobox heuristic: Representative baseline length is 1085.2 meter
+2018-03-15 05:24:33	INFO	tclean::pipeline.infrastructure.jobrequest::	Executing tclean(phasecenter='ICRS 02:42:40.7090 -000.00.47.945', scan=['33,11,13,16,18,22,24,27,29', '9,11,14,16,20,22,25,27,31', '11,13,16,18,22,24,27,29', '9,11,14,16,20,22,25,27,31', '7,9,11,13,14,18,20,22,24,25,29', '7,9,11,13,14,18,20,22,24,25,29', '7,9,11,13,14,18,20,22,24,25,29', '7,9,11,13,14,18,20,22,24,25,29'], stokes='I', spw=['22:258.6003833~258.642375488GHz;258.978312988~260.458781738GHz,24:257.277576924~258.446522237GHz,26:244.389123337~244.944299118GHz', '22:258.60056629~258.642558477GHz;258.978984259~260.458964727GHz,24:257.277758856~258.446704168GHz,26:244.389302326~244.944478107GHz', '22:258.600450229~258.642442416GHz;258.978868197~260.458848666GHz,24:257.277643466~258.446588778GHz,26:244.389188802~244.944364583GHz', '22:258.60070279~258.642694977GHz;258.979120759~260.459101227GHz,24:257.277894567~258.446839879GHz,26:244.389435841~244.944611622GHz', '22:258.555160394~258.5966643GHz;258.933090082~260.41307055GHz,24:257.232618306~258.401075337GHz,26:244.34587647~244.901540532GHz', '22:258.554039027~258.595542933GHz;258.931968714~260.411949183GHz,24:257.231503422~258.399960453GHz,26:244.344779621~244.900443683GHz', '22:258.551459798~258.592963704GHz;258.929389485~260.409369954GHz,24:257.228939105~258.397396136GHz,26:244.342745068~244.89792085GHz', '22:258.551324859~258.592828765GHz;258.929254547~260.409235015GHz,24:257.228804947~258.397261978GHz,26:244.34261308~244.897788861GHz'], vis=['uid___A002_Xc27dd7_X2fc3_target.ms', 'uid___A002_Xc27dd7_X6983_target.ms', 'uid___A002_Xc27dd7_X6c8e_target.ms', 'uid___A002_Xc2b007_X877_target.ms', 'uid___A002_Xc8592e_Xaea3_target.ms', 'uid___A002_Xc89480_X8c7d_target.ms', 'uid___A002_Xc96463_X1646_target.ms', 'uid___A002_Xc96f17_X113a_target.ms'], imagename='uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1', lownoisethreshold=1.5, noisethreshold=5.0, threshold='0.000149543446799Jy', sidelobethreshold=3.0, imsize=[1890, 1890], pbcor=True, npixels=0, negativethreshold=0.0, cell=['0.021arcsec'], field='NGC1068', outframe='LSRK', gridder='standard', growiterations=75, datacolumn='data', savemodel='none', restoration=True, intent='OBSERVE_TARGET#ON_SOURCE', robust=0.5, usemask='auto-multithresh', calcpsf=False, restart=True, niter=100000000, minbeamfrac=0.3, nchan=-1, deconvolver='hogbom', weighting='briggs', calcres=False, pblimit=0.2, restoringbeam='common', specmode='mfs', parallel=False, chanchunks=-1, interactive=0)
+2018-03-15 05:24:33	INFO	tclean::::	
+2018-03-15 05:24:33	INFO	tclean::::	##########################################
+2018-03-15 05:24:33	INFO	tclean::::	##### Begin Task: tclean           #####
+2018-03-15 05:24:33	INFO	tclean::::	
+2018-03-15 05:24:33	INFO	tclean::::	Verifying Input Parameters
+2018-03-15 05:24:34	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.6003833~258.642375488GHz;258.978312988~260.458781738GHz,24:257.277576924~258.446522237GHz,26:244.389123337~244.944299118GHz | Selecting on scan : 33,11,13,16,18,22,24,27,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:35	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1589070
+2018-03-15 05:24:36	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.60056629~258.642558477GHz;258.978984259~260.458964727GHz,24:257.277758856~258.446704168GHz,26:244.389302326~244.944478107GHz | Selecting on scan : 9,11,14,16,20,22,25,27,31 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:36	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1455300
+2018-03-15 05:24:38	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.600450229~258.642442416GHz;258.978868197~260.458848666GHz,24:257.277643466~258.446588778GHz,26:244.389188802~244.944364583GHz | Selecting on scan : 11,13,16,18,22,24,27,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:39	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1277100
+2018-03-15 05:24:41	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.60070279~258.642694977GHz;258.979120759~260.459101227GHz,24:257.277894567~258.446839879GHz,26:244.389435841~244.944611622GHz | Selecting on scan : 9,11,14,16,20,22,25,27,31 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:41	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1455300
+2018-03-15 05:24:44	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.555160394~258.5966643GHz;258.933090082~260.41307055GHz,24:257.232618306~258.401075337GHz,26:244.34587647~244.901540532GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:44	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1589070
+2018-03-15 05:24:47	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.554039027~258.595542933GHz;258.931968714~260.411949183GHz,24:257.231503422~258.399960453GHz,26:244.344779621~244.900443683GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:48	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1589070
+2018-03-15 05:24:52	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.551459798~258.592963704GHz;258.929389485~260.409369954GHz,24:257.228939105~258.397396136GHz,26:244.342745068~244.89792085GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:52	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1521450
+2018-03-15 05:24:56	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22:258.551324859~258.592828765GHz;258.929254547~260.409235015GHz,24:257.228804947~258.397261978GHz,26:244.34261308~244.897788861GHz | Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29 | Selecting on Scan Intent/State : OBSERVE_TARGET#ON_SOURCE | [Opened in readonly mode]
+2018-03-15 05:24:56	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 1390620
+2018-03-15 05:25:01	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] : 
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::defineImage 	Impars : start 
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::defineImage 	Shape : [1890, 1890, 1, 1]Spectral : [2.5241e+11] at [0] with increment [1.60693e+10]
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] with ftmachine : gridft
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::appendToMapperList(ftm)	Automatically calculate chanchunks using imshape : [1890, 1890, 1, 1]
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::appendToMapperList(ftm)	Required memory 0.177979
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::appendToMapperList(ftm)+	Available memory 96 (rc: memory fraction 80% rc memory -0.000976562)
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::appendToMapperList(ftm)+	1 other processes on node
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::appendToMapperList(ftm)+	Setting chanchunks to 1
+2018-03-15 05:25:02	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2018-03-15 05:42:54	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-15 05:42:54	INFO	task_tclean::SynthesisDeconvolver::setupDeconvolution 	Set Deconvolution Options for [uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] : hogbom
+2018-03-15 05:42:54	INFO	task_tclean::SynthesisIterBot::setupIteration 	Set Iteration Control Options
+2018-03-15 05:42:54	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) over full image : (0.0112158,-0.00043105)
+2018-03-15 05:42:54	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0
+2018-03-15 05:42:54	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Setting up an auto-mask
+2018-03-15 05:42:54	INFO	task_tclean::SynthesisDeconvolver::setAutoMask 	Generating AutoMask
+2018-03-15 05:42:54	INFO	task_tclean::SDMaskHandler::autoMask 	SidelobeLevel = 0.12807
+2018-03-15 05:42:54	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	prune size=11.8195(minbeamfrac=0.3 * beampix=39.3983)
+2018-03-15 05:42:54	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 rms from MAD (mads*1.4826)= [2.86948e-05]
+2018-03-15 05:42:54	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 Using sidelobe threshold for chan 0 threshold=0.00430921
+2018-03-15 05:42:54	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the current mask
+2018-03-15 05:42:54	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 05:42:57	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] No regions are removed in pruning process.
+2018-03-15 05:42:58	INFO	task_tclean::SynthesisDeconvolver::setupMask 	----------------------------------------------------------------------------------------------------------------------------------------
+2018-03-15 05:42:58	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Number of pixels in the clean mask : 287 out of a total of 3.5721e+06 pixels. [ 0.00803449 % ]
+2018-03-15 05:42:59	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) within mask : (0.0112158,-0) over full image : (0.0112158,-0.00043105)
+2018-03-15 05:42:59	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0
+2018-03-15 05:42:59	INFO	task_tclean::SynthesisDeconvolver::executeMinorCycle 	---------------------------------------------------- Run Minor Cycle Iterations  ---------------------------------------------
+2018-03-15 05:42:59	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Run Hogbom minor-cycle | CycleThreshold=0.0014364, CycleNiter=100000000, Gain=0.1
+2018-03-15 05:42:59	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] iters=0->21 [21], model=0->0.0100421, peakres=0.0112158->0.00134164, Reached cyclethreshold.
+2018-03-15 05:42:59	INFO	task_tclean::SIIterBot_state::mergeCycleExecutionRecord 	Completed 21 iterations.
+2018-03-15 05:42:59	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 05:42:59	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 05:42:59	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 1 -------------------------------------
+2018-03-15 07:35:34	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 07:35:34	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 07:35:34	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Setting up an auto-mask
+2018-03-15 07:35:34	INFO	task_tclean::SynthesisDeconvolver::setAutoMask 	Generating AutoMask
+2018-03-15 07:35:35	INFO	task_tclean::SDMaskHandler::autoMask 	SidelobeLevel = 0.12807
+2018-03-15 07:35:35	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	prune size=11.8195(minbeamfrac=0.3 * beampix=39.3983)
+2018-03-15 07:35:35	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 rms from MAD (mads*1.4826)= [1.97576e-05]
+2018-03-15 07:35:35	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 Using sidelobe threshold for chan 0 threshold=0.00130589
+2018-03-15 07:35:35	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the current mask
+2018-03-15 07:35:35	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 07:35:38	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] pruneRegions removed 1 regions (out of 2 ) from the mask image. 
+2018-03-15 07:35:39	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Growing the previous mask 
+2018-03-15 07:35:57	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the growed previous mask 
+2018-03-15 07:35:57	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 07:35:59	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] pruneRegions removed 1 regions (out of 1 ) from the mask image. 
+2018-03-15 07:36:01	INFO	task_tclean::SynthesisDeconvolver::setupMask 	----------------------------------------------------------------------------------------------------------------------------------------
+2018-03-15 07:36:01	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Number of pixels in the clean mask : 631 out of a total of 3.5721e+06 pixels. [ 0.0176647 % ]
+2018-03-15 07:36:01	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) within mask : (0.0033989,-0) over full image : (0.0033989,-0.000152505)
+2018-03-15 07:36:01	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0.0100421
+2018-03-15 07:36:01	INFO	task_tclean::SynthesisDeconvolver::executeMinorCycle 	---------------------------------------------------- Run Minor Cycle Iterations  ---------------------------------------------
+2018-03-15 07:36:01	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Run Hogbom minor-cycle | CycleThreshold=0.000435298, CycleNiter=99999979, Gain=0.1
+2018-03-15 07:36:02	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] iters=0->72 [72], model=0.0100421->0.0172442, peakres=0.0033989->0.000434665, Reached cyclethreshold.
+2018-03-15 07:36:02	INFO	task_tclean::SIIterBot_state::mergeCycleExecutionRecord 	Completed 93 iterations.
+2018-03-15 07:36:02	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 07:36:02	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 07:36:02	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 2 -------------------------------------
+2018-03-15 09:29:23	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 09:29:23	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 09:29:24	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Setting up an auto-mask
+2018-03-15 09:29:24	INFO	task_tclean::SynthesisDeconvolver::setAutoMask 	Generating AutoMask
+2018-03-15 09:29:24	INFO	task_tclean::SDMaskHandler::autoMask 	SidelobeLevel = 0.12807
+2018-03-15 09:29:24	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	prune size=11.8195(minbeamfrac=0.3 * beampix=39.3983)
+2018-03-15 09:29:24	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 rms from MAD (mads*1.4826)= [1.63486e-05]
+2018-03-15 09:29:24	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 Using sidelobe threshold for chan 0 threshold=0.000459016
+2018-03-15 09:29:24	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the current mask
+2018-03-15 09:29:24	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 09:29:27	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] No regions are removed in pruning process.
+2018-03-15 09:29:28	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Growing the previous mask 
+2018-03-15 09:29:47	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the growed previous mask 
+2018-03-15 09:29:47	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 09:29:47	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] No regions are found in this plane.
+2018-03-15 09:29:49	INFO	task_tclean::SynthesisDeconvolver::setupMask 	----------------------------------------------------------------------------------------------------------------------------------------
+2018-03-15 09:29:49	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Number of pixels in the clean mask : 1694 out of a total of 3.5721e+06 pixels. [ 0.0474231 % ]
+2018-03-15 09:29:49	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) within mask : (0.0011947,-0) over full image : (0.0011947,-8.99837e-05)
+2018-03-15 09:29:49	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0.0172442
+2018-03-15 09:29:49	INFO	task_tclean::SynthesisDeconvolver::executeMinorCycle 	---------------------------------------------------- Run Minor Cycle Iterations  ---------------------------------------------
+2018-03-15 09:29:49	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Run Hogbom minor-cycle | CycleThreshold=0.000153005, CycleNiter=99999907, Gain=0.1
+2018-03-15 09:29:51	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] iters=0->276 [276], model=0.0172442->0.0256279, peakres=0.0011947->0.000152958, Reached cyclethreshold.
+2018-03-15 09:29:51	INFO	task_tclean::SIIterBot_state::mergeCycleExecutionRecord 	Completed 369 iterations.
+2018-03-15 09:29:51	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 09:29:51	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 09:29:51	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run Major Cycle 3 -------------------------------------
+2018-03-15 11:23:20	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 11:23:20	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 11:23:20	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Setting up an auto-mask
+2018-03-15 11:23:20	INFO	task_tclean::SynthesisDeconvolver::setAutoMask 	Generating AutoMask
+2018-03-15 11:23:21	INFO	task_tclean::SDMaskHandler::autoMask 	SidelobeLevel = 0.12807
+2018-03-15 11:23:21	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	prune size=11.8195(minbeamfrac=0.3 * beampix=39.3983)
+2018-03-15 11:23:21	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 rms from MAD (mads*1.4826)= [1.46423e-05]
+2018-03-15 11:23:21	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 Using sidelobe threshold for chan 0 threshold=0.000165377
+2018-03-15 11:23:21	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the current mask
+2018-03-15 11:23:21	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 11:23:24	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] pruneRegions removed 5 regions (out of 14 ) from the mask image. 
+2018-03-15 11:23:26	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Growing the previous mask 
+2018-03-15 11:23:45	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the growed previous mask 
+2018-03-15 11:23:45	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 11:23:45	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] No regions are found in this plane.
+2018-03-15 11:23:46	INFO	task_tclean::SynthesisDeconvolver::setupMask 	----------------------------------------------------------------------------------------------------------------------------------------
+2018-03-15 11:23:46	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Number of pixels in the clean mask : 5639 out of a total of 3.5721e+06 pixels. [ 0.157862 % ]
+2018-03-15 11:23:47	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) within mask : (0.000430432,-2.74623e-05) over full image : (0.000430432,-7.59985e-05)
+2018-03-15 11:23:47	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0.0256279
+2018-03-15 11:23:47	INFO	task_tclean::SynthesisDeconvolver::executeMinorCycle 	---------------------------------------------------- Run Minor Cycle Iterations  ---------------------------------------------
+2018-03-15 11:23:47	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Run Hogbom minor-cycle | CycleThreshold=0.000149543, CycleNiter=99999631, Gain=0.1
+2018-03-15 11:23:48	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] iters=0->165 [165], model=0.0256279->0.0291042, peakres=0.000430432->0.000149276, Reached cyclethreshold.
+2018-03-15 11:23:48	INFO	task_tclean::SIIterBot_state::mergeCycleExecutionRecord 	Completed 534 iterations.
+2018-03-15 11:23:48	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 11:23:48	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 11:23:48	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 4 -------------------------------------
+2018-03-15 13:15:47	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 13:15:47	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 13:15:47	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Setting up an auto-mask
+2018-03-15 13:15:47	INFO	task_tclean::SynthesisDeconvolver::setAutoMask 	Generating AutoMask
+2018-03-15 13:15:48	INFO	task_tclean::SDMaskHandler::autoMask 	SidelobeLevel = 0.12807
+2018-03-15 13:15:48	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	prune size=11.8195(minbeamfrac=0.3 * beampix=39.3983)
+2018-03-15 13:15:48	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 rms from MAD (mads*1.4826)= [1.4119e-05]
+2018-03-15 13:15:48	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 Using sidelobe threshold for chan 0 threshold=7.23713e-05
+2018-03-15 13:15:48	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the current mask
+2018-03-15 13:15:48	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 13:15:57	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] pruneRegions removed 47 regions (out of 85 ) from the mask image. 
+2018-03-15 13:15:59	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Growing the previous mask 
+2018-03-15 13:16:14	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the growed previous mask 
+2018-03-15 13:16:15	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 13:16:17	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] No regions are removed in pruning process.
+2018-03-15 13:16:19	INFO	task_tclean::SynthesisDeconvolver::setupMask 	----------------------------------------------------------------------------------------------------------------------------------------
+2018-03-15 13:16:19	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Number of pixels in the clean mask : 20596 out of a total of 3.5721e+06 pixels. [ 0.57658 % ]
+2018-03-15 13:16:19	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) within mask : (0.000188364,-6.28677e-05) over full image : (0.000188364,-8.01978e-05)
+2018-03-15 13:16:20	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0.0291042
+2018-03-15 13:16:20	INFO	task_tclean::SynthesisDeconvolver::executeMinorCycle 	---------------------------------------------------- Run Minor Cycle Iterations  ---------------------------------------------
+2018-03-15 13:16:20	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Run Hogbom minor-cycle | CycleThreshold=0.000149543, CycleNiter=99999466, Gain=0.1
+2018-03-15 13:16:20	INFO	task_tclean::SDAlgorithmBase::deconvolve 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] iters=0->11 [11], model=0.0291042->0.0292812, peakres=0.000188364->0.00014887, Reached cyclethreshold.
+2018-03-15 13:16:20	INFO	task_tclean::SIIterBot_state::mergeCycleExecutionRecord 	Completed 545 iterations.
+2018-03-15 13:16:20	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 13:16:20	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 13:16:20	INFO	task_tclean::SynthesisImager::executeMajorCycle 	----------------------------------------------------------- Run (Last) Major Cycle 5 -------------------------------------
+2018-03-15 15:14:02	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-15 15:14:02	INFO	task_tclean::SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-15 15:14:02	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Setting up an auto-mask
+2018-03-15 15:14:02	INFO	task_tclean::SynthesisDeconvolver::setAutoMask 	Generating AutoMask
+2018-03-15 15:14:03	INFO	task_tclean::SDMaskHandler::autoMask 	SidelobeLevel = 0.12807
+2018-03-15 15:14:03	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	prune size=11.8195(minbeamfrac=0.3 * beampix=39.3983)
+2018-03-15 15:14:03	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 rms from MAD (mads*1.4826)= [1.40972e-05]
+2018-03-15 15:14:03	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	 Using noise threshold for chan 0 threshold=7.04862e-05
+2018-03-15 15:14:03	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the current mask
+2018-03-15 15:14:03	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 15:14:11	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] pruneRegions removed 51 regions (out of 92 ) from the mask image. 
+2018-03-15 15:14:13	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Growing the previous mask 
+2018-03-15 15:14:31	INFO	task_tclean::SDMaskHandler::autoMaskByMultiThreshold 	Pruning the growed previous mask 
+2018-03-15 15:14:31	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	pruneRegions with size=11.8195 is applied
+2018-03-15 15:14:36	INFO	task_tclean::SDMaskHandler::YAPruneRegions 	[C0] pruneRegions removed 17 regions (out of 53 ) from the mask image. 
+2018-03-15 15:14:38	INFO	task_tclean::SynthesisDeconvolver::setupMask 	----------------------------------------------------------------------------------------------------------------------------------------
+2018-03-15 15:14:38	INFO	task_tclean::SynthesisDeconvolver::setupMask 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Number of pixels in the clean mask : 26156 out of a total of 3.5721e+06 pixels. [ 0.73223 % ]
+2018-03-15 15:14:38	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Peak residual (max,min) within mask : (0.00014887,-6.25847e-05) over full image : (0.00014887,-8.02454e-05)
+2018-03-15 15:14:38	INFO	task_tclean::SIImageStore::printImageStats 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] Total Model Flux : 0.0292812
+2018-03-15 15:14:38	INFO	tclean::::	Reached global stopping criterion : threshold
+2018-03-15 15:14:38	INFO	tclean::::	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] : Reverting output mask to one that was last used 
+2018-03-15 15:14:39	INFO	SDAlgorithmBase::restore 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] : Restoring model image.
+2018-03-15 15:14:39	INFO	task_tclean::SDAlgorithmBase::pbcor 	[uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1] : Applying PB correction
+2018-03-15 15:14:40	INFO	tclean::::	
+2018-03-15 15:14:40	INFO	tclean::::	##### End Task: tclean           #####
+2018-03-15 15:14:40	INFO	tclean::::	##########################################
+2018-03-15 15:14:43	INFO	tclean::pipeline.hif.tasks.tclean.cleanbase::	tclean used 545 iterations
+2018-03-15 15:14:45	INFO	tclean::pipeline.hif.heuristics.cleanbox::	Residual rms inside cleaned area: 7.71720098151e-05
+2018-03-15 15:14:45	INFO	tclean::pipeline.hif.heuristics.cleanbox::	Residual rms in the annulus: 1.27959331144e-05
+2018-03-15 15:14:45	INFO	tclean::pipeline.hif.heuristics.cleanbox::	Residual max: 0.000148870036355 min: -8.02453869255e-05
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.heuristics.cleanbox::	Clean image statistics (annulus) for uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image: rmsmedian: 1.29135846571e-05 Jy/bm rmsmean: 1.29135846571e-05 Jy/bm rmsmin: 1.29135846571e-05 Jy/bm rmsmax: 1.29135846571e-05 Jy/bm
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.basecleansequence::	Residual peak: 0.000148870036355
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.basecleansequence::	Residual scaled MAD: 1.40972333305e-05
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.basecleansequence::	Residual peak / scaled MAD: 10.5602307109
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	Clean image iter 1 stats
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Clean image annulus area rms: 1.29135846571e-05
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Clean image min: -0.000166997691849
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Clean image max: 0.0113117070869
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual annulus area rms: 1.27959331144e-05
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual cleanmask area rms: 7.71720098151e-05
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual max: 0.000148870036355
+2018-03-15 15:14:46	INFO	tclean::pipeline.hif.tasks.tclean.tclean::	    Residual min: -8.02453869255e-05

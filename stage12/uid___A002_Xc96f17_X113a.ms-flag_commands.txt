@@ -1,0 +1,14 @@
+# Flag commands for uid___A002_Xc96f17_X113a.ms
+#
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='22' antenna='DA45&DA57' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='22' antenna='DA57' field='J0238+1636' reason='bad antenna'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA43&DA57' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA45&DA57' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA54&DA57' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57&DA60' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57&DA61' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57&DV07' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57&DV22' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57&DV24' field='J0238+1636' reason='bad baseline'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57' field='J0238+1636' reason='bad antenna'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='26' antenna='DA57' field='J0238+1636' reason='bad antenna'

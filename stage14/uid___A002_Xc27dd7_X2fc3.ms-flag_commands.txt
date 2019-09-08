@@ -1,0 +1,3 @@
+# Flag commands for uid___A002_Xc27dd7_X2fc3.ms
+#
+intent='CALIBRATE_PHASE#ON_SOURCE' spw='24' antenna='DV04' timerange='2017/07/23/11:33:15~2017/07/23/11:33:16' field='J0239-0234' reason='bad antenna timestamp'

@@ -1,0 +1,1700 @@
+
+
+
+
+<div class="page-header">
+    <h1>6. T<sub>sys</sub> Calibration<button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+
+
+
+
+<script>
+$(document).ready(function() {
+    $(".fancybox").fancybox({
+        type: 'image',
+        prevEffect: 'none',
+        nextEffect: 'none',
+        loop: false,
+        helpers: {
+            title: {
+                type: 'outside'
+            },
+            thumbs: {
+                width: 50,
+                height: 50,
+            }
+        },
+    	beforeShow : function() {
+        	this.title = $(this.element).attr('title');
+       	}
+    }); 
+});
+</script>
+
+<p>This task generates a T<sub>sys</sub> calibration table, mapping each 
+science spectral window to the T<sub>sys</sub> window that overlaps in 
+frequency.</p>
+
+<h2>T<sub>sys</sub> window mapping</h2>
+<table class="table table-bordered table-striped">
+	<caption>Mapping of T<sub>sys</sub> window to science window</caption>
+	<thead>
+		<tr>
+			<th>Measurement Set</th>
+			<th>T<sub>sys</sub> window</th>
+			<th>Science windows</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rowspan="3">uid___A002_Xc27dd7_X2fc3.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc27dd7_X6983.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc27dd7_X6c8e.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc2b007_X877.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc8592e_Xaea3.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc89480_X8c7d.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc96463_X1646.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+		<tr>
+			<td rowspan="3">uid___A002_Xc96f17_X113a.ms</td>
+			<td>16</td>
+			<td>22</td>
+		</tr>
+		<tr>
+			
+			<td>18</td>
+			<td>24</td>
+		</tr>
+		<tr>
+			
+			<td>20</td>
+			<td>26</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h2>Plots</h2>
+
+
+        <h3>
+		T<sub>sys</sub> vs frequency
+	</h3>
+
+         
+		<p>Plots of time-averaged T<sub>sys</sub> vs frequency, colored by antenna.</p>
+	
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc27dd7_X2fc3.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc27dd7_X2fc3.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc27dd7_X2fc3.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc27dd7_X2fc3.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X2fc3.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X2fc3.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc27dd7_X2fc3.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc27dd7_X6983.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc27dd7_X6983.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc27dd7_X6983.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc27dd7_X6983.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X6983.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X6983.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6983.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc27dd7_X6983.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc27dd7_X6c8e.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc27dd7_X6c8e.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc27dd7_X6c8e.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc27dd7_X6c8e.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc27dd7_X6c8e.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc27dd7_X6c8e.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc27dd7_X6c8e.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc2b007_X877.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc2b007_X877.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc2b007_X877.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc2b007_X877.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc2b007_X877.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc2b007_X877.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc2b007_X877.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc2b007_X877.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc8592e_Xaea3.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc8592e_Xaea3.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc8592e_Xaea3.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc8592e_Xaea3.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc8592e_Xaea3.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc8592e_Xaea3.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc8592e_Xaea3.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc89480_X8c7d.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc89480_X8c7d.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc89480_X8c7d.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc89480_X8c7d.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc89480_X8c7d.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc89480_X8c7d.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc89480_X8c7d.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc89480_X8c7d.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc96463_X1646.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc96463_X1646.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc96463_X1646.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc96463_X1646.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc96463_X1646.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc96463_X1646.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96463_X1646.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc96463_X1646.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+        
+
+        <h4>
+            <a class="replace"
+               data-vis="uid___A002_Xc96f17_X113a.ms"
+               href="stage6/tsys-all_data.html">
+                uid___A002_Xc96f17_X113a.ms
+            </a>
+        </h4>
+
+
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw16.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 16<br/>
+		Science spws: 22
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw16.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw16.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw16.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 16"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw16.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="16"
+                               data-vis="uid___A002_Xc96f17_X113a.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 16
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 22.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw18.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 18<br/>
+		Science spws: 24
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw18.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw18.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw18.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 18"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw18.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="18"
+                               data-vis="uid___A002_Xc96f17_X113a.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 18
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 24.
+	</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-4">
+                
+
+                <div class="thumbnail">
+                    <a href="stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw20.png"
+                       class="fancybox"
+                       rel="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/stage6/tsys-all_data.html"
+                       title='<div class="pull-left">
+		T<sub>sys</sub> spw: 20<br/>
+		Science spws: 26
+	</div><div class="pull-right"><a href="stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw20.png">Full Size</a><br><a data-toggle="modal" data-target=".plot-command-modal">Plot command</a>
+
+<div class="modal fade plot-command-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Plot command</h4>
+      </div>
+      <div class="modal-body">
+        <p>plotbandpass(subplot=11, xaxis=&#39;freq&#39;, overlay=&#39;antenna,time&#39;, caltable=&#39;uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl&#39;, figfile=&#39;stage6/tsys-uid___A002_Xc96f17_X113a.ms-summary.png&#39;, showatm=True, yaxis=&#39;tsys&#39;, vis=&#39;uid___A002_Xc96f17_X113a.ms&#39;, chanrange=&#39;90%&#39;, spw=&#39;16,18,20&#39;, showfdm=True, interactive=False)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal --></div>'
+                       data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw20.png">
+                        <img src="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw20.png"
+                             title="Click to show Tsys vs frequency for Tsys spw 20"
+                             data-thumbnail="stage6/thumbs/tsys-uid___A002_Xc96f17_X113a.ms-summary.spw20.png">
+                    </a>
+
+                    <div class="caption">
+                        <h4>
+                            <a href="stage6/tsys-all_data.html"
+                               data-tsys_spw="20"
+                               data-vis="uid___A002_Xc96f17_X113a.ms"
+                               class="replace">
+                        
+		T<sub>sys</sub> spw 20
+	
+                            </a>
+                        </h4>
+
+                        <p>
+		Science spw 26.
+	</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end row -->
+
+
+
+
+
+
+<div class="clearfix"></div>
+<div class="panel-group" id="details-accordion" role="tablist" aria-multiselectable="true">
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Pipeline QA
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <table class="table table-bordered" summary="Pipeline QA summary">
+                    <caption>Pipeline QA summary for this task.</caption>
+                    <thead>
+                        <tr>
+                            <th>Score</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc27dd7_X2fc3.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc27dd7_X6983.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc27dd7_X6c8e.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc2b007_X877.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc8592e_Xaea3.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc89480_X8c7d.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc96463_X1646.ms </td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>Tsys spw map is complete for uid___A002_Xc96f17_X113a.ms </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Input Parameters
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>caltable</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.s6_0.tsyscal.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.s6_0.tsyscal.tbl']</dd>
+                    <dt>vis</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms']</dd>
+                    <dt>chantol</dt>
+                    <dd>1</dd>
+                    <dt>caltype</dt>
+                    <dd>tsys</dd>
+                    <dt>output_dir</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Tasks Execution Statistics
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Start time</dt>
+                    <dd>2018-03-10 08:44:19.650</dd>
+                    <dt>End</dt>
+                    <dd>2018-03-10 08:46:37.758</dd>
+                    <dt>Duration</dt>
+                    <dd>0:02:18.109</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">CASA logs for stage 6</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+    
+        <li><a href="stage6/casapy.log" class="replace-pre" data-title="CASA log for stage 6">View</a> or <a href="stage6/casapy.log" download="stage6/casapy.log">download</a> stage6/casapy.log (35.1 KB)</li>
+</ul>
+    </div>
+</div>

@@ -1,0 +1,833 @@
+2018-03-13 01:14:34	INFO	hif_mstransform::pipeline.infrastructure.basetask::	Starting execution for stage 23
+2018-03-13 01:14:36	INFO	hif_mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc27dd7_X2fc3.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:14:36	INFO	mstransform::::	
+2018-03-13 01:14:36	INFO	mstransform::::+	##########################################
+2018-03-13 01:14:36	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:14:36	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:14:36	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:14:36	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:14:36	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:14:36	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:14:36	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:14:36	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:14:36	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:14:36	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:14:36	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:14:36	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:14:37	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms
+2018-03-13 01:14:37	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:14:37	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 01:14:37	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:14:37	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:14:37	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:14:37	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:14:37	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:14:37	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:14:37	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:14:37	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:14:37	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:14:37	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:14:37	INFO	MSTransformManager::open	Select data
+2018-03-13 01:14:37	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:14:40	INFO	MSTransformDataHandler::makeSelection	1589070 out of 53995513 rows are going to be considered due to the selection criteria.
+2018-03-13 01:14:49	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:20:27	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:20:27	INFO	mstransform::::	
+2018-03-13 01:20:28	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:20:28	INFO	mstransform::::+	##########################################
+2018-03-13 01:20:29	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 01:20:29	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms...
+2018-03-13 01:20:29	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:20:29	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:20:33	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:20:33	WARN	mstransform::pipeline.infrastructure.tablereader::	Unable to identify representative target for uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:20:33	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:20:33	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:33	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:33	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:33	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:20:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:20:37	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:20:37	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:20:37	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:20:37	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:20:37	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:20:40	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc27dd7_X6983.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:20:40	INFO	mstransform::::	
+2018-03-13 01:20:40	INFO	mstransform::::+	##########################################
+2018-03-13 01:20:40	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:20:40	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:20:40	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:20:40	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:20:40	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:20:40	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:20:40	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:20:40	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:20:40	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:20:40	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:20:40	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:20:40	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:20:40	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms
+2018-03-13 01:20:40	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:20:40	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 01:20:40	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:20:40	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:20:40	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:20:40	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:20:40	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:20:40	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:20:40	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:20:40	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:20:40	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:20:40	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:20:40	INFO	MSTransformManager::open	Select data
+2018-03-13 01:20:40	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:20:43	INFO	MSTransformDataHandler::makeSelection	1455300 out of 48956776 rows are going to be considered due to the selection criteria.
+2018-03-13 01:20:53	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:25:48	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:25:48	INFO	mstransform::::	
+2018-03-13 01:25:49	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:25:49	INFO	mstransform::::+	##########################################
+2018-03-13 01:25:50	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 01:25:50	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms...
+2018-03-13 01:25:50	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:25:50	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:25:54	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:25:54	WARN	mstransform::pipeline.infrastructure.tablereader::	Unable to identify representative target for uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:25:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:25:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:55	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:55	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:56	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:56	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:57	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:57	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:57	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:57	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:57	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:25:57	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:25:57	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:25:57	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:25:57	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:25:57	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:25:57	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:26:00	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc27dd7_X6c8e.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:26:00	INFO	mstransform::::	
+2018-03-13 01:26:00	INFO	mstransform::::+	##########################################
+2018-03-13 01:26:00	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:26:00	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:26:00	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:26:00	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:26:00	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:26:00	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:26:00	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:26:00	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:26:00	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:26:00	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:26:00	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:26:00	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:26:00	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms
+2018-03-13 01:26:00	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:26:00	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 01:26:00	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:26:00	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:26:00	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:26:00	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:26:00	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:26:00	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:26:00	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:26:00	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:26:00	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:26:00	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:26:00	INFO	MSTransformManager::open	Select data
+2018-03-13 01:26:00	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:26:03	INFO	MSTransformDataHandler::makeSelection	1277100 out of 46120096 rows are going to be considered due to the selection criteria.
+2018-03-13 01:26:11	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:31:11	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:31:11	INFO	mstransform::::	
+2018-03-13 01:31:12	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:31:12	INFO	mstransform::::+	##########################################
+2018-03-13 01:31:13	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 01:31:13	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms...
+2018-03-13 01:31:13	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:31:13	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:31:17	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:31:17	WARN	mstransform::pipeline.infrastructure.tablereader::	Unable to identify representative target for uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:31:17	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:31:17	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:17	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:17	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:17	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:17	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:17	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:17	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:17	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:18	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:18	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:19	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:19	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:20	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:20	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:20	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:31:20	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:31:20	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:31:20	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:31:20	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:31:20	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:31:20	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:31:22	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc2b007_X877.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:31:22	INFO	mstransform::::	
+2018-03-13 01:31:22	INFO	mstransform::::+	##########################################
+2018-03-13 01:31:22	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:31:22	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:31:22	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:31:22	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:31:22	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:31:22	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:31:22	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:31:22	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:31:22	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:31:22	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:31:22	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:31:22	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:31:22	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms
+2018-03-13 01:31:22	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:31:22	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 01:31:22	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:31:22	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:31:22	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:31:22	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:31:22	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:31:22	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:31:22	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:31:22	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:31:22	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:31:22	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:31:22	INFO	MSTransformManager::open	Select data
+2018-03-13 01:31:22	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:31:26	INFO	MSTransformDataHandler::makeSelection	1455300 out of 48956864 rows are going to be considered due to the selection criteria.
+2018-03-13 01:31:34	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:36:21	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:36:21	INFO	mstransform::::	
+2018-03-13 01:36:22	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:36:22	INFO	mstransform::::+	##########################################
+2018-03-13 01:36:23	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 01:36:23	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms...
+2018-03-13 01:36:23	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:36:23	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:36:27	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:36:27	WARN	mstransform::pipeline.infrastructure.tablereader::	Unable to identify representative target for uid___A002_Xc2b007_X877_target.ms
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:36:27	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:36:27	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:27	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:27	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:27	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:27	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:27	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:27	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:27	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:28	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:28	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:29	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:29	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:30	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:30	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:30	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:30	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:30	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:36:30	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:36:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:36:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:36:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:36:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:36:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:36:32	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc8592e_Xaea3.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:36:32	INFO	mstransform::::	
+2018-03-13 01:36:32	INFO	mstransform::::+	##########################################
+2018-03-13 01:36:32	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:36:32	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:36:32	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:36:32	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:36:32	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:36:32	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:36:32	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:36:32	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:36:32	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:36:32	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:36:32	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:36:32	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:36:33	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms
+2018-03-13 01:36:33	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:36:33	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 01:36:33	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:36:33	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:36:33	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:36:33	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:36:33	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:36:33	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:36:33	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:36:33	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:36:33	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:36:33	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:36:33	INFO	MSTransformManager::open	Select data
+2018-03-13 01:36:33	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:36:36	INFO	MSTransformDataHandler::makeSelection	1589070 out of 49073076 rows are going to be considered due to the selection criteria.
+2018-03-13 01:36:45	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:45:28	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:45:28	INFO	mstransform::::	
+2018-03-13 01:45:29	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:45:29	INFO	mstransform::::+	##########################################
+2018-03-13 01:45:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 01:45:30	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms...
+2018-03-13 01:45:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:45:30	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:45:34	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.representative_target ...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:45:34	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:45:34	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:34	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:35	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:35	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:36	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:36	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:37	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:37	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:38	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:38	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:38	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:45:38	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:45:38	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:45:38	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:45:38	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:45:38	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:45:38	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:45:40	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc89480_X8c7d.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:45:40	INFO	mstransform::::	
+2018-03-13 01:45:40	INFO	mstransform::::+	##########################################
+2018-03-13 01:45:40	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:45:40	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:45:40	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:45:40	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:45:40	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:45:40	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:45:40	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:45:40	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:45:40	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:45:40	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:45:40	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:45:40	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:45:41	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms
+2018-03-13 01:45:41	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:45:41	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 01:45:41	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:45:41	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:45:41	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:45:41	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:45:41	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:45:41	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:45:41	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:45:41	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:45:41	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:45:41	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:45:41	INFO	MSTransformManager::open	Select data
+2018-03-13 01:45:41	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:45:44	INFO	MSTransformDataHandler::makeSelection	1589070 out of 49072662 rows are going to be considered due to the selection criteria.
+2018-03-13 01:45:54	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:51:37	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:51:37	INFO	mstransform::::	
+2018-03-13 01:51:38	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:51:38	INFO	mstransform::::+	##########################################
+2018-03-13 01:51:39	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 01:51:39	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms...
+2018-03-13 01:51:39	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:51:39	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:51:43	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.representative_target ...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:51:43	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:51:43	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:43	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:43	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:43	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:43	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:43	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:43	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:43	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:44	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:44	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:45	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:45	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:46	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:46	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:46	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:46	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:46	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:46	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:46	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:46	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:46	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:51:46	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:51:46	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:51:46	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:51:46	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:51:46	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:51:46	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:51:49	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc96463_X1646.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:51:49	INFO	mstransform::::	
+2018-03-13 01:51:49	INFO	mstransform::::+	##########################################
+2018-03-13 01:51:49	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:51:49	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:51:49	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:51:49	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:51:49	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:51:49	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:51:49	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:51:49	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:51:49	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:51:49	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:51:49	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:51:49	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:51:50	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms
+2018-03-13 01:51:50	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:51:50	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 01:51:50	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:51:50	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:51:50	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:51:50	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:51:50	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:51:50	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:51:50	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:51:50	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:51:50	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:51:50	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:51:50	INFO	MSTransformManager::open	Select data
+2018-03-13 01:51:50	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:51:53	INFO	MSTransformDataHandler::makeSelection	1521450 out of 47687445 rows are going to be considered due to the selection criteria.
+2018-03-13 01:52:01	INFO	mstransform::::	Apply the transformations
+2018-03-13 01:56:57	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 01:56:57	INFO	mstransform::::	
+2018-03-13 01:56:57	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 01:56:57	INFO	mstransform::::+	##########################################
+2018-03-13 01:56:59	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 01:56:59	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms...
+2018-03-13 01:56:59	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 01:56:59	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 01:57:03	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.representative_target ...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 01:57:03	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 01:57:03	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:03	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:03	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:03	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:03	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:03	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:03	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:03	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:04	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:04	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:05	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:05	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:06	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:06	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:06	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:06	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:06	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:06	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:06	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:06	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:06	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 01:57:06	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 01:57:06	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 01:57:06	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 01:57:06	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 01:57:06	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 01:57:06	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...
+2018-03-13 01:57:09	INFO	mstransform::pipeline.infrastructure.jobrequest::	Executing mstransform(vis='uid___A002_Xc96f17_X113a.ms', outputvis='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', field='NGC1068', datacolumn='corrected', reindex=False, spw='22,24,26')
+2018-03-13 01:57:09	INFO	mstransform::::	
+2018-03-13 01:57:09	INFO	mstransform::::+	##########################################
+2018-03-13 01:57:09	INFO	mstransform::::+	##### Begin Task: mstransform        #####
+2018-03-13 01:57:09	INFO	mstransform::::	mstransform(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms",outputvis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms",createmms=False,separationaxis="auto",numsubms="auto",
+2018-03-13 01:57:09	INFO	mstransform::::+	        tileshape=[0],field="NGC1068",spw="22,24,26",scan="",antenna="",
+2018-03-13 01:57:09	INFO	mstransform::::+	        correlation="",timerange="",intent="OBSERVE_TARGET#ON_SOURCE",array="",uvrange="",
+2018-03-13 01:57:09	INFO	mstransform::::+	        observation="",feed="",datacolumn="corrected",realmodelcol=False,keepflags=True,
+2018-03-13 01:57:09	INFO	mstransform::::+	        usewtspectrum=False,combinespws=False,chanaverage=False,chanbin=1,hanning=False,
+2018-03-13 01:57:09	INFO	mstransform::::+	        regridms=False,mode="channel",nchan=-1,start=0,width=1,
+2018-03-13 01:57:09	INFO	mstransform::::+	        nspw=1,interpolation="linear",phasecenter="",restfreq="",outframe="",
+2018-03-13 01:57:09	INFO	mstransform::::+	        veltype="radio",preaverage=False,timeaverage=False,timebin="0s",timespan="",
+2018-03-13 01:57:09	INFO	mstransform::::+	        maxuvwdistance=0.0,docallib=False,callib="",douvcontsub=False,fitspw="",
+2018-03-13 01:57:09	INFO	mstransform::::+	        fitorder=0,want_cont=False,denoising_lib=True,nthreads=1,niter=1,
+2018-03-13 01:57:09	INFO	mstransform::::+	        disableparallel=False,ddistart=-1,taql="",monolithic_processing=False,reindex=False)
+2018-03-13 01:57:10	INFO	MSTransformManager::parseMsSpecParams	Input file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms
+2018-03-13 01:57:10	INFO	MSTransformManager::parseMsSpecParams	Data column is CORRECTED
+2018-03-13 01:57:10	INFO	MSTransformManager::parseMsSpecParams	Output file name is /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 01:57:10	INFO	MSTransformManager::parseMsSpecParams	Re-index is disabled 
+2018-03-13 01:57:10	INFO	MSTransformManager::parseMsSpecParams	Tile shape is [0]
+2018-03-13 01:57:10	INFO	MSTransformManager::parseDataSelParams	field selection is NGC1068
+2018-03-13 01:57:10	INFO	MSTransformManager::parseDataSelParams	spw selection is 22,24,26
+2018-03-13 01:57:10	INFO	MSTransformManager::parseDataSelParams	scan intent selection is OBSERVE_TARGET#ON_SOURCE
+2018-03-13 01:57:10	INFO	MSTransformManager::colCheckInfo	Adding DATA column to output MS from input CORRECTED_DATA column
+2018-03-13 01:57:10	INFO	MSTransformManager::initDataSelectionParams	Selected SPWs Ids are Axis Lengths: [3, 4]  (NB: Matrix in Row/Column order)
+2018-03-13 01:57:10	INFO	MSTransformManager::initDataSelectionParams+	[22, 0, 3839, 1
+2018-03-13 01:57:10	INFO	MSTransformManager::initDataSelectionParams+	 24, 0, 3839, 1
+2018-03-13 01:57:10	INFO	MSTransformManager::initDataSelectionParams+	 26, 0, 3839, 1]
+2018-03-13 01:57:10	INFO	MSTransformManager::open	Select data
+2018-03-13 01:57:10	INFO	MSTransformManager::createOutputMSStructure	Create output MS structure
+2018-03-13 01:57:13	INFO	MSTransformDataHandler::makeSelection	1390620 out of 44958822 rows are going to be considered due to the selection criteria.
+2018-03-13 01:57:21	INFO	mstransform::::	Apply the transformations
+2018-03-13 02:02:43	INFO	mstransform::::	CASA Version 5.1.1-5  
+2018-03-13 02:02:43	INFO	mstransform::::	
+2018-03-13 02:02:45	INFO	mstransform::::	##### End Task: mstransform          #####
+2018-03-13 02:02:45	INFO	mstransform::::+	##########################################
+2018-03-13 02:02:47	INFO	mstransform::pipeline.infrastructure.tablereader::	Analysing /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 02:02:47	INFO	pipeline.infrastructure.tablereader::msmetadata_cmpt.cc::open	Performing internal consistency checks on /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms...
+2018-03-13 02:02:47	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.antenna_array...
+2018-03-13 02:02:47	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.spectral_windows...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.states...
+2018-03-13 02:02:51	INFO	pipeline.infrastructure.tablereader::MSMetaData::_computeScanAndSubScanProperties 	Computing scan and subscan properties...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.fields...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.sources...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.data_descriptions...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.polarizations...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.representative_target ...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.science_goals ...
+2018-03-13 02:02:51	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.array_name ...
+2018-03-13 02:02:51	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:51	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:51	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:51	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:51	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:51	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:51	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:51	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:51	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:51	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:52	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:52	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:53	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:53	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:54	WARN	pipeline.infrastructure.tablereader::::	Selected Table has zero rows
+2018-03-13 02:02:54	INFO	pipeline.infrastructure.tablereader::::	Initializing with default selection
+2018-03-13 02:02:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to states...
+2018-03-13 02:02:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking fields to sources...
+2018-03-13 02:02:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking intents to spws...
+2018-03-13 02:02:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Linking spectral windows to fields...
+2018-03-13 02:02:54	INFO	mstransform::pipeline.infrastructure.tablereader::	Populating ms.scans...

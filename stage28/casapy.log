@@ -1,0 +1,377 @@
+2018-03-14 11:45:32	INFO	hif_uvcontsub::pipeline.infrastructure.basetask::	Starting execution for stage 28
+2018-03-14 11:45:50	INFO	hif_uvcontsub::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc27dd7_X2fc3_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 11:45:50	INFO	applycal::::	
+2018-03-14 11:45:50	INFO	applycal::::+	##########################################
+2018-03-14 11:45:50	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 11:45:50	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 11:45:50	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 11:45:50	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 11:45:50	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 11:45:50	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 11:45:50	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 11:45:50	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms for calibration.
+2018-03-14 11:45:50	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 11:48:48	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 11:48:48	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 11:48:48	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 11:48:58	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 11:48:58	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 11:48:58	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 11:48:58	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 11:48:58	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 11:48:59	INFO	Calibrater::selectvis	By selection 1589070 rows are reduced to 1521450
+2018-03-14 11:48:59	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 11:48:59	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 11:48:59	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 11:48:59	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 11:48:59	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 11:48:59	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 11:48:59	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 11:49:09	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 11:49:09	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 11:49:09	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 11:49:09	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 11:49:10	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.596, 260.471] (GHz).
+2018-03-14 11:49:10	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.601, 260.459] (GHz).
+2018-03-14 11:49:35	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.096, 258.97] (GHz).
+2018-03-14 11:49:35	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.278, 258.446] (GHz).
+2018-03-14 11:50:01	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.078, 244.952] (GHz).
+2018-03-14 11:50:01	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.389, 244.944] (GHz).
+2018-03-14 11:58:37	INFO	calibrater::correct	Finished correcting.
+2018-03-14 11:58:37	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 11:58:37	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 11684736000
+2018-03-14 11:58:37	INFO	applycal::::	  Flags:
+2018-03-14 11:58:37	INFO	applycal::::	   A Mueller: In: 1004774400 (8.59903381643%) --> Out: 1004774400 (8.59903381643%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl)
+2018-03-14 11:58:39	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 11:58:39	INFO	applycal::::	
+2018-03-14 11:58:40	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 11:58:40	INFO	applycal::::+	##########################################
+2018-03-14 11:58:59	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc27dd7_X6983_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 11:58:59	INFO	applycal::::	
+2018-03-14 11:58:59	INFO	applycal::::+	##########################################
+2018-03-14 11:58:59	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 11:58:59	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 11:58:59	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 11:58:59	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 11:58:59	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 11:58:59	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 11:58:59	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 11:58:59	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms for calibration.
+2018-03-14 11:58:59	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 12:01:43	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 12:01:44	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 12:01:44	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 12:01:54	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 12:01:54	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 12:01:54	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 12:01:54	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 12:01:54	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 12:01:54	INFO	Calibrater::selectvis	By selection 1455300 rows are reduced to 1390620
+2018-03-14 12:01:55	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 12:01:55	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 12:01:55	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 12:01:55	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 12:01:55	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 12:01:55	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 12:01:55	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 12:02:05	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:02:05	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 12:02:05	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 12:02:05	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:02:05	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.596, 260.471] (GHz).
+2018-03-14 12:02:05	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.601, 260.459] (GHz).
+2018-03-14 12:02:29	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.096, 258.97] (GHz).
+2018-03-14 12:02:29	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.278, 258.446] (GHz).
+2018-03-14 12:02:52	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.078, 244.953] (GHz).
+2018-03-14 12:02:52	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.39, 244.944] (GHz).
+2018-03-14 12:09:45	INFO	calibrater::correct	Finished correcting.
+2018-03-14 12:09:45	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 12:09:45	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 10679961600
+2018-03-14 12:09:45	INFO	applycal::::	  Flags:
+2018-03-14 12:09:45	INFO	applycal::::	   A Mueller: In: 800148480 (7.49205390401%) --> Out: 800148480 (7.49205390401%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl)
+2018-03-14 12:09:47	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 12:09:47	INFO	applycal::::	
+2018-03-14 12:09:47	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 12:09:47	INFO	applycal::::+	##########################################
+2018-03-14 12:10:05	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc27dd7_X6c8e_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 12:10:05	INFO	applycal::::	
+2018-03-14 12:10:05	INFO	applycal::::+	##########################################
+2018-03-14 12:10:05	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 12:10:05	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 12:10:05	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 12:10:05	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 12:10:05	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 12:10:05	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 12:10:05	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 12:10:05	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms for calibration.
+2018-03-14 12:10:05	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 12:12:23	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 12:12:23	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 12:12:23	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 12:12:32	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 12:12:32	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 12:12:32	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 12:12:32	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 12:12:32	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 12:12:32	INFO	Calibrater::selectvis	By selection 1277100 rows are reduced to 1220340
+2018-03-14 12:12:33	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 12:12:33	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 12:12:33	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 12:12:33	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 12:12:33	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 12:12:33	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 12:12:33	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 12:12:42	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:12:42	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 12:12:42	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 12:12:42	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:12:42	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.596, 260.471] (GHz).
+2018-03-14 12:12:42	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.601, 260.459] (GHz).
+2018-03-14 12:13:05	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.096, 258.97] (GHz).
+2018-03-14 12:13:05	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.278, 258.446] (GHz).
+2018-03-14 12:13:28	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.078, 244.952] (GHz).
+2018-03-14 12:13:28	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.389, 244.944] (GHz).
+2018-03-14 12:20:19	INFO	calibrater::correct	Finished correcting.
+2018-03-14 12:20:19	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 12:20:19	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 9372211200
+2018-03-14 12:20:19	INFO	applycal::::	  Flags:
+2018-03-14 12:20:19	INFO	applycal::::	   A Mueller: In: 156725760 (1.67223888425%) --> Out: 156725760 (1.67223888425%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl)
+2018-03-14 12:20:20	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 12:20:20	INFO	applycal::::	
+2018-03-14 12:20:21	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 12:20:21	INFO	applycal::::+	##########################################
+2018-03-14 12:20:38	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc2b007_X877_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 12:20:38	INFO	applycal::::	
+2018-03-14 12:20:38	INFO	applycal::::+	##########################################
+2018-03-14 12:20:38	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 12:20:38	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 12:20:38	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 12:20:38	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 12:20:38	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 12:20:38	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 12:20:38	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 12:20:38	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms for calibration.
+2018-03-14 12:20:38	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 12:23:18	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 12:23:18	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 12:23:18	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 12:23:27	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 12:23:27	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 12:23:27	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 12:23:27	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 12:23:27	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 12:23:28	INFO	Calibrater::selectvis	By selection 1455300 rows are reduced to 1390620
+2018-03-14 12:23:28	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 12:23:28	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 12:23:28	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 12:23:28	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 12:23:28	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 12:23:28	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 12:23:28	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 12:23:37	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:23:37	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 12:23:37	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 12:23:37	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:23:38	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.597, 260.471] (GHz).
+2018-03-14 12:23:38	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.601, 260.459] (GHz).
+2018-03-14 12:24:02	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.096, 258.971] (GHz).
+2018-03-14 12:24:02	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.278, 258.447] (GHz).
+2018-03-14 12:24:25	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.078, 244.953] (GHz).
+2018-03-14 12:24:25	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.39, 244.944] (GHz).
+2018-03-14 12:32:38	INFO	calibrater::correct	Finished correcting.
+2018-03-14 12:32:38	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 12:32:38	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 10679961600
+2018-03-14 12:32:38	INFO	applycal::::	  Flags:
+2018-03-14 12:32:38	INFO	applycal::::	   A Mueller: In: 617817600 (5.78482978815%) --> Out: 617817600 (5.78482978815%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl)
+2018-03-14 12:32:40	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 12:32:40	INFO	applycal::::	
+2018-03-14 12:32:40	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 12:32:40	INFO	applycal::::+	##########################################
+2018-03-14 12:32:59	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc8592e_Xaea3_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 12:32:59	INFO	applycal::::	
+2018-03-14 12:32:59	INFO	applycal::::+	##########################################
+2018-03-14 12:32:59	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 12:32:59	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 12:32:59	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 12:32:59	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 12:32:59	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 12:32:59	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 12:32:59	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 12:32:59	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms for calibration.
+2018-03-14 12:32:59	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 12:37:04	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 12:37:05	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 12:37:05	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 12:37:17	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 12:37:17	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 12:37:17	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 12:37:17	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 12:37:17	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 12:37:17	INFO	Calibrater::selectvis	By selection 1589070 rows are reduced to 1521450
+2018-03-14 12:37:18	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 12:37:18	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 12:37:18	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 12:37:18	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 12:37:18	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 12:37:18	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 12:37:18	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 12:37:28	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:37:28	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 12:37:28	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 12:37:28	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:37:28	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.551, 260.425] (GHz).
+2018-03-14 12:37:28	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.555, 260.413] (GHz).
+2018-03-14 12:37:56	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.05, 258.925] (GHz).
+2018-03-14 12:37:56	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.233, 258.401] (GHz).
+2018-03-14 12:38:22	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.033, 244.908] (GHz).
+2018-03-14 12:38:22	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.346, 244.901] (GHz).
+2018-03-14 12:47:48	INFO	calibrater::correct	Finished correcting.
+2018-03-14 12:47:48	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 12:47:48	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 11684736000
+2018-03-14 12:47:48	INFO	applycal::::	  Flags:
+2018-03-14 12:47:48	INFO	applycal::::	   A Mueller: In: 434058240 (3.7147458017%) --> Out: 434058240 (3.7147458017%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl)
+2018-03-14 12:47:50	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 12:47:50	INFO	applycal::::	
+2018-03-14 12:47:50	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 12:47:50	INFO	applycal::::+	##########################################
+2018-03-14 12:48:12	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc89480_X8c7d_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 12:48:12	INFO	applycal::::	
+2018-03-14 12:48:12	INFO	applycal::::+	##########################################
+2018-03-14 12:48:12	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 12:48:12	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 12:48:12	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 12:48:12	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 12:48:12	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 12:48:12	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 12:48:12	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 12:48:12	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms for calibration.
+2018-03-14 12:48:12	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 12:51:22	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 12:51:22	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 12:51:22	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 12:51:33	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 12:51:33	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 12:51:33	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 12:51:33	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 12:51:33	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 12:51:33	INFO	Calibrater::selectvis	By selection 1589070 rows are reduced to 1521450
+2018-03-14 12:51:34	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 12:51:34	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 12:51:34	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 12:51:34	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 12:51:34	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 12:51:34	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 12:51:34	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 12:51:45	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:51:45	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 12:51:45	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 12:51:45	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 12:51:46	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.549, 260.424] (GHz).
+2018-03-14 12:51:46	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.554, 260.412] (GHz).
+2018-03-14 12:52:12	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.049, 258.924] (GHz).
+2018-03-14 12:52:12	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.232, 258.4] (GHz).
+2018-03-14 12:52:37	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.032, 244.907] (GHz).
+2018-03-14 12:52:37	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.345, 244.9] (GHz).
+2018-03-14 13:01:19	INFO	calibrater::correct	Finished correcting.
+2018-03-14 13:01:19	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 13:01:19	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 11684736000
+2018-03-14 13:01:19	INFO	applycal::::	  Flags:
+2018-03-14 13:01:19	INFO	applycal::::	   A Mueller: In: 982809600 (8.41105524335%) --> Out: 982809600 (8.41105524335%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl)
+2018-03-14 13:01:20	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 13:01:20	INFO	applycal::::	
+2018-03-14 13:01:21	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 13:01:21	INFO	applycal::::+	##########################################
+2018-03-14 13:01:38	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc96463_X1646_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 13:01:38	INFO	applycal::::	
+2018-03-14 13:01:38	INFO	applycal::::+	##########################################
+2018-03-14 13:01:38	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 13:01:38	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 13:01:38	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 13:01:38	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 13:01:38	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 13:01:38	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 13:01:38	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 13:01:38	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms for calibration.
+2018-03-14 13:01:38	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 13:04:37	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 13:04:38	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 13:04:38	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 13:04:49	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 13:04:49	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 13:04:49	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 13:04:49	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 13:04:49	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 13:04:49	INFO	Calibrater::selectvis	By selection 1521450 rows are reduced to 1455300
+2018-03-14 13:04:50	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 13:04:50	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 13:04:50	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 13:04:50	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 13:04:50	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 13:04:50	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 13:04:50	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 13:04:59	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 13:04:59	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 13:04:59	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 13:04:59	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 13:04:59	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.547, 260.421] (GHz).
+2018-03-14 13:04:59	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.552, 260.409] (GHz).
+2018-03-14 13:05:24	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.047, 258.921] (GHz).
+2018-03-14 13:05:24	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.229, 258.397] (GHz).
+2018-03-14 13:05:49	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.03, 244.904] (GHz).
+2018-03-14 13:05:49	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.343, 244.898] (GHz).
+2018-03-14 13:14:01	INFO	calibrater::correct	Finished correcting.
+2018-03-14 13:14:01	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 13:14:01	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 11176704000
+2018-03-14 13:14:01	INFO	applycal::::	  Flags:
+2018-03-14 13:14:01	INFO	applycal::::	   A Mueller: In: 1369382400 (12.2521129664%) --> Out: 1369382400 (12.2521129664%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl)
+2018-03-14 13:14:03	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 13:14:03	INFO	applycal::::	
+2018-03-14 13:14:03	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 13:14:03	INFO	applycal::::+	##########################################
+2018-03-14 13:14:21	INFO	applycal::pipeline.infrastructure.jobrequest::	Executing applycal(antenna='*&*', flagbackup=True, gaintable='uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl', spw='22,24,26', calwt=False, vis='uid___A002_Xc96f17_X113a_target.ms', applymode='calflag', spwmap=[])
+2018-03-14 13:14:21	INFO	applycal::::	
+2018-03-14 13:14:21	INFO	applycal::::+	##########################################
+2018-03-14 13:14:21	INFO	applycal::::+	##### Begin Task: applycal           #####
+2018-03-14 13:14:21	INFO	applycal::::	applycal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms",field="",spw="22,24,26",intent="",selectdata=True,
+2018-03-14 13:14:21	INFO	applycal::::+	        timerange="",uvrange="",antenna="*&*",scan="",observation="",
+2018-03-14 13:14:21	INFO	applycal::::+	        msselect="",docallib=False,callib="",gaintable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl",gainfield=[],
+2018-03-14 13:14:21	INFO	applycal::::+	        interp=[],spwmap=[],calwt=False,parang=False,applymode="calflag",
+2018-03-14 13:14:21	INFO	applycal::::+	        flagbackup=True)
+2018-03-14 13:14:21	INFO	applycal::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 13:14:21	INFO	applycal::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms for calibration.
+2018-03-14 13:14:21	INFO	applycal::VisSetUtil::addScrCols	Adding CORRECTED_DATA column(s).
+2018-03-14 13:17:04	INFO	applycal::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 13:17:05	INFO	applycal::AgentFlagger::open	Table type is Measurement Set
+2018-03-14 13:17:05	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called applycal_1
+2018-03-14 13:17:14	INFO	calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 13:17:14	INFO	calibrater::reset	Reseting solve/apply state
+2018-03-14 13:17:14	INFO	Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 13:17:14	INFO	Calibrater::selectvis+	 Selecting on spw: '22,24,26'
+2018-03-14 13:17:14	INFO	Calibrater::selectvis+	 Selecting on antenna/baseline: '*&*'
+2018-03-14 13:17:15	INFO	Calibrater::selectvis	By selection 1390620 rows are reduced to 1327410
+2018-03-14 13:17:15	INFO	Calibrater::selectvis	Frequency selection: 
+2018-03-14 13:17:15	INFO	Calibrater::selectvis	.  Spw 22:0~3839 (3840 channels, step by 1)
+2018-03-14 13:17:15	INFO	Calibrater::selectvis+	.  Spw 24:0~3839 (3840 channels, step by 1)
+2018-03-14 13:17:15	INFO	Calibrater::selectvis+	.  Spw 26:0~3839 (3840 channels, step by 1)
+2018-03-14 13:17:15	INFO	calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 13:17:15	INFO	calibrater::setapply	Beginning setapply--(MSSelection version)-------
+2018-03-14 13:17:15	INFO	Calibrater::setapply(type, applypar)	Arranging to APPLY:
+2018-03-14 13:17:24	INFO	Calibrater::setapply(type, applypar)	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 13:17:24	INFO	calibrater::correct	Beginning correct---------------------------
+2018-03-14 13:17:24	INFO	Calibrater::correct	The following calibration terms are arranged for apply:
+2018-03-14 13:17:24	INFO	Calibrater::correct	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl select= interp=linear spwmap=[-1] calWt=false
+2018-03-14 13:17:24	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [258.547, 260.421] (GHz).
+2018-03-14 13:17:24	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [258.552, 260.409] (GHz).
+2018-03-14 13:17:46	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [257.046, 258.921] (GHz).
+2018-03-14 13:17:46	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [257.229, 258.397] (GHz).
+2018-03-14 13:18:08	WARN	VBContinuumSubtractor::apply	Extrapolating to cover [243.029, 244.904] (GHz).
+2018-03-14 13:18:08	WARN	VBContinuumSubtractor::apply+	The frequency range used for the continuum fit was [244.343, 244.898] (GHz).
+2018-03-14 13:25:25	INFO	calibrater::correct	Finished correcting.
+2018-03-14 13:25:25	INFO	applycal::::	Calibration apply flagging statistics (among calibrateable spws):
+2018-03-14 13:25:25	INFO	applycal::::	  Total selected visibilities (among calibrateable spws) = 10194508800
+2018-03-14 13:25:25	INFO	applycal::::	  Flags:
+2018-03-14 13:25:25	INFO	applycal::::	   A Mueller: In: 1761469440 (17.2786102259%) --> Out: 1761469440 (17.2786102259%) (/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl)
+2018-03-14 13:25:27	INFO	applycal::::	CASA Version 5.1.1-5  
+2018-03-14 13:25:27	INFO	applycal::::	
+2018-03-14 13:25:27	INFO	applycal::::	##### End Task: applycal             #####
+2018-03-14 13:25:27	INFO	applycal::::+	##########################################

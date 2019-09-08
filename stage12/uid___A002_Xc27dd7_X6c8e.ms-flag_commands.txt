@@ -1,0 +1,4 @@
+# Flag commands for uid___A002_Xc27dd7_X6c8e.ms
+#
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DV20' field='J0237+2848' reason='bad antenna'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='26' antenna='DV08' timerange='2017/07/24/10:14:27~2017/07/24/10:14:28' field='J0237+2848' reason='bad antenna timestamp'

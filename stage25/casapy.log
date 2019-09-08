@@ -1,0 +1,660 @@
+2018-03-13 03:08:53	INFO	hif_makeimlist::pipeline.infrastructure.basetask::	Starting execution for stage 25
+2018-03-13 03:08:58	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 03:08:58	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:08:58	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:08:58	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29,33
+2018-03-13 03:08:58	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:08:58	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:08:59	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.09311e+06 wavelengths
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0492723 arcsec
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1000
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 722185, 220029 wavelengths
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.028903 * u + 0.416205 * v
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 41044.4 wavelengths
+2018-03-13 03:09:51	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:09:52	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.89086e+06 wavelengths
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0356754 arcsec
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 839498, 340897 wavelengths
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.399447 * u + 0.453007 * v
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 46271.1 wavelengths
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:10:38	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.89116e+06 wavelengths
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0356716 arcsec
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 842890, 287513 wavelengths
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.0324251 * u + 0.421022 * v
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 36572.5 wavelengths
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:11:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.89081e+06 wavelengths
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0356759 arcsec
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 892593, 364840 wavelengths
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.501831 * u + 0.46578 * v
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 53271.4 wavelengths
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:12:10	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.88749e+06 wavelengths
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0546399 arcsec
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 900
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 678276, 255144 wavelengths
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.355795 * u + 0.44328 * v
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 38954.2 wavelengths
+2018-03-13 03:13:03	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:13:04	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.87142e+06 wavelengths
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0551093 arcsec
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 900
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 669610, 257235 wavelengths
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.402136 * u + 0.449292 * v
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 39908.5 wavelengths
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:13:55	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.07942e+06 wavelengths
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0955444 arcsec
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 512
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 378858, 132206 wavelengths
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.229254 * u + 0.428694 * v
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 22406.6 wavelengths
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:14:42	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.05596e+06 wavelengths
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0976666 arcsec
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 500
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 375170, 162169 wavelengths
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.457861 * u + 0.459309 * v
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 23708.7 wavelengths
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29,33
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:15:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.08105e+06 wavelengths
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0495578 arcsec
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1000
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 718006, 218828 wavelengths
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.0291501 * u + 0.416196 * v
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 40862.4 wavelengths
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:16:14	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.8742e+06 wavelengths
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0358821 arcsec
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 831707, 336923 wavelengths
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.39963 * u + 0.453296 * v
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 45473.6 wavelengths
+2018-03-13 03:17:00	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:17:01	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.87451e+06 wavelengths
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0358783 arcsec
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 848988, 290141 wavelengths
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.0325299 * u + 0.42108 * v
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 36685.1 wavelengths
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:17:42	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:17:43	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:17:43	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:17:43	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.87416e+06 wavelengths
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0358826 arcsec
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 892769, 363681 wavelengths
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.501811 * u + 0.466003 * v
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 52859.4 wavelengths
+2018-03-13 03:18:29	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:18:30	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.87662e+06 wavelengths
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0549565 arcsec
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 900
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 683647, 257019 wavelengths
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.354891 * u + 0.443161 * v
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 39072 wavelengths
+2018-03-13 03:19:21	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:19:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.86064e+06 wavelengths
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0554286 arcsec
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 900
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 675154, 258894 wavelengths
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.402626 * u + 0.44952 * v
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 40161.4 wavelengths
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:20:11	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:20:12	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-13 03:20:12	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:20:12	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.0732e+06 wavelengths
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.096098 arcsec
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 512
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 378996, 132347 wavelengths
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.228805 * u + 0.428788 * v
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 22467.5 wavelengths
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:20:57	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.04988e+06 wavelengths
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0982325 arcsec
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 500
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 371830, 160018 wavelengths
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.456427 * u + 0.459019 * v
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 23513 wavelengths
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:21:37	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29,33
+2018-03-13 03:21:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:21:38	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:21:38	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.96841e+06 wavelengths
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0523938 arcsec
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1000
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 680345, 207409 wavelengths
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.0290027 * u + 0.416352 * v
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 38693.4 wavelengths
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:22:28	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:22:29	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.71863e+06 wavelengths
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0379355 arcsec
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 784742, 317769 wavelengths
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.399472 * u + 0.452991 * v
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 43114.4 wavelengths
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:23:15	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.71891e+06 wavelengths
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0379315 arcsec
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 794295, 271052 wavelengths
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.0324265 * u + 0.420941 * v
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 34413.1 wavelengths
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:24:05	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.71858e+06 wavelengths
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0379361 arcsec
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 841872, 342962 wavelengths
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.501592 * u + 0.465788 * v
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 50040 wavelengths
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:24:52	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.77503e+06 wavelengths
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0581019 arcsec
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 900
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 640067, 240245 wavelengths
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.355182 * u + 0.443322 * v
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 36563.4 wavelengths
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:25:45	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.75991e+06 wavelengths
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.058601 arcsec
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 900
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 630633, 241137 wavelengths
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.402352 * u + 0.449506 * v
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 37435.9 wavelengths
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-13 03:26:35	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:26:36	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 1.0151e+06 wavelengths
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.101598 arcsec
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 512
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 354321, 123472 wavelengths
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.228947 * u + 0.4288 * v
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 20982.9 wavelengths
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-13 03:27:22	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:27:23	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 993044 wavelengths
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.103855 arcsec
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 500
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 352337, 151379 wavelengths
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = -0.456714 * u + 0.459144 * v
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 22313.5 wavelengths
+2018-03-13 03:28:02	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29,33
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-13 03:28:03	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 03:28:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:28:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:28:04	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 03:28:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:28:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:28:05	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:06	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 03:28:06	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:06	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:06	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:28:06	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:28:06	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:07	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 03:28:07	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:07	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:07	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:28:07	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-13 03:28:07	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:09	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 03:28:09	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:28:09	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-13 03:28:09	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:28:09	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-13 03:28:09	INFO	pipeline.infrastructure.basetask::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-13 03:28:10	INFO	pipeline.infrastructure.basetask::imager::advise() 	Advising image properties
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() 	Maximum uv distance = 2.89116e+06 wavelengths
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() +	Recommended cell size < 0.0356716 arcsec
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in uv, w distance = 774901, 293904 wavelengths
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() +	Best fitting plane is w = 0.144184 * u + 0.398592 * v
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() +	Dispersion in fitted w = 152437 wavelengths
+2018-03-13 03:34:23	INFO	pipeline.infrastructure.basetask::imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:34:24	INFO	hif_makeimlist::::	Verifying Input Parameters
+2018-03-13 03:34:24	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:24	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:34:24	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:24	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:34:24	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:25	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 425700
+2018-03-13 03:34:25	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:25	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:34:26	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:26	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:34:27	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:27	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:34:28	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:28	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 507150
+2018-03-13 03:34:30	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:30	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 463540
+2018-03-13 03:34:31	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [9263b916-1830-4295-9b1e-b5c5e1f0766d] : 
+2018-03-13 03:34:32	INFO	MSTransformRegridder::calcChanFreqs	 phaseCenter='Direction: [0.75848, 0.651696, -0.000232444]'  Channels equidistant in freq
+2018-03-13 03:34:32	INFO	MSTransformRegridder::calcChanFreqs+	 Central frequency (in output frame) = 2.59519e+11 Hz
+2018-03-13 03:34:32	INFO	MSTransformRegridder::calcChanFreqs+	 Width of central channel (in output frame) = 488253 Hz
+2018-03-13 03:34:32	INFO	MSTransformRegridder::calcChanFreqs+	 Number of channels = 1
+2018-03-13 03:34:32	INFO	MSTransformRegridder::calcChanFreqs+	 Total width of SPW (in output frame) = 488253 Hz
+2018-03-13 03:34:32	INFO	MSTransformRegridder::calcChanFreqs+	 Lower edge = 2.59519e+11 Hz, upper edge = 2.59519e+11 Hz
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::defineImage 	Impars : start 1920
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::defineImage 	Shape : [3430, 3430, 1, 1]Spectral : [2.59519e+11] at [0] with increment [488253]
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [9263b916-1830-4295-9b1e-b5c5e1f0766d] with ftmachine : gridft
+2018-03-13 03:34:32	INFO	SynthesisImager::tuneSelectData 	Tuning frequency data selection to match image spectral coordinates
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:32	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:34:33	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:33	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 425700
+2018-03-13 03:34:33	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:33	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:34:34	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:34	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:34:35	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:35	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:34:36	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:37	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 507150
+2018-03-13 03:34:38	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :22 | [Opened in readonly mode]
+2018-03-13 03:34:38	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 463540
+2018-03-13 03:34:39	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2018-03-13 03:34:54	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-13 03:34:54	INFO	SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2018-03-13 03:35:10	INFO	SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-13 03:35:10	INFO	SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-13 03:35:10	INFO	SIImageStore::calcSensitivity 	[9263b916-1830-4295-9b1e-b5c5e1f0766d] Theoretical sensitivity (Jy/bm):0.000219885 
+2018-03-13 03:35:10	INFO	SIImageStore::printBeamSet 	Beam : 0.154786 arcsec, 0.106947 arcsec, -84.2174 deg
+2018-03-13 03:35:10	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 03:35:10	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:10	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:10	INFO	imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29,33
+2018-03-13 03:35:10	INFO	imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:35:10	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-13 03:35:11	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:12	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 03:35:12	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:12	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:12	INFO	imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:35:12	INFO	imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:35:12	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:13	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 03:35:13	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:13	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:13	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:35:13	INFO	imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:35:13	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:14	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 03:35:14	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:14	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:14	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:35:14	INFO	imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:35:14	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:15	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 03:35:15	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:15	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:15	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:35:15	INFO	imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-13 03:35:15	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:17	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 03:35:17	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:35:17	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-13 03:35:17	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:35:17	INFO	imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-13 03:35:17	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-13 03:35:18	INFO	imager::advise() 	Advising image properties
+2018-03-13 03:41:26	INFO	imager::advise() 	Maximum uv distance = 2.87451e+06 wavelengths
+2018-03-13 03:41:26	INFO	imager::advise() +	Recommended cell size < 0.0358783 arcsec
+2018-03-13 03:41:26	INFO	imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:41:26	INFO	imager::advise() +	Dispersion in uv, w distance = 776885, 294413 wavelengths
+2018-03-13 03:41:26	INFO	imager::advise() +	Best fitting plane is w = 0.147968 * u + 0.398692 * v
+2018-03-13 03:41:26	INFO	imager::advise() +	Dispersion in fitted w = 151345 wavelengths
+2018-03-13 03:41:26	INFO	imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:41:26	INFO	hif_makeimlist::::	Verifying Input Parameters
+2018-03-13 03:41:26	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:26	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:41:27	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:27	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:41:27	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:27	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 425700
+2018-03-13 03:41:28	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:28	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:41:29	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:29	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:41:30	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:30	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:41:31	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:31	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 507150
+2018-03-13 03:41:33	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:33	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 463540
+2018-03-13 03:41:34	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [a36d03e0-67dc-439d-919d-2193379eb7b8] : 
+2018-03-13 03:41:34	INFO	MSTransformRegridder::calcChanFreqs	 phaseCenter='Direction: [0.75848, 0.651696, -0.000232444]'  Channels equidistant in freq
+2018-03-13 03:41:34	INFO	MSTransformRegridder::calcChanFreqs+	 Central frequency (in output frame) = 2.58018e+11 Hz
+2018-03-13 03:41:34	INFO	MSTransformRegridder::calcChanFreqs+	 Width of central channel (in output frame) = 488253 Hz
+2018-03-13 03:41:34	INFO	MSTransformRegridder::calcChanFreqs+	 Number of channels = 1
+2018-03-13 03:41:34	INFO	MSTransformRegridder::calcChanFreqs+	 Total width of SPW (in output frame) = 488253 Hz
+2018-03-13 03:41:34	INFO	MSTransformRegridder::calcChanFreqs+	 Lower edge = 2.58018e+11 Hz, upper edge = 2.58019e+11 Hz
+2018-03-13 03:41:34	INFO	SynthesisImagerVi2::defineImage 	Impars : start 1920
+2018-03-13 03:41:34	INFO	SynthesisImagerVi2::defineImage 	Shape : [3430, 3430, 1, 1]Spectral : [2.58018e+11] at [0] with increment [488253]
+2018-03-13 03:41:34	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [a36d03e0-67dc-439d-919d-2193379eb7b8] with ftmachine : gridft
+2018-03-13 03:41:34	INFO	SynthesisImager::tuneSelectData 	Tuning frequency data selection to match image spectral coordinates
+2018-03-13 03:41:34	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:35	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:41:35	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:35	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:41:35	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:35	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 425700
+2018-03-13 03:41:36	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:36	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:41:37	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:37	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:41:38	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:38	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:41:39	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:39	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 507150
+2018-03-13 03:41:41	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :24 | [Opened in readonly mode]
+2018-03-13 03:41:41	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 463540
+2018-03-13 03:41:42	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2018-03-13 03:41:53	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-13 03:41:53	INFO	SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2018-03-13 03:42:09	INFO	SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-13 03:42:09	INFO	SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-13 03:42:09	INFO	SIImageStore::calcSensitivity 	[a36d03e0-67dc-439d-919d-2193379eb7b8] Theoretical sensitivity (Jy/bm):0.000204644 
+2018-03-13 03:42:09	INFO	SIImageStore::printBeamSet 	Beam : 0.155346 arcsec, 0.106335 arcsec, -84.4544 deg
+2018-03-13 03:42:09	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-13 03:42:09	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:09	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:09	INFO	imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29,33
+2018-03-13 03:42:09	INFO	imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:42:09	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selecting on scan : 11,13,16,18,22,24,27,29
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-13 03:42:10	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:11	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-13 03:42:11	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:11	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:11	INFO	imager::setDataOnThisMS()	Selecting on scan : 9,11,14,16,20,22,25,27,31
+2018-03-13 03:42:11	INFO	imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-13 03:42:11	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:12	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-13 03:42:12	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:12	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:12	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:42:12	INFO	imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:42:12	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:13	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-13 03:42:13	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:13	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:13	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:42:13	INFO	imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-13 03:42:13	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:14	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-13 03:42:14	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:14	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:14	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:42:14	INFO	imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-13 03:42:14	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:15	INFO	imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-13 03:42:15	INFO	imager::setDataOnThisMS()	Selecting on fields : NGC1068
+2018-03-13 03:42:15	INFO	imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-13 03:42:15	INFO	imager::setDataOnThisMS()	Selecting on scan : 7,9,11,13,14,18,20,22,24,25,29
+2018-03-13 03:42:15	INFO	imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-13 03:42:15	INFO	imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-13 03:42:17	INFO	imager::advise() 	Advising image properties
+2018-03-13 03:48:33	INFO	imager::advise() 	Maximum uv distance = 2.71891e+06 wavelengths
+2018-03-13 03:48:33	INFO	imager::advise() +	Recommended cell size < 0.0379315 arcsec
+2018-03-13 03:48:33	INFO	imager::advise() 	Recommended number of pixels = 1440
+2018-03-13 03:48:33	INFO	imager::advise() +	Dispersion in uv, w distance = 726194, 274657 wavelengths
+2018-03-13 03:48:33	INFO	imager::advise() +	Best fitting plane is w = 0.139215 * u + 0.397417 * v
+2018-03-13 03:48:33	INFO	imager::advise() +	Dispersion in fitted w = 143048 wavelengths
+2018-03-13 03:48:33	INFO	imager::advise() +	Wide field cleaning is not necessary
+2018-03-13 03:48:33	INFO	hif_makeimlist::::	Verifying Input Parameters
+2018-03-13 03:48:33	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:33	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:48:33	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:33	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:48:34	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:34	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 425700
+2018-03-13 03:48:35	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:35	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:48:35	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:36	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:48:37	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:37	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:48:38	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:38	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 507150
+2018-03-13 03:48:39	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:39	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 463540
+2018-03-13 03:48:41	INFO	SynthesisImagerVi2::defineImage 	Define image coordinates for [984dce8a-7275-4d4f-b054-1c393ce3a3ab] : 
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs	 phaseCenter='Direction: [0.75848, 0.651696, -0.000232444]'  *** Encountered negative channel widths in input spectral window.
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs	 Channels equidistant in freq
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs+	 Central frequency (in output frame) = 2.44001e+11 Hz
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs+	 Channel central frequency is decreasing with increasing channel number.
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs+	 Width of central channel (in output frame) = 488253 Hz
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs+	 Number of channels = 1
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs+	 Total width of SPW (in output frame) = 488253 Hz
+2018-03-13 03:48:41	INFO	MSTransformRegridder::calcChanFreqs+	 Lower edge = 2.44001e+11 Hz, upper edge = 2.44001e+11 Hz
+2018-03-13 03:48:41	INFO	SynthesisImagerVi2::defineImage 	Impars : start 1920
+2018-03-13 03:48:41	INFO	SynthesisImagerVi2::defineImage 	Shape : [3402, 3402, 1, 1]Spectral : [2.44001e+11] at [0] with increment [488253]
+2018-03-13 03:48:41	INFO	SynthesisImagerVi2::defineImage 	Set Gridding options for [984dce8a-7275-4d4f-b054-1c393ce3a3ab] with ftmachine : gridft
+2018-03-13 03:48:41	INFO	SynthesisImager::tuneSelectData 	Tuning frequency data selection to match image spectral coordinates
+2018-03-13 03:48:41	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:41	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:48:42	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:42	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:48:42	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:42	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 425700
+2018-03-13 03:48:43	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:43	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 485100
+2018-03-13 03:48:44	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:44	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:48:45	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:45	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 529690
+2018-03-13 03:48:46	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:46	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 507150
+2018-03-13 03:48:47	INFO	SynthesisImagerVi2::selectData 	MS : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms | Selecting on fields : NGC1068 | Selecting on spw :26 | [Opened in readonly mode]
+2018-03-13 03:48:47	INFO	SynthesisImagerVi2::selectData 	  NRows selected : 463540
+2018-03-13 03:48:49	INFO	SynthesisImagerVi2::weight() 	Set imaging weights : Briggs weighting: sidelobes will be suppressed over full image
+2018-03-13 03:49:00	INFO	VisSetUtil::VisImagingWeight() 	Normal robustness, robust = 0.5
+2018-03-13 03:49:00	INFO	SynthesisImager::makePSF 	----------------------------------------------------------- Make PSF ---------------------------------------------
+2018-03-13 03:49:17	INFO	SynthesisNormalizer::setupImagesOnDisk 	 Found full images : 1
+2018-03-13 03:49:17	INFO	SynthesisNormalizer::setupImagesOnDisk 	 Found part images : 0
+2018-03-13 03:49:17	INFO	SIImageStore::calcSensitivity 	[984dce8a-7275-4d4f-b054-1c393ce3a3ab] Theoretical sensitivity (Jy/bm):0.000194808 
+2018-03-13 03:49:17	INFO	SIImageStore::printBeamSet 	Beam : 0.164715 arcsec, 0.11387 arcsec, -84.1606 deg

@@ -1,0 +1,394 @@
+
+
+
+
+<div class="page-header">
+    <h1>27. Compute UV Continuum Subtraction Coefficients<button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+
+
+
+
+<p>This task computes the UV continuum model that that will be subtracted from the
+science target data prior to cube imaging</p>
+
+<h2>Results</h2>
+
+<table class="table table-bordered" summary="Application Results">
+        <caption>Applied calibrations and parameters used for caltable generation</caption>
+    <thead>
+        <tr>
+            <th scope="col" rowspan="2">Measurement Set</th>
+                        <th scope="col" colspan="3">Solution Parameters</th>
+                        <th scope="col" colspan="2">Applied To</th>
+            <th scope="col" rowspan="2">Calibration Table</th>
+        </tr>
+        <tr>
+                        <th>Frequency Ranges (TOPO)</th>
+                        <th>Interval</th>
+                        <th>Fit Order</th>
+                        <th>Source Intent</th>
+                        <th>Spectral Window</th>
+        </tr>
+    </thead>
+        <tbody>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc27dd7_X2fc3_target.ms</td>
+                        <td>258.6003833~258.642375488GHz, 258.978312988~260.458781738GHz</td>
+                        <td rowspan="24">int</td>
+                        <td rowspan="24">1</td>
+                        <td rowspan="24">NGC1068 TARGET</td>
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.277576924~258.446522237GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.389123337~244.944299118GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc27dd7_X6983_target.ms</td>
+                        <td>258.60056629~258.642558477GHz, 258.978984259~260.458964727GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.277758856~258.446704168GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.389302326~244.944478107GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc27dd7_X6c8e_target.ms</td>
+                        <td>258.600450229~258.642442416GHz, 258.978868197~260.458848666GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.277643466~258.446588778GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.389188802~244.944364583GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc2b007_X877_target.ms</td>
+                        <td>258.60070279~258.642694977GHz, 258.979120759~260.459101227GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.277894567~258.446839879GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.389435841~244.944611622GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc8592e_Xaea3_target.ms</td>
+                        <td>258.555160394~258.5966643GHz, 258.933090082~260.41307055GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.232618306~258.401075337GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.34587647~244.901540532GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc89480_X8c7d_target.ms</td>
+                        <td>258.554039027~258.595542933GHz, 258.931968714~260.411949183GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.231503422~258.399960453GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.344779621~244.900443683GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc96463_X1646_target.ms</td>
+                        <td>258.551459798~258.592963704GHz, 258.929389485~260.409369954GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.228939105~258.397396136GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.342745068~244.89792085GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+                <tr>
+                        <td rowspan="3">uid___A002_Xc96f17_X113a_target.ms</td>
+                        <td>258.551324859~258.592828765GHz, 258.929254547~260.409235015GHz</td>
+                        
+                        
+                        
+                        <td>22</td>
+                        <td rowspan="3">uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl</td>
+                </tr>
+                <tr>
+                        
+                        <td>257.228804947~258.397261978GHz</td>
+                        
+                        
+                        
+                        <td>24</td>
+                        
+                </tr>
+                <tr>
+                        
+                        <td>244.34261308~244.897788861GHz</td>
+                        
+                        
+                        
+                        <td>26</td>
+                        
+                </tr>
+        </tbody>
+</table>
+
+
+
+<div class="clearfix"></div>
+<div class="panel-group" id="details-accordion" role="tablist" aria-multiselectable="true">
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Pipeline QA
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <table class="table table-bordered" summary="Pipeline QA summary">
+                    <caption>Pipeline QA summary for this task.</caption>
+                    <thead>
+                        <tr>
+                            <th>Score</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>The uv continuum fit table file uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl for working was created</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Input Parameters
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>fitorder</dt>
+                    <dd>1</dd>
+                    <dt>field</dt>
+                    <dd>['NGC1068', 'NGC1068', 'NGC1068', 'NGC1068', 'NGC1068', 'NGC1068', 'NGC1068', 'NGC1068']</dd>
+                    <dt>caltable</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.s27_0.uvcont.tbl', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.s27_0.uvcont.tbl']</dd>
+                    <dt>solint</dt>
+                    <dd>int</dd>
+                    <dt>spw</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>vis</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms']</dd>
+                    <dt>combine</dt>
+                    <dd>&nbsp;</dd>
+                    <dt>output_dir</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working</dd>
+                    <dt>intent</dt>
+                    <dd>TARGET</dd>
+                    <dt>contfile</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/cont.dat</dd>
+                    <dt>caltype</dt>
+                    <dd>uvcont</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Tasks Execution Statistics
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Start time</dt>
+                    <dd>2018-03-14 03:06:00.749</dd>
+                    <dt>End</dt>
+                    <dd>2018-03-14 11:40:54.005</dd>
+                    <dt>Duration</dt>
+                    <dd>8:34:53.256</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">CASA logs for stage 27</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+    
+        <li><a href="stage27/casapy.log" class="replace-pre" data-title="CASA log for stage 27">View</a> or <a href="stage27/casapy.log" download="stage27/casapy.log">download</a> stage27/casapy.log (76.9 KB)</li>
+</ul>
+    </div>
+</div>

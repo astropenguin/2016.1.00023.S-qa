@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<!-- Add jQuery library -->
+<script src="resources/js/jquery-2.1.3.min.js"></script>
+
+<!-- bootstrap 3 -->
+<!-- 
+<link href="resources/css/bootstrap.min.css" rel="stylesheet">
+ -->
+<link href="resources/css/pipeline.min.css" rel="stylesheet">
+<script src="resources/js/bootstrap.min.js"></script>
+<!-- for now, adopt the bootstrap 2 theme  -->
+
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script src="resources/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<link rel="stylesheet" href="resources/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+<script src="resources/fancybox/source/jquery.fancybox.pack.js"></script>
+
+<link rel="stylesheet" href="resources/fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+<script src="resources/fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+<script src="resources/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+<link rel="stylesheet" href="resources/fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+<script src="resources/fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+<link rel="stylesheet" href="resources/css/pipeline.css" type="text/css" media="screen" />
+ 
+<!--  Add purl-JS URL parsing extension -->
+<script src="resources/js/purl-2.2.1.js"></script>
+
+<!--  add FontAwesome -->
+<link rel="stylesheet" href="resources/css/font-awesome.min.css">
+
+<!--  Add image holder library for missing plots -->
+<script src="resources/js/holder.js"></script>
+
+<!-- add History.js for HTML5 history manipulation -->
+<script src="resources/js/history.js"></script>
+<script src="resources/js/history.adapter.jquery.js"></script>
+
+
+
+<title>
+2016.1.00023.S -
+Home</title>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top hidden-print">
+    <div class="container-fluid">
+	    <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+	    	<a class="navbar-brand" href="#">
+	    		<img alt="ALMA" 
+	    		     src="resources/img/almalogo.png"/>
+	    	</a>
+	    </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="active">
+                	<a href="t1-1.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+                </li>
+                <li class="">
+                	<a href="t1-3.html">By Topic</a>
+                </li>
+                <li class="">
+                	<a href="t1-4.html">By Task</a>
+                </li>
+            </ul>
+			<p class="navbar-text navbar-right navbar-projectcode">2016.1.00023.S</p>
+        </div>
+    </div>
+</nav>
+
+
+<div id="app-container" class="container-fluid">
+	
+
+
+<script src="resources/js/pipeline.js"></script>
+
+<script>
+$(document).ready(function() {
+    pipeline.pages.t1_1.ready();
+});
+</script>
+
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Observation Overview</h2>
+        <table class="table table-condensed" summary="Data Details">
+            <thead>
+                <tr>
+                    <th class="col-md-5"></th>
+                    <th class="col-md-7"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Project</th>
+                    <td>uid://A001/X3ab/X3b</td>
+                </tr>
+                <tr>
+                    <th>Principal Investigator</th>
+                    <td>ataniguchi</td>
+                </tr>
+
+                <tr>
+                    <th>OUS Status Entity id</th>
+                    <td>uid://A001/X87d/X497</td>
+                </tr>
+                <tr>
+                    <th>Observation Start</th>
+                    <td>2017-07-23 10:20:46&nbsp;UTC</td>
+                </tr>
+                <tr>
+                    <th>Observation End</th>
+                    <td>2018-01-21 01:19:43&nbsp;UTC</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-6">
+        <h2>Pipeline Summary</h2>
+
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th class="col-md-3"></th>
+                    <th class="col-md-6"></th>
+                    <th class="col-md-2"></th>
+                    <th class="col-md-1"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Pipeline Version</th>
+                    <td>40896 (Pipeline-CASA51-P2-B)
+                        (<a href=http://almascience.org/documents-and-tools/pipeline-documentation-archive>documentation</a>)
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>CASA Version</th>
+                    <td>5.1.1-5   r40000</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Pipeline Start</th>
+                    <td>2018-03-09 23:05:45&nbsp;UTC</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Execution Duration</th>
+                    <td>6 days, 10:26:12</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+<!-- 
+ -->
+    </div>
+
+</div>
+
+
+        <div id="qa_notes" data-href="qa_notes.html"></div>
+
+        <h2>Observation Summary</h2>
+
+        <table class="table table-bordered table-condensed"
+            summary="Measurement Set Summaries">
+
+        <thead>
+            <tr>
+
+            <th scope="col" rowspan="2">Measurement Set</th>
+            <th scope="col" rowspan="2">Receivers</th>
+            <th scope="col" rowspan="2">Num Antennas</th>
+            <th scope="col" colspan="3">Time (UTC)</th>
+                    <!-- break heading divider for subcolumns -->
+            <th scope="col" colspan="3">Baseline Length</th>
+            <th scope="col" rowspan="2">Size</th>
+            </tr>
+            <tr>
+            <th scope="col">Start</th>
+            <th scope="col">End</th>
+            <th scope="col">On Source</th>
+            <th scope="col">Min</th>
+            <th scope="col">Max</th>
+            <th scope="col">RMS</th>
+            </tr>
+        </thead>
+            <tbody>
+                
+                    
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10"><b> Observing Unit Set Status: </b> uid://A001/X87d/X497 <b> Scheduling Block ID: </b> uid://A001/X87d/X492  </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_1 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc27dd7_X2fc3_ms">uid___A002_Xc27dd7_X2fc3.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>46</td>
+                                    <td>2017-07-23 10:20:46</td>
+                                    <td>2017-07-23 11:42:08</td>
+                                    <td>0:49:40</td>
+                                    <td>16.7 m</td>
+                                    <td>3.6 km</td>
+                                    <td>1.0 km</td>
+                                   <td>128.4 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc27dd7_X2fc3_target_ms">uid___A002_Xc27dd7_X2fc3_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>46</td>
+                                    <td>2017-07-23 10:38:49</td>
+                                    <td>2017-07-23 11:35:46</td>
+                                    <td>0:49:34</td>
+                                    <td>16.7 m</td>
+                                    <td>3.6 km</td>
+                                    <td>1.0 km</td>
+                                   <td>93.2 GB</td>
+                                </tr>
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10">     </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_2 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc27dd7_X6983_ms">uid___A002_Xc27dd7_X6983.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>44</td>
+                                    <td>2017-07-24 08:46:19</td>
+                                    <td>2017-07-24 10:04:13</td>
+                                    <td>0:49:38</td>
+                                    <td>30.5 m</td>
+                                    <td>3.6 km</td>
+                                    <td>1.0 km</td>
+                                   <td>113.1 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc27dd7_X6983_target_ms">uid___A002_Xc27dd7_X6983_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>44</td>
+                                    <td>2017-07-24 09:01:03</td>
+                                    <td>2017-07-24 09:57:51</td>
+                                    <td>0:49:34</td>
+                                    <td>30.5 m</td>
+                                    <td>3.6 km</td>
+                                    <td>1.0 km</td>
+                                   <td>85.3 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc27dd7_X6c8e_ms">uid___A002_Xc27dd7_X6c8e.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>44</td>
+                                    <td>2017-07-24 10:07:24</td>
+                                    <td>2017-07-24 11:20:34</td>
+                                    <td>0:43:34</td>
+                                    <td>30.5 m</td>
+                                    <td>3.6 km</td>
+                                    <td>1.0 km</td>
+                                   <td>106.0 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc27dd7_X6c8e_target_ms">uid___A002_Xc27dd7_X6c8e_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>44</td>
+                                    <td>2017-07-24 10:25:30</td>
+                                    <td>2017-07-24 11:17:27</td>
+                                    <td>0:43:30</td>
+                                    <td>30.5 m</td>
+                                    <td>3.6 km</td>
+                                    <td>1.0 km</td>
+                                   <td>74.9 GB</td>
+                                </tr>
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10">     </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_3 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc2b007_X877_ms">uid___A002_Xc2b007_X877.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>44</td>
+                                    <td>2017-07-27 08:16:22</td>
+                                    <td>2017-07-27 09:34:12</td>
+                                    <td>0:49:41</td>
+                                    <td>16.7 m</td>
+                                    <td>3.7 km</td>
+                                    <td>1.1 km</td>
+                                   <td>113.1 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc2b007_X877_target_ms">uid___A002_Xc2b007_X877_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>44</td>
+                                    <td>2017-07-27 08:31:04</td>
+                                    <td>2017-07-27 09:27:51</td>
+                                    <td>0:49:34</td>
+                                    <td>16.7 m</td>
+                                    <td>3.7 km</td>
+                                    <td>1.1 km</td>
+                                   <td>85.3 GB</td>
+                                </tr>
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10">     </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_4 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc8592e_Xaea3_ms">uid___A002_Xc8592e_Xaea3.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>46</td>
+                                    <td>2017-12-27 01:27:14</td>
+                                    <td>2017-12-27 02:40:16</td>
+                                    <td>0:49:40</td>
+                                    <td>15.1 m</td>
+                                    <td>2.5 km</td>
+                                    <td>847.7 m</td>
+                                   <td>120.5 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc8592e_Xaea3_target_ms">uid___A002_Xc8592e_Xaea3_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>46</td>
+                                    <td>2017-12-27 01:38:16</td>
+                                    <td>2017-12-27 02:34:50</td>
+                                    <td>0:49:33</td>
+                                    <td>15.1 m</td>
+                                    <td>2.5 km</td>
+                                    <td>847.7 m</td>
+                                   <td>93.1 GB</td>
+                                </tr>
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10">     </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_5 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc89480_X8c7d_ms">uid___A002_Xc89480_X8c7d.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>46</td>
+                                    <td>2018-01-01 01:15:33</td>
+                                    <td>2018-01-01 02:28:39</td>
+                                    <td>0:49:37</td>
+                                    <td>15.1 m</td>
+                                    <td>2.5 km</td>
+                                    <td>837.5 m</td>
+                                   <td>120.5 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc89480_X8c7d_target_ms">uid___A002_Xc89480_X8c7d_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>46</td>
+                                    <td>2018-01-01 01:26:34</td>
+                                    <td>2018-01-01 02:23:13</td>
+                                    <td>0:49:33</td>
+                                    <td>15.1 m</td>
+                                    <td>2.5 km</td>
+                                    <td>837.5 m</td>
+                                   <td>93.1 GB</td>
+                                </tr>
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10">     </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_7 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc96463_X1646_ms">uid___A002_Xc96463_X1646.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>45</td>
+                                    <td>2018-01-19 23:26:13</td>
+                                    <td>2018-01-20 00:39:14</td>
+                                    <td>0:49:40</td>
+                                    <td>15.1 m</td>
+                                    <td>1.4 km</td>
+                                    <td>459.4 m</td>
+                                   <td>115.4 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc96463_X1646_target_ms">uid___A002_Xc96463_X1646_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>45</td>
+                                    <td>2018-01-19 23:37:16</td>
+                                    <td>2018-01-20 00:33:48</td>
+                                    <td>0:49:33</td>
+                                    <td>15.1 m</td>
+                                    <td>1.4 km</td>
+                                    <td>459.4 m</td>
+                                   <td>89.2 GB</td>
+                                </tr>
+                        
+                            <tr bgcolor="#D1E0FF">
+                                <td colspan="10">     </td>
+                            </tr>
+                            <tr bgcolor="#E8F0FF">
+                                <td colspan="10"><b>Session:</b> session_8 </td>
+                            </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc96f17_X113a_ms">uid___A002_Xc96f17_X113a.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>43</td>
+                                    <td>2018-01-21 00:06:54</td>
+                                    <td>2018-01-21 01:19:43</td>
+                                    <td>0:49:39</td>
+                                    <td>15.1 m</td>
+                                    <td>1.4 km</td>
+                                    <td>469.3 m</td>
+                                   <td>105.6 GB</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="t2-1.html?sidebar=sidebar_uid___A002_Xc96f17_X113a_target_ms">uid___A002_Xc96f17_X113a_target.ms</a></td>
+                                    <td>ALMA Band 6</td>
+                                    <td>43</td>
+                                    <td>2018-01-21 00:17:52</td>
+                                    <td>2018-01-21 01:14:17</td>
+                                    <td>0:49:33</td>
+                                    <td>15.1 m</td>
+                                    <td>1.4 km</td>
+                                    <td>469.3 m</td>
+                                   <td>81.5 GB</td>
+                                </tr>
+                        
+            </tbody>
+        </table>
+
+	
+	<div class="footer">
+		
+	</div>
+</div>
+
+</body>
+</html>

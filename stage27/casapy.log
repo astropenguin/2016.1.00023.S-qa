@@ -1,0 +1,497 @@
+2018-03-14 03:06:01	INFO	hif_uvcontfit::pipeline.infrastructure.basetask::	Starting execution for stage 27
+2018-03-14 03:06:18	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc27dd7_X2fc3_target.ms source NGC1068 is field NGC1068 with id 4
+2018-03-14 03:06:18	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 03:06:18	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 22 are 258.6003833~258.642375488GHz;258.978312988~260.458781738GHz TOPO
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 22 are 9~94;783~3814
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 24 are 257.277576924~258.446522237GHz TOPO
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 24 are 373~2766
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 03:06:19	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 26 are 244.389123337~244.944299118GHz TOPO
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X2fc3_target.ms and spw 26 are 17~1153
+2018-03-14 03:06:19	INFO	hif_uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl', spw='22:258.6003833~258.642375488GHz;258.978312988~260.458781738GHz,24:257.277576924~258.446522237GHz,26:244.389123337~244.944299118GHz', vis='uid___A002_Xc27dd7_X2fc3_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 03:06:19	WARN	uvcontfit::calibrater::setvi(bool,bool)	Forcing use of OLD VisibilityIterator.
+2018-03-14 03:06:19	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 03:06:19	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms for calibration.
+2018-03-14 03:06:20	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 03:06:20	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 03:06:20	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 03:06:20	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 03:06:20	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 03:06:20	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.6003833~258.642375488GHz;258.978312988~260.458781738GHz,24:257.277576924~258.446522237GHz,26:244.389123337~244.944299118GHz'
+2018-03-14 03:06:20	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 03:06:20	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 03:06:20	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:9~94 (86 channels, step by 1)
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:783~3814 (3032 channels, step by 1)
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:373~2766 (2394 channels, step by 1)
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:17~1153 (1137 channels, step by 1)
+2018-03-14 03:06:21	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 03:06:21	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 03:06:21	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 03:06:21	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 03:06:23	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 04:14:26	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 04:14:26	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms.hif_uvcontfit.s27_1.NGC1068.uvcont.tbl
+2018-03-14 04:14:37	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 04:14:56	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc27dd7_X6983_target.ms source NGC1068 is field NGC1068 with id 3
+2018-03-14 04:14:56	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X6983_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 04:14:56	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X6983_target.ms and spw 22 are 258.60056629~258.642558477GHz;258.978984259~260.458964727GHz TOPO
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X6983_target.ms and spw 22 are 9~94;784~3814
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X6983_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X6983_target.ms and spw 24 are 257.277758856~258.446704168GHz TOPO
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X6983_target.ms and spw 24 are 373~2766
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X6983_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 04:14:57	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X6983_target.ms and spw 26 are 244.389302326~244.944478107GHz TOPO
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X6983_target.ms and spw 26 are 17~1153
+2018-03-14 04:14:57	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl', spw='22:258.60056629~258.642558477GHz;258.978984259~260.458964727GHz,24:257.277758856~258.446704168GHz,26:244.389302326~244.944478107GHz', vis='uid___A002_Xc27dd7_X6983_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 04:14:57	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 04:14:57	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 04:14:57	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms for calibration.
+2018-03-14 04:14:57	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 04:14:58	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 04:14:58	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 04:14:58	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 04:14:58	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 04:14:58	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.60056629~258.642558477GHz;258.978984259~260.458964727GHz,24:257.277758856~258.446704168GHz,26:244.389302326~244.944478107GHz'
+2018-03-14 04:14:58	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 04:14:58	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 04:14:58	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:9~94 (86 channels, step by 1)
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:373~2766 (2394 channels, step by 1)
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:17~1153 (1137 channels, step by 1)
+2018-03-14 04:14:59	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 04:14:59	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 04:14:59	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 04:14:59	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 04:15:00	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 05:17:42	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 05:17:42	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms.hif_uvcontfit.s27_3.NGC1068.uvcont.tbl
+2018-03-14 05:17:51	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 05:18:14	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc27dd7_X6c8e_target.ms source NGC1068 is field NGC1068 with id 4
+2018-03-14 05:18:14	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 05:18:14	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-14 05:18:14	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 05:18:14	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 05:18:14	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-14 05:18:14	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 05:18:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 22 are 258.600450229~258.642442416GHz;258.978868197~260.458848666GHz TOPO
+2018-03-14 05:18:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 22 are 9~94;784~3814
+2018-03-14 05:18:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 05:18:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 24 are 257.277643466~258.446588778GHz TOPO
+2018-03-14 05:18:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 24 are 373~2766
+2018-03-14 05:18:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 4
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 425700 out of  1277100 rows.
+2018-03-14 05:18:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 05:18:16	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 26 are 244.389188802~244.944364583GHz TOPO
+2018-03-14 05:18:16	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc27dd7_X6c8e_target.ms and spw 26 are 17~1153
+2018-03-14 05:18:16	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl', spw='22:258.600450229~258.642442416GHz;258.978868197~260.458848666GHz,24:257.277643466~258.446588778GHz,26:244.389188802~244.944364583GHz', vis='uid___A002_Xc27dd7_X6c8e_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 05:18:16	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 05:18:16	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 05:18:16	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms for calibration.
+2018-03-14 05:18:16	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 05:18:16	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 05:18:16	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 05:18:16	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 05:18:16	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 05:18:16	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.600450229~258.642442416GHz;258.978868197~260.458848666GHz,24:257.277643466~258.446588778GHz,26:244.389188802~244.944364583GHz'
+2018-03-14 05:18:16	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 05:18:16	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 05:18:16	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:9~94 (86 channels, step by 1)
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:373~2766 (2394 channels, step by 1)
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:17~1153 (1137 channels, step by 1)
+2018-03-14 05:18:17	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 05:18:17	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 05:18:17	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 05:18:17	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 05:18:18	INFO	uvcontfit::::	For solint = int, found 1290 solution intervals.
+2018-03-14 06:16:55	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1290 slots.
+2018-03-14 06:16:55	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms.hif_uvcontfit.s27_5.NGC1068.uvcont.tbl
+2018-03-14 06:17:03	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 06:17:23	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc2b007_X877_target.ms source NGC1068 is field NGC1068 with id 3
+2018-03-14 06:17:23	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc2b007_X877_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 06:17:23	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 06:17:24	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc2b007_X877_target.ms and spw 22 are 258.60070279~258.642694977GHz;258.979120759~260.459101227GHz TOPO
+2018-03-14 06:17:24	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc2b007_X877_target.ms and spw 22 are 9~94;784~3814
+2018-03-14 06:17:24	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc2b007_X877_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 06:17:24	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc2b007_X877_target.ms and spw 24 are 257.277894567~258.446839879GHz TOPO
+2018-03-14 06:17:24	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc2b007_X877_target.ms and spw 24 are 373~2766
+2018-03-14 06:17:24	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc2b007_X877_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 485100 out of  1455300 rows.
+2018-03-14 06:17:24	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 06:17:25	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc2b007_X877_target.ms and spw 26 are 244.389435841~244.944611622GHz TOPO
+2018-03-14 06:17:25	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc2b007_X877_target.ms and spw 26 are 17~1153
+2018-03-14 06:17:25	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl', spw='22:258.60070279~258.642694977GHz;258.979120759~260.459101227GHz,24:257.277894567~258.446839879GHz,26:244.389435841~244.944611622GHz', vis='uid___A002_Xc2b007_X877_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 06:17:25	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 06:17:25	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 06:17:25	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms for calibration.
+2018-03-14 06:17:25	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 06:17:25	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 06:17:25	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 06:17:25	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 06:17:25	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 06:17:25	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.60070279~258.642694977GHz;258.979120759~260.459101227GHz,24:257.277894567~258.446839879GHz,26:244.389435841~244.944611622GHz'
+2018-03-14 06:17:25	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 06:17:25	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 06:17:25	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:9~94 (86 channels, step by 1)
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:373~2766 (2394 channels, step by 1)
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:17~1153 (1137 channels, step by 1)
+2018-03-14 06:17:26	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 06:17:26	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 06:17:26	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 06:17:26	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 06:17:27	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 07:21:44	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 07:21:44	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms.hif_uvcontfit.s27_7.NGC1068.uvcont.tbl
+2018-03-14 07:21:53	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 07:22:10	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc8592e_Xaea3_target.ms source NGC1068 is field NGC1068 with id 3
+2018-03-14 07:22:10	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 07:22:10	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-14 07:22:10	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 07:22:10	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 07:22:11	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 22 are 258.555160394~258.5966643GHz;258.933090082~260.41307055GHz TOPO
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 22 are 10~94;784~3814
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 24 are 257.232618306~258.401075337GHz TOPO
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 24 are 374~2766
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 07:22:12	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 26 are 244.34587647~244.901540532GHz TOPO
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc8592e_Xaea3_target.ms and spw 26 are 13~1150
+2018-03-14 07:22:12	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl', spw='22:258.555160394~258.5966643GHz;258.933090082~260.41307055GHz,24:257.232618306~258.401075337GHz,26:244.34587647~244.901540532GHz', vis='uid___A002_Xc8592e_Xaea3_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 07:22:12	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 07:22:12	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 07:22:12	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms for calibration.
+2018-03-14 07:22:13	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 07:22:13	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 07:22:13	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 07:22:13	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 07:22:13	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 07:22:13	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.555160394~258.5966643GHz;258.933090082~260.41307055GHz,24:257.232618306~258.401075337GHz,26:244.34587647~244.901540532GHz'
+2018-03-14 07:22:13	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 07:22:13	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 07:22:13	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:10~94 (85 channels, step by 1)
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:374~2766 (2393 channels, step by 1)
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:13~1150 (1138 channels, step by 1)
+2018-03-14 07:22:14	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 07:22:14	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 07:22:14	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 07:22:14	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 07:22:16	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 08:33:59	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 08:33:59	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms.hif_uvcontfit.s27_9.NGC1068.uvcont.tbl
+2018-03-14 08:34:08	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 08:34:27	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc89480_X8c7d_target.ms source NGC1068 is field NGC1068 with id 3
+2018-03-14 08:34:27	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc89480_X8c7d_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 08:34:28	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc89480_X8c7d_target.ms and spw 22 are 258.554039027~258.595542933GHz;258.931968714~260.411949183GHz TOPO
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc89480_X8c7d_target.ms and spw 22 are 10~94;784~3814
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc89480_X8c7d_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc89480_X8c7d_target.ms and spw 24 are 257.231503422~258.399960453GHz TOPO
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc89480_X8c7d_target.ms and spw 24 are 374~2766
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc89480_X8c7d_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 529690 out of  1589070 rows.
+2018-03-14 08:34:29	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc89480_X8c7d_target.ms and spw 26 are 244.344779621~244.900443683GHz TOPO
+2018-03-14 08:34:29	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc89480_X8c7d_target.ms and spw 26 are 13~1150
+2018-03-14 08:34:30	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl', spw='22:258.554039027~258.595542933GHz;258.931968714~260.411949183GHz,24:257.231503422~258.399960453GHz,26:244.344779621~244.900443683GHz', vis='uid___A002_Xc89480_X8c7d_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 08:34:30	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 08:34:30	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 08:34:30	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms for calibration.
+2018-03-14 08:34:30	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 08:34:30	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 08:34:30	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 08:34:30	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 08:34:30	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 08:34:30	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.554039027~258.595542933GHz;258.931968714~260.411949183GHz,24:257.231503422~258.399960453GHz,26:244.344779621~244.900443683GHz'
+2018-03-14 08:34:30	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 08:34:30	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 08:34:30	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:10~94 (85 channels, step by 1)
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:374~2766 (2393 channels, step by 1)
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:13~1150 (1138 channels, step by 1)
+2018-03-14 08:34:31	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 08:34:31	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 08:34:31	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 08:34:31	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 08:34:33	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 09:42:46	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 09:42:46	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms.hif_uvcontfit.s27_11.NGC1068.uvcont.tbl
+2018-03-14 09:42:56	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 09:43:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc96463_X1646_target.ms source NGC1068 is field NGC1068 with id 3
+2018-03-14 09:43:15	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc96463_X1646_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 09:43:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-14 09:43:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 09:43:15	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-14 09:43:16	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 09:43:16	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc96463_X1646_target.ms and spw 22 are 258.551459798~258.592963704GHz;258.929389485~260.409369954GHz TOPO
+2018-03-14 09:43:16	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc96463_X1646_target.ms and spw 22 are 10~94;784~3814
+2018-03-14 09:43:16	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc96463_X1646_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 09:43:17	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc96463_X1646_target.ms and spw 24 are 257.228939105~258.397396136GHz TOPO
+2018-03-14 09:43:17	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc96463_X1646_target.ms and spw 24 are 374~2766
+2018-03-14 09:43:17	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc96463_X1646_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 507150 out of  1521450 rows.
+2018-03-14 09:43:17	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 09:43:17	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc96463_X1646_target.ms and spw 26 are 244.342745068~244.89792085GHz TOPO
+2018-03-14 09:43:17	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc96463_X1646_target.ms and spw 26 are 13~1149
+2018-03-14 09:43:17	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl', spw='22:258.551459798~258.592963704GHz;258.929389485~260.409369954GHz,24:257.228939105~258.397396136GHz,26:244.342745068~244.89792085GHz', vis='uid___A002_Xc96463_X1646_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 09:43:17	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 09:43:17	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 09:43:17	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms for calibration.
+2018-03-14 09:43:17	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 09:43:18	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 09:43:18	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 09:43:18	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 09:43:18	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 09:43:18	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.551459798~258.592963704GHz;258.929389485~260.409369954GHz,24:257.228939105~258.397396136GHz,26:244.342745068~244.89792085GHz'
+2018-03-14 09:43:18	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 09:43:18	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 09:43:18	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:10~94 (85 channels, step by 1)
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:374~2766 (2393 channels, step by 1)
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:13~1149 (1137 channels, step by 1)
+2018-03-14 09:43:19	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 09:43:19	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 09:43:19	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 09:43:19	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 09:43:20	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 10:46:01	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 10:46:01	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms.hif_uvcontfit.s27_13.NGC1068.uvcont.tbl
+2018-03-14 10:46:10	INFO	uvcontfit::calibrater::solve	Finished solving.
+2018-03-14 10:46:30	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Representative field for MS uid___A002_Xc96f17_X113a_target.ms source NGC1068 is field NGC1068 with id 3
+2018-03-14 10:46:30	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc96f17_X113a_target.ms and spw 22 are 258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK
+2018-03-14 10:46:30	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-14 10:46:30	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 10:46:30	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 10:46:30	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-14 10:46:30	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :22
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 22]
+2018-03-14 10:46:31	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc96f17_X113a_target.ms and spw 22 are 258.551324859~258.592828765GHz;258.929254547~260.409235015GHz TOPO
+2018-03-14 10:46:31	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc96f17_X113a_target.ms and spw 22 are 10~94;784~3814
+2018-03-14 10:46:31	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc96f17_X113a_target.ms and spw 24 are 257.263455891~258.431642527GHz LSRK
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :24
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-14 10:46:31	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 24]
+2018-03-14 10:46:32	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc96f17_X113a_target.ms and spw 24 are 257.228804947~258.397261978GHz TOPO
+2018-03-14 10:46:32	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc96f17_X113a_target.ms and spw 24 are 374~2766
+2018-03-14 10:46:32	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Input continuum frequency ranges for MS uid___A002_Xc96f17_X113a_target.ms and spw 26 are 244.375523078~244.93031246GHz LSRK
+2018-03-14 10:46:32	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Performing selection on MeasurementSet : /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms
+2018-03-14 10:46:32	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on fields : 3
+2018-03-14 10:46:32	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selecting on spectral windows expression :26
+2018-03-14 10:46:32	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected 463540 out of  1390620 rows.
+2018-03-14 10:46:32	INFO	pipeline.hif.tasks.uvcontsub.uvcontfit::imager::setDataOnThisMS()	Selected : [3840 chans in spw 26]
+2018-03-14 10:46:32	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum frequency range for MS uid___A002_Xc96f17_X113a_target.ms and spw 26 are 244.34261308~244.897788861GHz TOPO
+2018-03-14 10:46:32	INFO	uvcontfit::pipeline.hif.tasks.uvcontsub.uvcontfit::	Output continuum channel ranges for MS uid___A002_Xc96f17_X113a_target.ms and spw 26 are 13~1149
+2018-03-14 10:46:32	INFO	uvcontfit::pipeline.infrastructure.jobrequest::	Executing uvcontfit(field='NGC1068', fitorder=1, solint='int', caltable='uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl', spw='22:258.551324859~258.592828765GHz;258.929254547~260.409235015GHz,24:257.228804947~258.397261978GHz,26:244.34261308~244.897788861GHz', vis='uid___A002_Xc96f17_X113a_target.ms', intent='OBSERVE_TARGET#ON_SOURCE', append=False)
+2018-03-14 10:46:32	WARN	uvcontfit::calibrater::setvi(bool,bool)	Already using OLD VisibilityIterator.
+2018-03-14 10:46:32	INFO	uvcontfit::calibrater::open	****Using OLD VI-driven calibrater tool****
+2018-03-14 10:46:32	INFO	uvcontfit::calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms for calibration.
+2018-03-14 10:46:32	INFO	uvcontfit::Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-14 10:46:33	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 10:46:33	INFO	uvcontfit::calibrater::setdata	Beginning selectvis--(MSSelection version)-------
+2018-03-14 10:46:33	INFO	uvcontfit::calibrater::reset	Reseting solve/apply state
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis	Performing selection on MeasurementSet
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on spw: '22:258.551324859~258.592828765GHz;258.929254547~260.409235015GHz,24:257.228804947~258.397261978GHz,26:244.34261308~244.897788861GHz'
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on field: 'NGC1068'
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis+	 Selecting on intent: 'OBSERVE_TARGET#ON_SOURCE'
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis	Selection did not drop any rows
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis	Frequency selection: 
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis	.  Spw 22:10~94 (85 channels, step by 1)
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 22:784~3814 (3031 channels, step by 1)
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 24:374~2766 (2393 channels, step by 1)
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::selectvis+	.  Spw 26:13~1149 (1137 channels, step by 1)
+2018-03-14 10:46:33	INFO	uvcontfit::calibrater::setdata	chanmode=none nchan=1 start=0 step=1 mStart='0km/s' mStep='0km/s' msSelect=''
+2018-03-14 10:46:33	INFO	uvcontfit::calibrater::setsolve	Beginning setsolve--(MSSelection version)-------
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::setsolve	Arranging to SOLVE:
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::setsolve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 10:46:33	INFO	uvcontfit::calibrater::solve	Beginning solve-----------------------------
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::solve	The following calibration terms are arranged for apply:
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::solve	.   (None)
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::solve	The following calibration term is arranged for solve:
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::solve	.   A Mueller: table=/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl append=false solint=int refantmode='flex' refant='none' minsnr=0 apmode=AP solnorm=false
+2018-03-14 10:46:33	INFO	uvcontfit::Calibrater::solve	Solving for A Mueller
+2018-03-14 10:46:35	INFO	uvcontfit::::	For solint = int, found 1470 solution intervals.
+2018-03-14 11:40:39	INFO	uvcontfit::Calibrater::solve	  Found good A Mueller solutions in 1470 slots.
+2018-03-14 11:40:39	INFO	uvcontfit::::	Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms.hif_uvcontfit.s27_15.NGC1068.uvcont.tbl
+2018-03-14 11:40:47	INFO	uvcontfit::calibrater::solve	Finished solving.

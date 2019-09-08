@@ -1,0 +1,259 @@
+2018-03-10 08:44:20	INFO	h_tsyscal::pipeline.infrastructure.basetask::	Starting execution for stage 6
+2018-03-10 08:44:20	INFO	h_tsyscal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl', vis='uid___A002_Xc27dd7_X2fc3.ms', caltype='tsys')
+2018-03-10 08:44:20	INFO	gencal::::	
+2018-03-10 08:44:20	INFO	gencal::::+	##########################################
+2018-03-10 08:44:20	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:44:20	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:44:20	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:44:20	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:44:20	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms for calibration.
+2018-03-10 08:44:20	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:44:20	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:44:20	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:44:36	INFO		Tsys spectra counts per spw for antenna Ids 0-45 (per pol):
+2018-03-10 08:44:36	INFO		Spw 16: [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8] (=368 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:44:36	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=28 in spw 16.)
+2018-03-10 08:44:36	INFO		Spw 18: [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8] (=368 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:44:36	INFO		  (Found and flagged 16 spurious negative (or zero) Tsys channels for ant id=6 in spw 18.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 8 spurious negative (or zero) Tsys channels for ant id=17 in spw 18.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=21 in spw 18.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=23 in spw 18.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=41 in spw 18.)
+2018-03-10 08:44:36	INFO		Spw 20: [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8] (=368 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:44:36	INFO		  (Found and flagged 8 spurious negative (or zero) Tsys channels for ant id=17 in spw 20.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=18 in spw 20.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=26 in spw 20.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=37 in spw 20.)
+2018-03-10 08:44:36	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=38 in spw 20.)
+2018-03-10 08:44:36	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl
+2018-03-10 08:44:36	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:44:36	INFO	gencal::::+	##########################################
+2018-03-10 08:44:39	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:44:40	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl', vis='uid___A002_Xc27dd7_X6983.ms', caltype='tsys')
+2018-03-10 08:44:40	INFO	gencal::::	
+2018-03-10 08:44:40	INFO	gencal::::+	##########################################
+2018-03-10 08:44:40	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:44:40	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:44:40	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:44:40	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:44:40	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms for calibration.
+2018-03-10 08:44:40	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:44:40	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:44:40	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:44:53	INFO		Tsys spectra counts per spw for antenna Ids 0-43 (per pol):
+2018-03-10 08:44:53	INFO		Spw 16: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=1 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 4 spurious negative (or zero) Tsys channels for ant id=9 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=19 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=24 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=26 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=31 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=32 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=34 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=36 in spw 16.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 4 spurious negative (or zero) Tsys channels for ant id=39 in spw 16.)
+2018-03-10 08:44:53	INFO		Spw 18: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:44:53	INFO		  (Found and flagged 14 spurious negative (or zero) Tsys channels for ant id=5 in spw 18.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=19 in spw 18.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=21 in spw 18.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=35 in spw 18.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 7 spurious negative (or zero) Tsys channels for ant id=39 in spw 18.)
+2018-03-10 08:44:53	INFO		Spw 20: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:44:53	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=11 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=14 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 7 spurious negative (or zero) Tsys channels for ant id=15 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 5 spurious negative (or zero) Tsys channels for ant id=16 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 5 spurious negative (or zero) Tsys channels for ant id=18 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=22 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 4 spurious negative (or zero) Tsys channels for ant id=24 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=28 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 7 spurious negative (or zero) Tsys channels for ant id=35 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=36 in spw 20.)
+2018-03-10 08:44:53	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=40 in spw 20.)
+2018-03-10 08:44:53	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl
+2018-03-10 08:44:53	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:44:53	INFO	gencal::::+	##########################################
+2018-03-10 08:44:56	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:44:57	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl', vis='uid___A002_Xc27dd7_X6c8e.ms', caltype='tsys')
+2018-03-10 08:44:57	INFO	gencal::::	
+2018-03-10 08:44:57	INFO	gencal::::+	##########################################
+2018-03-10 08:44:57	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:44:57	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:44:57	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:44:57	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:44:57	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms for calibration.
+2018-03-10 08:44:57	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:44:57	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:44:57	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:45:09	INFO		Tsys spectra counts per spw for antenna Ids 0-43 (per pol):
+2018-03-10 08:45:09	INFO		Spw 16: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:09	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=1 in spw 16.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=9 in spw 16.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=11 in spw 16.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=19 in spw 16.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=32 in spw 16.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=34 in spw 16.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=38 in spw 16.)
+2018-03-10 08:45:09	INFO		Spw 18: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=4 in spw 18.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 14 spurious negative (or zero) Tsys channels for ant id=5 in spw 18.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=19 in spw 18.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=35 in spw 18.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=39 in spw 18.)
+2018-03-10 08:45:09	INFO		Spw 20: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=11 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=14 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 7 spurious negative (or zero) Tsys channels for ant id=15 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=16 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=18 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=24 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=34 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=35 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=36 in spw 20.)
+2018-03-10 08:45:09	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=41 in spw 20.)
+2018-03-10 08:45:09	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl
+2018-03-10 08:45:10	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:45:10	INFO	gencal::::+	##########################################
+2018-03-10 08:45:13	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:45:14	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl', vis='uid___A002_Xc2b007_X877.ms', caltype='tsys')
+2018-03-10 08:45:14	INFO	gencal::::	
+2018-03-10 08:45:14	INFO	gencal::::+	##########################################
+2018-03-10 08:45:14	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:45:14	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:45:14	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:45:14	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:45:14	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms for calibration.
+2018-03-10 08:45:14	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:45:14	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:45:14	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:45:27	INFO		Tsys spectra counts per spw for antenna Ids 0-43 (per pol):
+2018-03-10 08:45:27	INFO		Spw 16: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:27	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=8 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=15 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=20 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=26 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=31 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 4 spurious negative (or zero) Tsys channels for ant id=32 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=34 in spw 16.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 4 spurious negative (or zero) Tsys channels for ant id=36 in spw 16.)
+2018-03-10 08:45:27	INFO		Spw 18: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:27	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=13 in spw 18.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=20 in spw 18.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=35 in spw 18.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 7 spurious negative (or zero) Tsys channels for ant id=39 in spw 18.)
+2018-03-10 08:45:27	INFO		Spw 20: [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7] (=308 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:27	INFO		  (Found and flagged 7 spurious negative (or zero) Tsys channels for ant id=14 in spw 20.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=15 in spw 20.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=19 in spw 20.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=24 in spw 20.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=35 in spw 20.)
+2018-03-10 08:45:27	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=36 in spw 20.)
+2018-03-10 08:45:27	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl
+2018-03-10 08:45:27	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:45:27	INFO	gencal::::+	##########################################
+2018-03-10 08:45:30	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:45:31	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl', vis='uid___A002_Xc8592e_Xaea3.ms', caltype='tsys')
+2018-03-10 08:45:31	INFO	gencal::::	
+2018-03-10 08:45:31	INFO	gencal::::+	##########################################
+2018-03-10 08:45:31	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:45:31	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:45:31	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:45:31	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:45:31	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms for calibration.
+2018-03-10 08:45:31	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:45:31	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:45:31	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:45:44	INFO		Tsys spectra counts per spw for antenna Ids 0-45 (per pol):
+2018-03-10 08:45:44	INFO		Spw 16: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=276 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:44	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=30 in spw 16.)
+2018-03-10 08:45:44	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=41 in spw 16.)
+2018-03-10 08:45:44	INFO		Spw 18: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=276 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:44	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=16 in spw 18.)
+2018-03-10 08:45:44	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=27 in spw 18.)
+2018-03-10 08:45:44	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=45 in spw 18.)
+2018-03-10 08:45:44	INFO		Spw 20: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=276 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:45:44	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=16 in spw 20.)
+2018-03-10 08:45:44	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=17 in spw 20.)
+2018-03-10 08:45:44	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=21 in spw 20.)
+2018-03-10 08:45:44	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl
+2018-03-10 08:45:44	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:45:44	INFO	gencal::::+	##########################################
+2018-03-10 08:45:47	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:45:48	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl', vis='uid___A002_Xc89480_X8c7d.ms', caltype='tsys')
+2018-03-10 08:45:48	INFO	gencal::::	
+2018-03-10 08:45:48	INFO	gencal::::+	##########################################
+2018-03-10 08:45:48	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:45:48	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:45:48	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:45:48	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:45:48	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms for calibration.
+2018-03-10 08:45:48	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:45:48	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:45:48	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:46:01	INFO		Tsys spectra counts per spw for antenna Ids 0-45 (per pol):
+2018-03-10 08:46:01	INFO		Spw 16: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=276 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:01	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=6 in spw 16.)
+2018-03-10 08:46:01	INFO		Spw 18: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=276 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:01	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=17 in spw 18.)
+2018-03-10 08:46:01	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=42 in spw 18.)
+2018-03-10 08:46:01	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=45 in spw 18.)
+2018-03-10 08:46:01	INFO		Spw 20: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=276 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:01	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=6 in spw 20.)
+2018-03-10 08:46:01	INFO		  (Found and flagged 4 spurious negative (or zero) Tsys channels for ant id=17 in spw 20.)
+2018-03-10 08:46:01	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=18 in spw 20.)
+2018-03-10 08:46:01	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=39 in spw 20.)
+2018-03-10 08:46:01	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl
+2018-03-10 08:46:01	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:46:01	INFO	gencal::::+	##########################################
+2018-03-10 08:46:04	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:46:05	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl', vis='uid___A002_Xc96463_X1646.ms', caltype='tsys')
+2018-03-10 08:46:05	INFO	gencal::::	
+2018-03-10 08:46:05	INFO	gencal::::+	##########################################
+2018-03-10 08:46:05	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:46:05	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:46:05	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:46:05	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:46:05	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms for calibration.
+2018-03-10 08:46:05	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:46:05	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:46:05	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:46:18	INFO		Tsys spectra counts per spw for antenna Ids 0-44 (per pol):
+2018-03-10 08:46:18	INFO		Spw 16: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=270 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:18	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=1 in spw 16.)
+2018-03-10 08:46:18	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=31 in spw 16.)
+2018-03-10 08:46:18	INFO		Spw 18: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=270 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:18	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=17 in spw 18.)
+2018-03-10 08:46:18	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=38 in spw 18.)
+2018-03-10 08:46:18	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=42 in spw 18.)
+2018-03-10 08:46:18	INFO		Spw 20: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=270 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:18	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=6 in spw 20.)
+2018-03-10 08:46:18	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=17 in spw 20.)
+2018-03-10 08:46:18	INFO		  (Found and flagged 2 spurious negative (or zero) Tsys channels for ant id=18 in spw 20.)
+2018-03-10 08:46:18	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl
+2018-03-10 08:46:18	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:46:18	INFO	gencal::::+	##########################################
+2018-03-10 08:46:21	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]
+2018-03-10 08:46:22	INFO	gencal::pipeline.infrastructure.jobrequest::	Executing gencal(caltable='uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl', vis='uid___A002_Xc96f17_X113a.ms', caltype='tsys')
+2018-03-10 08:46:22	INFO	gencal::::	
+2018-03-10 08:46:22	INFO	gencal::::+	##########################################
+2018-03-10 08:46:22	INFO	gencal::::+	##### Begin Task: gencal             #####
+2018-03-10 08:46:22	INFO	gencal::::	gencal(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms",caltable="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl",caltype="tsys",infile="",spw="",
+2018-03-10 08:46:22	INFO	gencal::::+	        antenna="",pol="",parameter=[],uniform=True)
+2018-03-10 08:46:22	INFO	calibrater::open	****Using NEW VI2-driven calibrater tool****
+2018-03-10 08:46:22	INFO	calibrater::open	Opening MS: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms for calibration.
+2018-03-10 08:46:22	INFO	Calibrater::	Initializing nominal selection to the whole MS.
+2018-03-10 08:46:22	INFO	calibrater::specifycal	Beginning specifycal-----------------------
+2018-03-10 08:46:22	INFO		Creating B TSYS table from MS SYSCAL subtable.
+2018-03-10 08:46:34	INFO		Tsys spectra counts per spw for antenna Ids 0-42 (per pol):
+2018-03-10 08:46:34	INFO		Spw 16: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=258 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:34	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=1 in spw 16.)
+2018-03-10 08:46:34	INFO		  (Found and flagged 1 spurious negative (or zero) Tsys channels for ant id=6 in spw 16.)
+2018-03-10 08:46:34	INFO		Spw 18: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=258 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:34	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=17 in spw 18.)
+2018-03-10 08:46:34	INFO		Spw 20: [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6] (=258 spectra; 128 chans per spectra, per pol)
+2018-03-10 08:46:34	INFO		  (Found and flagged 3 spurious negative (or zero) Tsys channels for ant id=16 in spw 20.)
+2018-03-10 08:46:34	INFO		  (Found and flagged 6 spurious negative (or zero) Tsys channels for ant id=17 in spw 20.)
+2018-03-10 08:46:34	INFO		Writing solutions to table: /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl
+2018-03-10 08:46:34	INFO	gencal::::	##### End Task: gencal               #####
+2018-03-10 08:46:34	INFO	gencal::::+	##########################################
+2018-03-10 08:46:37	INFO	gencal::pipeline.h.heuristics.tsysspwmap::	Computed tsysspwmap is: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20]

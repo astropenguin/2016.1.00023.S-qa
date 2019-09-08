@@ -1,0 +1,998 @@
+2018-03-13 00:45:44	INFO	hifa_exportdata::pipeline.infrastructure.basetask::	Starting execution for stage 22
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_1 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_2 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_3 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_4 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_5 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_7 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Visibility list for session session_8 is ['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms']
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Copying pipeline processing file PPR_uid___A001_X87d_X498.xml to uid___A001_X87d_X497.hifa_calimage.pprequest.xml
+2018-03-13 00:45:45	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Saving final weblog in uid___A001_X87d_X497.hifa_calimage.weblog.tgz
+2018-03-13 00:55:09	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Copying casa commands log /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/casa_commands.log to /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.hifa_calimage.casa_commands.log
+2018-03-13 00:55:09	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Copying casa script file /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/casa_pipescript.py to /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.hifa_calimage.casa_pipescript.py
+2018-03-13 00:55:09	INFO	hifa_exportdata::pipeline.hifa.tasks.exportdata.almaexportdata::	Creating casa restore script /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/casa_piperestorescript.py
+2018-03-13 00:55:09	INFO	hifa_exportdata::pipeline.hifa.tasks.exportdata.almaexportdata::	Copying casa restore script /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline-20180309T230545/html/casa_piperestorescript.py to /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.hifa_calimage.casa_piperestorescript.py
+2018-03-13 00:55:09	INFO	hifa_exportdata::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc27dd7_X2fc3.ms in flag version Pipeline_Final
+2018-03-13 00:55:09	INFO	hifa_exportdata::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc27dd7_X2fc3.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 00:55:09	INFO	flagmanager::::	
+2018-03-13 00:55:09	INFO	flagmanager::::+	##########################################
+2018-03-13 00:55:09	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 00:55:09	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 00:55:09	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 00:55:09	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 00:55:09	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 00:55:09	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 00:56:50	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 00:56:50	INFO	flagmanager::::+	##########################################
+2018-03-13 00:56:50	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc27dd7_X6983.ms in flag version Pipeline_Final
+2018-03-13 00:56:50	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc27dd7_X6983.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 00:56:50	INFO	flagmanager::::	
+2018-03-13 00:56:50	INFO	flagmanager::::+	##########################################
+2018-03-13 00:56:50	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 00:56:50	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 00:56:50	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 00:56:50	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 00:56:51	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 00:56:51	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 00:58:16	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 00:58:16	INFO	flagmanager::::+	##########################################
+2018-03-13 00:58:16	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc27dd7_X6c8e.ms in flag version Pipeline_Final
+2018-03-13 00:58:16	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc27dd7_X6c8e.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 00:58:16	INFO	flagmanager::::	
+2018-03-13 00:58:16	INFO	flagmanager::::+	##########################################
+2018-03-13 00:58:16	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 00:58:16	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 00:58:16	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 00:58:16	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 00:58:16	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 00:58:17	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 00:59:41	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 00:59:41	INFO	flagmanager::::+	##########################################
+2018-03-13 00:59:41	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc2b007_X877.ms in flag version Pipeline_Final
+2018-03-13 00:59:41	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc2b007_X877.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 00:59:41	INFO	flagmanager::::	
+2018-03-13 00:59:41	INFO	flagmanager::::+	##########################################
+2018-03-13 00:59:41	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 00:59:41	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 00:59:41	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 00:59:41	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 00:59:41	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 00:59:41	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 01:01:17	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 01:01:17	INFO	flagmanager::::+	##########################################
+2018-03-13 01:01:18	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc8592e_Xaea3.ms in flag version Pipeline_Final
+2018-03-13 01:01:18	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc8592e_Xaea3.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 01:01:18	INFO	flagmanager::::	
+2018-03-13 01:01:18	INFO	flagmanager::::+	##########################################
+2018-03-13 01:01:18	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 01:01:18	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 01:01:18	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 01:01:18	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 01:01:18	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 01:01:18	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 01:02:53	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 01:02:53	INFO	flagmanager::::+	##########################################
+2018-03-13 01:02:53	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc89480_X8c7d.ms in flag version Pipeline_Final
+2018-03-13 01:02:53	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc89480_X8c7d.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 01:02:53	INFO	flagmanager::::	
+2018-03-13 01:02:53	INFO	flagmanager::::+	##########################################
+2018-03-13 01:02:53	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 01:02:53	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 01:02:53	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 01:02:53	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 01:02:53	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 01:02:53	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 01:04:28	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 01:04:28	INFO	flagmanager::::+	##########################################
+2018-03-13 01:04:28	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc96463_X1646.ms in flag version Pipeline_Final
+2018-03-13 01:04:28	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc96463_X1646.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 01:04:28	INFO	flagmanager::::	
+2018-03-13 01:04:28	INFO	flagmanager::::+	##########################################
+2018-03-13 01:04:28	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 01:04:28	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 01:04:28	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 01:04:28	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 01:04:28	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 01:04:28	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 01:06:01	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 01:06:01	INFO	flagmanager::::+	##########################################
+2018-03-13 01:06:01	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final flags for uid___A002_Xc96f17_X113a.ms in flag version Pipeline_Final
+2018-03-13 01:06:01	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing flagmanager(vis='uid___A002_Xc96f17_X113a.ms', mode='save', versionname='Pipeline_Final')
+2018-03-13 01:06:01	INFO	flagmanager::::	
+2018-03-13 01:06:01	INFO	flagmanager::::+	##########################################
+2018-03-13 01:06:01	INFO	flagmanager::::+	##### Begin Task: flagmanager        #####
+2018-03-13 01:06:01	INFO	flagmanager::::	flagmanager(vis="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a.ms",mode="save",versionname="Pipeline_Final",oldname="",comment="",
+2018-03-13 01:06:01	INFO	flagmanager::::+	        merge="replace")
+2018-03-13 01:06:01	INFO	flagmanager::AgentFlagger::open	Table type is Measurement Set
+2018-03-13 01:06:01	INFO	flagmanager::::	Save current flagversions to Pipeline_Final
+2018-03-13 01:06:01	INFO	FlagVersion::saveFlagVersion	Creating new backup flag file called Pipeline_Final
+2018-03-13 01:07:26	INFO	flagmanager::::	##### End Task: flagmanager          #####
+2018-03-13 01:07:26	INFO	flagmanager::::+	##########################################
+2018-03-13 01:07:27	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc27dd7_X2fc3.ms in uid___A002_Xc27dd7_X2fc3.ms.flagversions.tgz
+2018-03-13 01:07:27	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:07:27	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:07:42	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc27dd7_X6983.ms in uid___A002_Xc27dd7_X6983.ms.flagversions.tgz
+2018-03-13 01:07:42	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:07:42	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:07:54	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc27dd7_X6c8e.ms in uid___A002_Xc27dd7_X6c8e.ms.flagversions.tgz
+2018-03-13 01:07:54	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:07:54	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:08:04	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc2b007_X877.ms in uid___A002_Xc2b007_X877.ms.flagversions.tgz
+2018-03-13 01:08:04	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:08:04	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:08:17	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc8592e_Xaea3.ms in uid___A002_Xc8592e_Xaea3.ms.flagversions.tgz
+2018-03-13 01:08:17	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:08:17	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:08:29	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc89480_X8c7d.ms in uid___A002_Xc89480_X8c7d.ms.flagversions.tgz
+2018-03-13 01:08:29	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:08:29	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:08:42	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc96463_X1646.ms in uid___A002_Xc96463_X1646.ms.flagversions.tgz
+2018-03-13 01:08:42	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:08:42	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:08:55	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing final flags for uid___A002_Xc96f17_X113a.ms in uid___A002_Xc96f17_X113a.ms.flagversions.tgz
+2018-03-13 01:08:55	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version Pipeline_Final
+2018-03-13 01:08:55	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving flag version list
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc27dd7_X2fc3.ms in  uid___A002_Xc27dd7_X2fc3.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0423-0120  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_antpos.s8_1.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_wvrgcalflag.s9_4.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_timegaincal.s16_4.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_timegaincal.s16_6.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,J0423-0120,NGC1068,J0239+0416  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239+0416,J0239-0234,NGC1068  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_antpos.s8_1.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_wvrgcalflag.s9_4.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_bandpassflag.s12_2.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_spwphaseup.s13_3.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_timegaincal.s16_3.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X2fc3.ms.hifa_timegaincal.s16_6.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,J0423-0120,NGC1068,J0239+0416  Spw: 0~21,23,25,27  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc27dd7_X6983.ms in  uid___A002_Xc27dd7_X6983.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239+0416,J0239-0234,NGC1068  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_antpos.s8_3.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_wvrgcalflag.s9_6.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_timegaincal.s16_5.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_timegaincal.s16_8.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239+0416,J0006-0623,J0239-0234,NGC1068  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0006-0623  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.h_tsyscal.s6_3.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_antpos.s8_3.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_wvrgcalflag.s9_6.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_bandpassflag.s12_9.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_spwphaseup.s13_5.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_timegaincal.s16_6.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6983.ms.hifa_timegaincal.s16_8.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239+0416,J0006-0623,J0239-0234,NGC1068  Spw: 0~21,23,25,27  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc27dd7_X6c8e.ms in  uid___A002_Xc27dd7_X6c8e.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0237+2848  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_antpos.s8_5.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_wvrgcalflag.s9_8.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_timegaincal.s16_8.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_timegaincal.s16_10.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239+0416,J0239-0234,J0237+2848,NGC1068,J0238+1636  Spw: 0~21,23,25,27  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239+0416,J0239-0234,NGC1068  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.h_tsyscal.s6_5.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_antpos.s8_5.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_wvrgcalflag.s9_8.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_bandpassflag.s12_11.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_spwphaseup.s13_7.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_timegaincal.s16_7.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc27dd7_X6c8e.ms.hifa_timegaincal.s16_10.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,J0237+2848,NGC1068,J0239+0416  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc2b007_X877.ms in  uid___A002_Xc2b007_X877.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0006-0623,J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0006-0623  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_antpos.s8_7.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_wvrgcalflag.s9_10.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_timegaincal.s16_10.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_timegaincal.s16_12.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0006-0623,J0239-0234,NGC1068,J0259-0019  Spw: 0~21,23,25,27  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~43
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.h_tsyscal.s6_7.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_antpos.s8_7.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_wvrgcalflag.s9_10.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_bandpassflag.s12_13.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_spwphaseup.s13_9.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_timegaincal.s16_9.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc2b007_X877.ms.hifa_timegaincal.s16_12.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc8592e_Xaea3.ms in  uid___A002_Xc8592e_Xaea3.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 0~21,23,25,27  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_antpos.s8_9.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_wvrgcalflag.s9_12.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_timegaincal.s16_11.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_timegaincal.s16_14.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.h_tsyscal.s6_9.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_antpos.s8_9.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_wvrgcalflag.s9_12.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_bandpassflag.s12_10.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_spwphaseup.s13_11.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_timegaincal.s16_12.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc8592e_Xaea3.ms.hifa_timegaincal.s16_14.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc89480_X8c7d.ms in  uid___A002_Xc89480_X8c7d.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_antpos.s8_11.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_wvrgcalflag.s9_14.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_timegaincal.s16_13.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_timegaincal.s16_16.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636  Spw: 22,24,26  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.h_tsyscal.s6_11.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_antpos.s8_11.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_wvrgcalflag.s9_14.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_bandpassflag.s12_17.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_spwphaseup.s13_13.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_timegaincal.s16_14.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc89480_X8c7d.ms.hifa_timegaincal.s16_16.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 0~21,23,25,27  Antenna: 0~45
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc96463_X1646.ms in  uid___A002_Xc96463_X1646.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~44
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_antpos.s8_13.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_wvrgcalflag.s9_16.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_timegaincal.s16_15.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_timegaincal.s16_18.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~44
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636  Spw: 22,24,26  Antenna: 0~44
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.h_tsyscal.s6_13.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_antpos.s8_13.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_wvrgcalflag.s9_16.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_bandpassflag.s12_19.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_spwphaseup.s13_15.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_timegaincal.s16_16.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96463_X1646.ms.hifa_timegaincal.s16_18.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 0~21,23,25,27  Antenna: 0~44
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Storing calibration apply list for uid___A002_Xc96f17_X113a.ms in  uid___A002_Xc96f17_X113a.ms.calapply.txt
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636  Spw: 22,24,26  Antenna: 0~42
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_antpos.s8_15.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_wvrgcalflag.s9_18.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_timegaincal.s16_18.spw22_24_26.solintint.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_timegaincal.s16_20.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~42
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0239-0234,NGC1068,J0259-0019  Spw: 22,24,26  Antenna: 0~42
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.h_tsyscal.s6_15.tsyscal.tbl  Caltype: tsys  Gainfield: nearest  Spwmap: (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 18, 20, 16, 16, 18, 18, 20, 20, 16, 16, 18, 18, 20, 20)  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_antpos.s8_15.ants.tbl  Caltype: antpos  Gainfield:   Spwmap: ()  Interp: 
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_wvrgcalflag.s9_18.sm6_048s.wvrcal.tbl  Caltype: wvr  Gainfield:   Spwmap: ()  Interp: nearest
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_bandpassflag.s12_21.spw22_24_26.channel.solintinf.bcal.final.tbl  Caltype: bandpass  Gainfield:   Spwmap: ()  Interp: linearperobs,linearflag
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_spwphaseup.s13_17.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_timegaincal.s16_17.spw22_24_26.solintinf.gpcal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	    Gaintable: uid___A002_Xc96f17_X113a.ms.hifa_timegaincal.s16_20.spw22_24_26.solintinf.gacal.tbl  Caltype: gaincal  Gainfield: nearest  Spwmap: ()  Interp: linear,linear
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Apply to:  Field: J0238+1636,J0239-0234,NGC1068,J0259-0019  Spw: 0~21,23,25,27  Antenna: 0~42
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_1 in uid___A001_X87d_X497.session_1.caltables.tgz
+2018-03-13 01:09:08	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc27dd7_X2fc3.ms in uid___A001_X87d_X497.session_1.caltables.tgz
+2018-03-13 01:09:21	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_2 in uid___A001_X87d_X497.session_2.caltables.tgz
+2018-03-13 01:09:21	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc27dd7_X6983.ms in uid___A001_X87d_X497.session_2.caltables.tgz
+2018-03-13 01:09:21	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc27dd7_X6c8e.ms in uid___A001_X87d_X497.session_2.caltables.tgz
+2018-03-13 01:09:43	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_3 in uid___A001_X87d_X497.session_3.caltables.tgz
+2018-03-13 01:09:43	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc2b007_X877.ms in uid___A001_X87d_X497.session_3.caltables.tgz
+2018-03-13 01:09:54	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_4 in uid___A001_X87d_X497.session_4.caltables.tgz
+2018-03-13 01:09:54	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc8592e_Xaea3.ms in uid___A001_X87d_X497.session_4.caltables.tgz
+2018-03-13 01:10:05	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_5 in uid___A001_X87d_X497.session_5.caltables.tgz
+2018-03-13 01:10:05	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc89480_X8c7d.ms in uid___A001_X87d_X497.session_5.caltables.tgz
+2018-03-13 01:10:17	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_7 in uid___A001_X87d_X497.session_7.caltables.tgz
+2018-03-13 01:10:17	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc96463_X1646.ms in uid___A001_X87d_X497.session_7.caltables.tgz
+2018-03-13 01:10:27	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final caltables for session_8 in uid___A001_X87d_X497.session_8.caltables.tgz
+2018-03-13 01:10:27	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Collecting final caltables for uid___A002_Xc96f17_X113a.ms in uid___A001_X87d_X497.session_8.caltables.tgz
+2018-03-13 01:10:38	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Exporting calibrator source images
+2018-03-13 01:10:38	INFO	flagmanager::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.pbcor.fits
+2018-03-13 01:10:38	INFO	flagmanager::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:38	INFO	exportfits::::	
+2018-03-13 01:10:38	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:38	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:38	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:38	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:38	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:38	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:38	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:38	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:39	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.pb.fits
+2018-03-13 01:10:39	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:39	INFO	exportfits::::	
+2018-03-13 01:10:39	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:39	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:39	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:39	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:39	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:39	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:39	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:39	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:39	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.mask.fits
+2018-03-13 01:10:39	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:39	INFO	exportfits::::	
+2018-03-13 01:10:39	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:39	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:39	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:39	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:39	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:39	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:39	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:40	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.pbcor.fits
+2018-03-13 01:10:40	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:40	INFO	exportfits::::	
+2018-03-13 01:10:40	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:40	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:40	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:40	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:40	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:40	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:40	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:40	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:40	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.pb.fits
+2018-03-13 01:10:40	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:40	INFO	exportfits::::	
+2018-03-13 01:10:40	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:40	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:40	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:40	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:40	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:40	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:40	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:40	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:41	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.mask.fits
+2018-03-13 01:10:41	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:41	INFO	exportfits::::	
+2018-03-13 01:10:41	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:41	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:41	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:41	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:41	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:41	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:41	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:41	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.pbcor.fits
+2018-03-13 01:10:41	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:41	INFO	exportfits::::	
+2018-03-13 01:10:41	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:41	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:41	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:41	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:41	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:41	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:41	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:41	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:41	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.pb.fits
+2018-03-13 01:10:41	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:41	INFO	exportfits::::	
+2018-03-13 01:10:41	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:41	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:41	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:41	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:41	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:41	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:42	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:42	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:42	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.mask.fits
+2018-03-13 01:10:42	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:42	INFO	exportfits::::	
+2018-03-13 01:10:42	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:42	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:42	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0423-0120_bp.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0423-0120_bp.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:42	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:42	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:42	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:42	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:42	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.pbcor.fits
+2018-03-13 01:10:42	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:42	INFO	exportfits::::	
+2018-03-13 01:10:42	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:42	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:42	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:42	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:42	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:42	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:42	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:42	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:43	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.pb.fits
+2018-03-13 01:10:43	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:43	INFO	exportfits::::	
+2018-03-13 01:10:43	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:43	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:43	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:43	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:43	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:43	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:43	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:43	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:43	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.mask.fits
+2018-03-13 01:10:43	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:43	INFO	exportfits::::	
+2018-03-13 01:10:43	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:43	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:43	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:43	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:43	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:43	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:43	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:44	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.pbcor.fits
+2018-03-13 01:10:44	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:44	INFO	exportfits::::	
+2018-03-13 01:10:44	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:44	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:44	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:44	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:44	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:44	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:44	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:44	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:44	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.pb.fits
+2018-03-13 01:10:44	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:44	INFO	exportfits::::	
+2018-03-13 01:10:44	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:44	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:44	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:44	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:44	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:44	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:44	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:44	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:44	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.mask.fits
+2018-03-13 01:10:44	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:44	INFO	exportfits::::	
+2018-03-13 01:10:44	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:44	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:44	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:44	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:44	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:45	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:45	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:45	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.pbcor.fits
+2018-03-13 01:10:45	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:45	INFO	exportfits::::	
+2018-03-13 01:10:45	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:45	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:45	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:45	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:45	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:45	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:45	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:45	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:45	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.pb.fits
+2018-03-13 01:10:45	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:45	INFO	exportfits::::	
+2018-03-13 01:10:45	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:45	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:45	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:45	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:45	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:46	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:46	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:46	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:46	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.mask.fits
+2018-03-13 01:10:46	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:46	INFO	exportfits::::	
+2018-03-13 01:10:46	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:46	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:46	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0238+1636_bp.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0238+1636_bp.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:46	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:46	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:46	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:46	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:46	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.pbcor.fits
+2018-03-13 01:10:46	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:46	INFO	exportfits::::	
+2018-03-13 01:10:46	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:46	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:46	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:46	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:46	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:46	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:46	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:46	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:47	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.pb.fits
+2018-03-13 01:10:47	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:47	INFO	exportfits::::	
+2018-03-13 01:10:47	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:47	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:47	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:47	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:47	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:47	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:47	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:47	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:47	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.mask.fits
+2018-03-13 01:10:47	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:47	INFO	exportfits::::	
+2018-03-13 01:10:47	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:47	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:47	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:47	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:47	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:48	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:48	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:48	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.pbcor.fits
+2018-03-13 01:10:48	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:48	INFO	exportfits::::	
+2018-03-13 01:10:48	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:48	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:48	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:48	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:48	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:48	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:48	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:48	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:48	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.pb.fits
+2018-03-13 01:10:48	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:48	INFO	exportfits::::	
+2018-03-13 01:10:48	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:48	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:48	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:48	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:48	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:49	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:49	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:49	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:49	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.mask.fits
+2018-03-13 01:10:49	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:49	INFO	exportfits::::	
+2018-03-13 01:10:49	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:49	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:49	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:49	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:49	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:49	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:49	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:50	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.pbcor.fits
+2018-03-13 01:10:50	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:50	INFO	exportfits::::	
+2018-03-13 01:10:50	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:50	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:50	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:50	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:50	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:50	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:50	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:50	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:50	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.pb.fits
+2018-03-13 01:10:50	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:50	INFO	exportfits::::	
+2018-03-13 01:10:50	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:50	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:50	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:50	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:50	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:50	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:50	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:50	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:51	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.mask.fits
+2018-03-13 01:10:51	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:51	INFO	exportfits::::	
+2018-03-13 01:10:51	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:51	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:51	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0006-0623_bp.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0006-0623_bp.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:51	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:51	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:51	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:51	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:51	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.pbcor.fits
+2018-03-13 01:10:51	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:51	INFO	exportfits::::	
+2018-03-13 01:10:51	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:51	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:51	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:51	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:51	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:51	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:51	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:51	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:52	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.pb.fits
+2018-03-13 01:10:52	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:52	INFO	exportfits::::	
+2018-03-13 01:10:52	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:52	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:52	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:52	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:52	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:52	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:52	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:52	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:52	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.mask.fits
+2018-03-13 01:10:52	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:52	INFO	exportfits::::	
+2018-03-13 01:10:52	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:52	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:52	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:52	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:52	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:53	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:53	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:53	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.pbcor.fits
+2018-03-13 01:10:53	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:53	INFO	exportfits::::	
+2018-03-13 01:10:53	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:53	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:53	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:53	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:53	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:53	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:53	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:53	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:53	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.pb.fits
+2018-03-13 01:10:53	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:53	INFO	exportfits::::	
+2018-03-13 01:10:53	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:53	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:53	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:53	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:53	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:54	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:54	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:54	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:54	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.mask.fits
+2018-03-13 01:10:54	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:54	INFO	exportfits::::	
+2018-03-13 01:10:54	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:54	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:54	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:54	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:54	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:54	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:54	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:54	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.pbcor.fits
+2018-03-13 01:10:54	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:54	INFO	exportfits::::	
+2018-03-13 01:10:54	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:54	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:54	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:54	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:54	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:54	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:54	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:54	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:55	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.pb.fits
+2018-03-13 01:10:55	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:55	INFO	exportfits::::	
+2018-03-13 01:10:55	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:55	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:55	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:55	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:55	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:55	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:55	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:55	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:55	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.mask.fits
+2018-03-13 01:10:55	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:55	INFO	exportfits::::	
+2018-03-13 01:10:55	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:55	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:55	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239-0234_ph.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239-0234_ph.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:55	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:55	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:55	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:55	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:56	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.pbcor.fits
+2018-03-13 01:10:56	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:56	INFO	exportfits::::	
+2018-03-13 01:10:56	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:56	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:56	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:56	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:56	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:56	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:56	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:56	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:56	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.pb.fits
+2018-03-13 01:10:56	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:56	INFO	exportfits::::	
+2018-03-13 01:10:56	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:56	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:56	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:56	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:56	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:56	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:57	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:57	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:57	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.mask.fits
+2018-03-13 01:10:57	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:57	INFO	exportfits::::	
+2018-03-13 01:10:57	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:57	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:57	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:57	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:57	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:57	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:57	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:57	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.pbcor.fits
+2018-03-13 01:10:57	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:57	INFO	exportfits::::	
+2018-03-13 01:10:57	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:57	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:57	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:57	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:57	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:57	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:58	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:58	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:58	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.pb.fits
+2018-03-13 01:10:58	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:58	INFO	exportfits::::	
+2018-03-13 01:10:58	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:58	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:58	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:58	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:58	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:58	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:58	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:58	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:58	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.mask.fits
+2018-03-13 01:10:58	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:58	INFO	exportfits::::	
+2018-03-13 01:10:58	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:58	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:58	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:58	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:58	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:58	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:58	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:59	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.pbcor.fits
+2018-03-13 01:10:59	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:59	INFO	exportfits::::	
+2018-03-13 01:10:59	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:59	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:59	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:59	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:59	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:59	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:59	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:59	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:59	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.pb.fits
+2018-03-13 01:10:59	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:10:59	INFO	exportfits::::	
+2018-03-13 01:10:59	INFO	exportfits::::+	##########################################
+2018-03-13 01:10:59	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:10:59	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:10:59	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:10:59	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:10:59	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:10:59	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:10:59	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:00	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.mask.fits
+2018-03-13 01:11:00	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:00	INFO	exportfits::::	
+2018-03-13 01:11:00	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:00	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:00	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0259-0019_chk.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0259-0019_chk.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:00	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:00	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:00	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:00	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:00	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.pbcor.fits
+2018-03-13 01:11:00	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:00	INFO	exportfits::::	
+2018-03-13 01:11:00	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:00	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:00	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:00	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:00	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:00	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:00	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:00	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:01	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.pb.fits
+2018-03-13 01:11:01	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:01	INFO	exportfits::::	
+2018-03-13 01:11:01	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:01	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:01	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:01	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:01	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:01	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:01	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:01	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:01	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.mask.fits
+2018-03-13 01:11:01	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:01	INFO	exportfits::::	
+2018-03-13 01:11:01	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:01	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:01	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:01	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:01	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:01	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:01	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:02	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.pbcor.fits
+2018-03-13 01:11:02	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:02	INFO	exportfits::::	
+2018-03-13 01:11:02	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:02	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:02	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:02	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:02	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:02	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:02	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:02	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:02	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.pb.fits
+2018-03-13 01:11:02	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:02	INFO	exportfits::::	
+2018-03-13 01:11:02	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:02	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:02	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:02	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:02	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:02	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:02	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:02	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:03	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.mask.fits
+2018-03-13 01:11:03	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:03	INFO	exportfits::::	
+2018-03-13 01:11:03	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:03	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:03	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:03	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:03	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:03	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:03	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:03	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.pbcor.fits
+2018-03-13 01:11:03	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:03	INFO	exportfits::::	
+2018-03-13 01:11:03	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:03	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:03	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:03	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:03	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:04	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:04	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:04	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:04	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.pb.fits
+2018-03-13 01:11:04	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:04	INFO	exportfits::::	
+2018-03-13 01:11:04	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:04	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:04	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:04	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:04	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:04	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:04	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:04	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:05	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.mask.fits
+2018-03-13 01:11:05	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:05	INFO	exportfits::::	
+2018-03-13 01:11:05	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:05	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:05	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0237+2848_bp.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0237+2848_bp.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:05	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:05	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:05	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:05	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:05	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.pbcor.fits
+2018-03-13 01:11:05	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:05	INFO	exportfits::::	
+2018-03-13 01:11:05	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:05	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:05	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:05	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:05	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:05	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:05	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:05	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:05	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.pb.fits
+2018-03-13 01:11:05	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:05	INFO	exportfits::::	
+2018-03-13 01:11:05	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:05	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:05	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:05	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:05	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:06	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:06	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:06	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:06	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.mask.fits
+2018-03-13 01:11:06	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:06	INFO	exportfits::::	
+2018-03-13 01:11:06	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:06	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:06	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw22.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw22.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:06	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:06	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:06	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:06	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:06	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.pbcor.fits
+2018-03-13 01:11:06	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:06	INFO	exportfits::::	
+2018-03-13 01:11:06	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:06	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:06	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:06	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:06	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:06	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:06	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:06	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:07	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.pb.fits
+2018-03-13 01:11:07	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:07	INFO	exportfits::::	
+2018-03-13 01:11:07	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:07	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:07	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:07	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:07	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:07	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:07	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:07	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:07	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.mask.fits
+2018-03-13 01:11:07	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:07	INFO	exportfits::::	
+2018-03-13 01:11:07	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:07	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:07	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw24.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw24.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:07	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:07	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:07	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:07	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:08	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.image.pbcor to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.pbcor.fits
+2018-03-13 01:11:08	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.pbcor.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.image.pbcor', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:08	INFO	exportfits::::	
+2018-03-13 01:11:08	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:08	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:08	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.image.pbcor",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.pbcor.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:08	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:08	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:08	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:08	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:08	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:08	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.pb to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.pb.fits
+2018-03-13 01:11:08	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.pb.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.pb', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:08	INFO	exportfits::::	
+2018-03-13 01:11:08	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:08	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:08	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.pb",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.pb.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:08	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:08	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:08	INFO	exportfits::ImageFactory::toFITS	Applying mask of name 'mask0'
+2018-03-13 01:11:08	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:08	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:08	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Saving final image uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.mask to FITS file uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.mask.fits
+2018-03-13 01:11:08	INFO	exportfits::pipeline.infrastructure.jobrequest::	Executing exportfits(dropstokes=False, minpix=0, stokeslast=True, fitsimage='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.mask.fits', imagename='/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.mask', bitpix=-32, maxpix=-1, velocity=False, optical=False, overwrite=True)
+2018-03-13 01:11:08	INFO	exportfits::::	
+2018-03-13 01:11:08	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:08	INFO	exportfits::::+	##### Begin Task: exportfits         #####
+2018-03-13 01:11:08	INFO	exportfits::::	exportfits(imagename="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.s20_0.J0239+0416_chk.spw26.mfs.I.iter1.mask",fitsimage="/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.J0239+0416_chk.spw26.mfs.I.mask.fits",velocity=False,optical=False,bitpix=-32,
+2018-03-13 01:11:08	INFO	exportfits::::+	        minpix=0,maxpix=-1,overwrite=True,dropstokes=False,stokeslast=True,
+2018-03-13 01:11:08	INFO	exportfits::::+	        history=True,dropdeg=False)
+2018-03-13 01:11:08	INFO	exportfits::::	##### End Task: exportfits           #####
+2018-03-13 01:11:08	INFO	exportfits::::+	##########################################
+2018-03-13 01:11:09	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Exporting target source images
+2018-03-13 01:11:09	INFO	exportfits::pipeline.h.tasks.exportdata.exportdata::	Creating manifest file /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.pipeline_manifest.xml
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxliary dat products in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product flux.csv in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product antennapos.csv in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Auxiliary data product cont.dat does not exist
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc27dd7_X6983.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc96463_X1646.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc8592e_Xaea3.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc96f17_X113a.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc27dd7_X2fc3.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc27dd7_X6c8e.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc8592e_Xaea3.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc2b007_X877.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc96463_X1646.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc89480_X8c7d.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc27dd7_X6c8e.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc96f17_X113a.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc27dd7_X2fc3.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc89480_X8c7d.flagtemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc2b007_X877.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Saving auxiliary data product uid___A002_Xc27dd7_X6983.flagtargetstemplate.txt in uid___A001_X87d_X497.hifa_calimage.auxproducts.tgz
+2018-03-13 01:11:09	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Generating pipeline AQUA report
+2018-03-13 01:11:20	INFO	exportfits::pipeline.hifa.tasks.exportdata.almaexportdata::	Copying AQUA report /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/pipeline_aquareport.xml to /opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/products/uid___A001_X87d_X497.pipeline_aquareport.xml

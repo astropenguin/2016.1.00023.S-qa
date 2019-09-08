@@ -1,0 +1,2 @@
+mode='summary' name='before'
+mode='summary' name='template'

@@ -1,0 +1,275 @@
+
+
+
+
+<div class="page-header">
+    <h1>31. 
+Tclean/MakeImages<br><small>Make target aggregate continuum images<button class="btn btn-default pull-right" onClick="javascript:window.history.back();">Back</button></h1>
+</div>
+
+
+
+
+
+
+<script src="resources/js/pipeline.js"></script>
+<script>
+$(document).ready(function(){
+    $(".fancybox").fancybox({
+        type: 'image',
+        prevEffect: 'none',
+        nextEffect: 'none',
+        loop: false,
+        helpers: {
+            title: {
+                type: 'outside'
+            },
+            thumbs: {
+                width: 50,
+                height: 50,
+            }
+        },
+    	beforeShow : function() {
+        	this.title = $(this.element).attr('title');
+       	},
+    });
+});
+</script>
+
+
+
+
+
+
+<h2>Image Details</h2>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Field</th>
+            <th>Spw</th>
+            <th>Pol</th>
+            <th colspan="2">Image details</th>
+            <th>Image result</th>
+        </tr>
+        </thead>
+        <tbody>
+
+                <tr>
+                            <td rowspan="12">NGC1068 (TARGET)</td>
+                            <td rowspan="12">22,24,26</td>
+                            <td rowspan="12">I</td>
+                    <th>centre frequency of image</th>
+                    <td>252.4096GHz (LSRK)</td>
+                    
+                    <td rowspan="11">
+                        <a class="fancybox"
+                           href="stage31/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image.sky.png"
+                           rel="clean-summary-images"
+                           title='<div class="pull-left">Iteration: 1<br>
+                                  Spw: 22,24,26<br>
+                                  Field: NGC1068 (TARGET)</div><div class="pull-right"><a href="stage31/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image.sky.png">Full Size</a></div>'
+                           data-thumbnail="stage31/thumbs/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image.sky.png">
+                          <img src="stage31/thumbs/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image.sky.png"
+                               title="Iteration 1: image"
+                               alt="Iteration 1: image"
+                               class="img-thumbnail img-responsive"
+                               data-thumbnail="stage31/thumbs/uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image.sky.png">
+                        </a>
+                        <div class="caption">
+                            <p>
+                                <a class="replace"
+                                   href="stage31/fieldNGC1068__TARGET_-spw22_24_26-polI-cleanplots.html"
+                                   role="button">
+                                    View other QA images...
+                                </a>
+                            </p>
+                        </div>
+                    </td>
+			    </tr>
+
+                <tr>
+    				<th>beam</th>
+                    <td>0.150 x 0.103 arcsec</td>
+			    </tr>
+
+                <tr>
+                    <th>beam p.a.</th>
+                    <td>-87.7deg</td>
+                </tr>
+
+                <tr>
+                    <th>final theoretical sensitivity</th>
+                    <td>7.3e-06 Jy/beam</td>
+                </tr>
+
+                <tr>
+                    <th>cleaning threshold</th>
+                    <td>0.00015 Jy/beam<br>Dirty DR: 1.5e+03<br>DR correction: 10</td>
+                </tr>
+
+                <tr>
+                    <th>clean residual peak / scaled MAD</th>
+                    <td>10.56</td>
+                </tr>
+
+                <tr>
+                    <th>non-pbcor image RMS</th>
+                    <td>1.3e-05 Jy/beam</td>
+                </tr>
+
+                <tr>
+                    <th>pbcor image max / min</th>
+                    <td>0.0113 / -0.000167 Jy/beam</td>
+                </tr>
+
+                <tr>
+                    <th>fractional bandwidth / nterms</th>
+                    <td>6.4% / 1</td>
+                </tr>
+
+                <tr>
+                    <th>aggregate bandwidth</th>
+                    <td>3.24 GHz (LSRK)</td>
+                </tr>
+
+                <tr>
+                    <th>score</th>
+                    <td><span class="badge  alert-success">1.00</span></td>
+                </tr>
+
+                <tr>
+                   <th>image file</th>
+                   <td colspan="2">uid___A001_X87d_X497.s31_0.NGC1068_sci.spw22_24_26.cont.I.iter1.image</td>
+                </tr>
+        </tbody>
+    </table>
+
+
+<div class="clearfix"></div>
+<div class="panel-group" id="details-accordion" role="tablist" aria-multiselectable="true">
+
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Pipeline QA
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <table class="table table-bordered" summary="Pipeline QA summary">
+                    <caption>Pipeline QA summary for this task.</caption>
+                    <thead>
+                        <tr>
+                            <th>Score</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="success alert-success">
+                        <td>1.00</td>
+                        <td>RMS vs. DR corrected sensitivity. Field: NGC1068 Intent: TARGET SPW: 22,24,26</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Input Parameters
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>masklimit</dt>
+                    <dd>2.0</dd>
+                    <dt>noise</dt>
+                    <dd>1.0Jy</dd>
+                    <dt>hm_masking</dt>
+                    <dd>auto</dd>
+                    <dt>hm_minbeamfrac</dt>
+                    <dd>-999.0</dd>
+                    <dt>subcontms</dt>
+                    <dd>False</dd>
+                    <dt>hm_negativethreshold</dt>
+                    <dd>-999.0</dd>
+                    <dt>cleancontranges</dt>
+                    <dd>False</dd>
+                    <dt>vis</dt>
+                    <dd>['/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X2fc3_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6983_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc27dd7_X6c8e_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc2b007_X877_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc8592e_Xaea3_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc89480_X8c7d_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96463_X1646_target.ms', '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A002_Xc96f17_X113a_target.ms']</dd>
+                    <dt>hm_noisethreshold</dt>
+                    <dd>-999.0</dd>
+                    <dt>maxncleans</dt>
+                    <dd>10</dd>
+                    <dt>target_list</dt>
+                    <dd>[{'heuristics': <pipeline.hif.heuristics.imageparams_alma.ImageParamsHeuristicsALMA object at 0x7f13f4792ad0>, 'phasecenter': 'ICRS 02:42:40.7090 -000.00.47.945', 'scales': None, 'sensitivity': None, 'spw': '22,24,26', 'imagename': '/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working/uid___A001_X87d_X497.sSTAGENUMBER.NGC1068_sci.spw22_24_26.cont', 'spwsel_topo': None, 'nterms': None, 'threshold': None, 'nbin': -1, 'imsize': [1890, 1890], 'field': 'NGC1068', 'cell': ['0.021arcsec'], 'start': '', 'spwsel_lsrk': {'spw26': '244.375523078~244.93031246GHz LSRK', 'spw24': '257.263455891~258.431642527GHz LSRK', 'spw22': '258.586143644~258.627166934GHz;258.964143952~260.443912596GHz LSRK'}, 'gridder': 'standard', 'cycleniter': None, 'niter': None, 'nsigma': None, 'reffreq': None, 'intent': 'TARGET', 'uvrange': '', 'cyclefactor': None, 'robust': None, 'stokes': 'I', 'nchan': -1, 'deconvolver': None, 'specmode': 'cont', 'width': '', 'uvtaper': None}]</dd>
+                    <dt>tlimit</dt>
+                    <dd>2.0</dd>
+                    <dt>output_dir</dt>
+                    <dd>/opt/dared/opt/c5r1/mnt/dataproc/2016.1.00023.S_2018_03_09T13_37_06.344/SOUS_uid___A001_X87d_X495/GOUS_uid___A001_X87d_X496/MOUS_uid___A001_X87d_X497/working</dd>
+                    <dt>hm_cleaning</dt>
+                    <dd>rms</dd>
+                    <dt>hm_growiterations</dt>
+                    <dd>-999</dd>
+                    <dt>robust</dt>
+                    <dd>-999.0</dd>
+                    <dt>hm_lownoisethreshold</dt>
+                    <dd>-999.0</dd>
+                    <dt>npixels</dt>
+                    <dd>0</dd>
+                    <dt>weighting</dt>
+                    <dd>briggs</dd>
+                    <dt>parallel</dt>
+                    <dd>automatic</dd>
+                    <dt>hm_sidelobethreshold</dt>
+                    <dd>-999.0</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#details-accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Tasks Execution Statistics
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <dl class="dl-horizontal">
+                    <dt>Start time</dt>
+                    <dd>2018-03-15 02:52:27.396</dd>
+                    <dt>End</dt>
+                    <dd>2018-03-15 15:14:45.623</dd>
+                    <dt>Duration</dt>
+                    <dd>12:22:18.227</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">CASA logs for stage 31</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+    
+        <li><a href="stage31/casapy.log" class="replace-pre" data-title="CASA log for stage 31">View</a> or <a href="stage31/casapy.log" download="stage31/casapy.log">download</a> stage31/casapy.log (166.8 KB)</li>
+</ul>
+    </div>
+</div>

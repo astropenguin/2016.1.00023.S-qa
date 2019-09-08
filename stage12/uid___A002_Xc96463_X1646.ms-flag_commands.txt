@@ -1,0 +1,5 @@
+# Flag commands for uid___A002_Xc96463_X1646.ms
+#
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='22' antenna='DA57' field='J0238+1636' reason='bad antenna'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='24' antenna='DA57' field='J0238+1636' reason='bad antenna'
+intent='CALIBRATE_BANDPASS#ON_SOURCE' spw='26' antenna='DA57' field='J0238+1636' reason='bad antenna'

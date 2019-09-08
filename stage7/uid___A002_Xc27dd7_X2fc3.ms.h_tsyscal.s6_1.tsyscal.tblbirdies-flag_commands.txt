@@ -1,0 +1,4 @@
+# Flag commands for uid___A002_Xc27dd7_X2fc3.ms.h_tsyscal.s6_1.tsyscal.tbl
+#
+spw='16:2~17' antenna='DA47' reason='sharps'
+spw='16:2~9' antenna='DA56' reason='sharps'
